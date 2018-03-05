@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date             : Sat Mar  3 23:07:41 2018
+| Date             : Mon Mar  5 22:54:45 2018
 | Host             : AKUL running 64-bit major release  (build 9200)
 | Command          : report_power -file full_adder_power_routed.rpt -pb full_adder_power_summary_routed.pb -rpx full_adder_power_routed.rpx
 | Design           : full_adder
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.778        |
+| Total On-Chip Power (W)  | 2.775        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.699        |
+| Dynamic (W)              | 2.695        |
 | Device Static (W)        | 0.079        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 71.1         |
@@ -52,12 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.007 |        2 |       --- |             --- |
-|   LUT as Logic |     0.007 |        1 |     20800 |           <0.01 |
-| Signals        |     0.027 |        5 |       --- |             --- |
+| Slice Logic    |     0.005 |        2 |       --- |             --- |
+|   LUT as Logic |     0.005 |        1 |     20800 |           <0.01 |
+| Signals        |     0.026 |        5 |       --- |             --- |
 | I/O            |     2.665 |        5 |       106 |            4.72 |
 | Static Power   |     0.079 |          |           |                 |
-| Total          |     2.778 |          |           |                 |
+| Total          |     2.775 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,7 +67,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.062 |       0.046 |      0.016 |
+| Vccint    |       1.000 |     0.059 |       0.043 |      0.016 |
 | Vccaux    |       1.800 |     0.110 |       0.097 |      0.013 |
 | Vcco33    |       3.300 |     0.752 |       0.751 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -134,7 +134,7 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| full_adder |     2.699 |
+| full_adder |     2.695 |
 +------------+-----------+
 
 

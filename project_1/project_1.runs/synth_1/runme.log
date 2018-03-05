@@ -14,14 +14,14 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 12160 
+INFO: Helper process launched with PID 13612 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 345.449 ; gain = 101.461
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 344.965 ; gain = 101.027
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'full_adder' [C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/sources_1/new/full_adder.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'full_adder' (1#1) [C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/sources_1/new/full_adder.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/sources_1/new/full_adder.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (1#1) [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/sources_1/new/full_adder.vhd:43]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 398.246 ; gain = 154.258
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 397.672 ; gain = 153.734
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -31,41 +31,89 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 398.246 ; gain = 154.258
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 397.672 ; gain = 153.734
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/constrs_1/new/ports.xdc]
-Finished Parsing XDC File [C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/constrs_1/new/ports.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/constrs_1/new/ports.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/full_adder_propImpl.xdc].
+Parsing XDC File [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc]
+WARNING: [Vivado 12-584] No ports matched 'vauxp6'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:219]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:219]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp6'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:220]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp14'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:222]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:222]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp14'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:223]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:223]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp7'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp7'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp15'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:228]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:228]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp15'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:229]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:229]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn6'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:231]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:231]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn6'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:232]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:232]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn14'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:234]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:234]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn14'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:235]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:235]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn7'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:237]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:237]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn7'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:238]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:238]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn15'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:240]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:240]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn15'. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:241]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc:241]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/full_adder_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/full_adder_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 660.805 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 673.793 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:01:25 . Memory (MB): peak = 660.805 ; gain = 416.816
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:01:15 . Memory (MB): peak = 673.793 ; gain = 429.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:01:25 . Memory (MB): peak = 660.805 ; gain = 416.816
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:01:15 . Memory (MB): peak = 673.793 ; gain = 429.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:01:25 . Memory (MB): peak = 660.805 ; gain = 416.816
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:01:15 . Memory (MB): peak = 673.793 ; gain = 429.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:01:25 . Memory (MB): peak = 660.805 ; gain = 416.816
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:01:15 . Memory (MB): peak = 673.793 ; gain = 429.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -78,7 +126,7 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---XORs : 
-	   2 Input      1 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -89,7 +137,7 @@ Hierarchical RTL Component report
 Module full_adder 
 Detailed RTL Component Info : 
 +---XORs : 
-	   2 Input      1 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -106,7 +154,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:01:26 . Memory (MB): peak = 660.805 ; gain = 416.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:01:16 . Memory (MB): peak = 673.793 ; gain = 429.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -118,13 +166,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:48 . Memory (MB): peak = 717.563 ; gain = 473.574
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:01:33 . Memory (MB): peak = 717.410 ; gain = 473.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:48 . Memory (MB): peak = 717.563 ; gain = 473.574
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:01:33 . Memory (MB): peak = 717.410 ; gain = 473.473
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -136,7 +184,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:01:48 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:33 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -160,7 +208,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -173,7 +221,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -185,25 +233,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -231,11 +279,11 @@ Report Instance Areas:
 |1     |top      |       |     7|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:01:34 . Memory (MB): peak = 726.941 ; gain = 483.004
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:54 . Memory (MB): peak = 727.094 ; gain = 220.547
-Synthesis Optimization Complete : Time (s): cpu = 00:00:59 ; elapsed = 00:01:50 . Memory (MB): peak = 727.094 ; gain = 483.105
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 726.941 ; gain = 206.883
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:01:35 . Memory (MB): peak = 726.941 ; gain = 483.004
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -245,10 +293,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+14 Infos, 16 Warnings, 16 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:56 . Memory (MB): peak = 735.703 ; gain = 504.590
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_1/project_1.runs/synth_1/full_adder.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:39 . Memory (MB): peak = 734.715 ; gain = 503.773
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.runs/synth_1/full_adder.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file full_adder_utilization_synth.rpt -pb full_adder_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 735.703 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sat Mar  3 23:03:52 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 734.715 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  5 22:50:14 2018...

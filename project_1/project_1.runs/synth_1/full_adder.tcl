@@ -16,18 +16,19 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_1/project_1.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_1/project_1.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
-set_property target_language Verilog [current_project]
+set_property target_language VHDL [current_project]
 set_property ip_output_repo {c:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_1/project_1.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib {{C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/sources_1/new/full_adder.vhd}}
+read_vhdl -library xil_defaultlib {{C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/sources_1/new/full_adder.vhd}}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -36,8 +37,8 @@ read_vhdl -library xil_defaultlib {{C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/constrs_1/new/ports.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/Sanjai Kumar Agrawal/Desktop/SEM 4/CS223/VHDL/project_7/project_7.srcs/constrs_1/new/ports.xdc}}]
+read_xdc {{C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Sanjai Kumar Agrawal/Desktop/New/project_1/project_1.srcs/constrs_1/new/ports.xdc}}]
 
 
 synth_design -top full_adder -part xc7a35tcpg236-1
