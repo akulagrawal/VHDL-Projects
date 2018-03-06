@@ -1,0 +1,299 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar  6 14:46:17 2018
+# Process ID: 13712
+# Current directory: C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.runs/synth_1
+# Command line: vivado.exe -log counter_8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter_8bit.tcl
+# Log file: C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.runs/synth_1/counter_8bit.vds
+# Journal file: C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source counter_8bit.tcl -notrace
+Command: synth_design -top counter_8bit -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7352 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 344.813 ; gain = 100.777
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'counter_8bit' [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:46]
+WARNING: [Synth 8-614] signal 'J2' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:64]
+WARNING: [Synth 8-614] signal 'J3' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:64]
+WARNING: [Synth 8-614] signal 'J4' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:64]
+WARNING: [Synth 8-614] signal 'J5' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:64]
+WARNING: [Synth 8-614] signal 'J6' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:64]
+WARNING: [Synth 8-614] signal 'J7' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'struct' [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:47]
+WARNING: [Synth 8-614] signal 'apply_preset' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:55]
+WARNING: [Synth 8-614] signal 'preset' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:55]
+WARNING: [Synth 8-614] signal 'clear' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:55]
+WARNING: [Synth 8-614] signal 'enable' is read in the process but is not in the sensitivity list [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:55]
+WARNING: [Synth 8-6014] Unused sequential element qbartemp_reg was removed.  [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'struct' (1#1) [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/struct.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'counter_8bit' (2#1) [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 398.012 ; gain = 153.977
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 398.012 ; gain = 153.977
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/constrs_1/new/ports.xdc]
+Finished Parsing XDC File [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/constrs_1/new/ports.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/constrs_1/new/ports.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/counter_8bit_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/counter_8bit_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 724.703 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:01:20 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:01:20 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:01:20 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element newCLK_reg was removed.  [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:59]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:01:20 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
++---Registers : 
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 48    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module counter_8bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
+Module struct 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element newCLK_reg was removed.  [C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.srcs/sources_1/new/counter_8bit.vhd:59]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:01:21 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:01:39 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:01:39 . Memory (MB): peak = 724.703 ; gain = 480.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:39 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT3   |    16|
+|5     |LUT4   |     9|
+|6     |LUT5   |     7|
+|7     |LUT6   |     4|
+|8     |FDCE   |     8|
+|9     |FDPE   |     8|
+|10    |FDRE   |    26|
+|11    |LDC    |     8|
+|12    |IBUF   |    14|
+|13    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+---------+------+
+|      |Instance |Module   |Cells |
++------+---------+---------+------+
+|1     |top      |         |   117|
+|2     |  FF1    |struct   |     9|
+|3     |  FF2    |struct_0 |     7|
+|4     |  FF3    |struct_1 |     8|
+|5     |  FF4    |struct_2 |     8|
+|6     |  FF5    |struct_3 |     7|
+|7     |  FF6    |struct_4 |     7|
+|8     |  FF7    |struct_5 |     7|
+|9     |  FF8    |struct_6 |     7|
++------+---------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:01:40 . Memory (MB): peak = 741.355 ; gain = 497.320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 741.355 ; gain = 170.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:01:41 . Memory (MB): peak = 741.355 ; gain = 497.320
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LDC => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:46 . Memory (MB): peak = 741.355 ; gain = 510.270
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Sanjai Kumar Agrawal/Desktop/project_2_structural/project_2_structural.runs/synth_1/counter_8bit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file counter_8bit_utilization_synth.rpt -pb counter_8bit_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.133 . Memory (MB): peak = 741.355 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  6 14:48:11 2018...

@@ -1,0 +1,86 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar  6 14:50:09 2018
+| Host         : AKUL running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file counter_8bit_control_sets_placed.rpt
+| Design       : counter_8bit
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    25 |
+| Unused register locations in slices containing registers |   174 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |            7 |
+| No           | No                    | Yes                    |              16 |           16 |
+| No           | Yes                   | No                     |               8 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+---------------+---------------------------+------------------+----------------+
+|        Clock Signal        | Enable Signal |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------------------+---------------+---------------------------+------------------+----------------+
+|  FF1/qtemp_reg_LDC_i_1_n_0 |               | FF1/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF3/qtemp_reg_LDC_i_1_n_0 |               | FF3/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF2/qtemp_reg_LDC_i_1_n_0 |               | FF2/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF5/qtemp_reg_LDC_i_1_n_0 |               | FF5/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF6/qtemp_reg_LDC_i_1_n_0 |               | FF6/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF4/qtemp_reg_LDC_i_1_n_0 |               | FF4/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF8/qtemp_reg_LDC_i_1_n_0 |               | FF8/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  FF7/qtemp_reg_LDC_i_1_n_0 |               | FF7/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF1/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF1/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF3/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF2/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF3/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF2/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF4/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF5/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF5/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF6/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF4/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF6/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF8/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF8/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF7/qtemp_reg_LDC_i_2_n_0 |                1 |              1 |
+|  newCLK_reg[25]            |               | FF7/qtemp_reg_LDC_i_1_n_0 |                1 |              1 |
+|  CLK_IBUF_BUFG             |               |                           |                7 |             26 |
++----------------------------+---------------+---------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    24 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+
