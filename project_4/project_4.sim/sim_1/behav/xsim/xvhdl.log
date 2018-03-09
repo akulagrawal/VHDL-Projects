@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanjai Kumar Agrawal/Desktop/project_4/project_4.srcs/sources_1/new/Multiplier_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanjai Kumar Agrawal/Desktop/project_4/project_4.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sim

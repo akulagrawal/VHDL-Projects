@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/new/Multiplier_8bit.vhd" \
+"../../../../project_4.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort
