@@ -1,0 +1,90 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Mar 10 19:38:04 2018
+| Host         : AKUL running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    26 |
+| Unused register locations in slices containing registers |    22 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              38 |           11 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             168 |           88 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              60 |           28 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------+------------------------------------+----------------------------+------------------+----------------+
+|   Clock Signal  |            Enable Signal           |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-----------------+------------------------------------+----------------------------+------------------+----------------+
+|  red_clk_BUFG   | state0                             |                            |                2 |              4 |
+|  red_clk_BUFG   | ram[6][15]_i_2_n_0                 |                            |                1 |              4 |
+| ~clk_IBUF_BUFG  |                                    |                            |                2 |              5 |
+|  converter/E[0] |                                    |                            |                2 |              7 |
+|  red_clk_BUFG   | ram[0][7]_i_1_n_0                  |                            |                4 |              8 |
+|  red_clk_BUFG   | ram[11][7]_i_1_n_0                 |                            |                8 |              8 |
+|  red_clk_BUFG   | ram[12][7]_i_1_n_0                 |                            |                5 |              8 |
+|  red_clk_BUFG   | ram[10][7]_i_1_n_0                 |                            |                3 |              8 |
+|  red_clk_BUFG   | ram[13][7]_i_1_n_0                 |                            |                5 |              8 |
+|  red_clk_BUFG   | ram[15][7]_i_1_n_0                 |                            |                6 |              8 |
+|  red_clk_BUFG   | ram[14][7]_i_1_n_0                 |                            |                5 |              8 |
+|  red_clk_BUFG   | ram[1][7]_i_1_n_0                  |                            |                5 |              8 |
+|  red_clk_BUFG   | ram[2][7]_i_1_n_0                  |                            |                4 |              8 |
+|  red_clk_BUFG   | ram[3][7]_i_1_n_0                  |                            |                3 |              8 |
+|  red_clk_BUFG   | ram[4][7]_i_1_n_0                  |                            |                4 |              8 |
+|  red_clk_BUFG   | ram[5][7]_i_1_n_0                  |                            |                4 |              8 |
+|  red_clk_BUFG   | ram[6][7]_i_1_n_0                  |                            |                7 |              8 |
+|  red_clk_BUFG   | ram[7][7]_i_1_n_0                  |                            |                6 |              8 |
+|  red_clk_BUFG   | ram[8][7]_i_1_n_0                  |                            |                4 |              8 |
+|  red_clk_BUFG   | ram[9][7]_i_1_n_0                  |                            |                5 |              8 |
+| ~clk_IBUF_BUFG  | converter/bcds[15]_i_2_n_0         |                            |                4 |             16 |
+| ~clk_IBUF_BUFG  | converter/bcds[15]_i_2_n_0         | converter/bcds[15]_i_1_n_0 |                4 |             16 |
+| ~clk_IBUF_BUFG  | converter/bcds_out_reg[15]_i_1_n_0 |                            |                3 |             16 |
+|  red_clk_BUFG   | ram[6][15]_i_2_n_0                 | ram[6][15]_i_1_n_0         |               11 |             20 |
+|  red_clk_BUFG   | temp[15]_i_2_n_0                   | temp[15]_i_1_n_0           |               13 |             24 |
+|  clk_IBUF_BUFG  |                                    |                            |                7 |             26 |
++-----------------+------------------------------------+----------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     2 |
+| 5      |                     1 |
+| 7      |                     1 |
+| 8      |                    16 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

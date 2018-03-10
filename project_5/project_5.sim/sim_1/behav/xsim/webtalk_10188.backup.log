@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Mar 10 19:32:32 2018
+# Process ID: 10188
+# Current directory: C:/Users/Sanjai Kumar Agrawal/Desktop/project_5/project_5.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Sanjai Kumar Agrawal/Desktop/project_5/project_5.sim/sim_1/behav/xsim/xsim.dir/simulation_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Sanjai Kumar Agrawal/Desktop/project_5/project_5.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Sanjai Kumar Agrawal/Desktop/project_5/project_5.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Sanjai -notrace
+invalid command name "Invalid"
+    while executing
+"Invalid number of parameters"
+    (file "C:/Users/Sanjai" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 10 19:32:32 2018...
