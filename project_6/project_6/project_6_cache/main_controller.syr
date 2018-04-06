@@ -1,0 +1,999 @@
+Release 14.1 - xst P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Reading design: main_controller.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main_controller.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main_controller"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : main_controller
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\L1_cache_block.vhd" into library work
+Parsing entity <L1_cache_block>.
+Parsing architecture <L1_cache_block_a> of entity <l1_cache_block>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru7.vhd" into library work
+Parsing entity <l2_lru7>.
+Parsing architecture <l2_lru7_a> of entity <l2_lru7>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru6.vhd" into library work
+Parsing entity <l2_lru6>.
+Parsing architecture <l2_lru6_a> of entity <l2_lru6>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru5.vhd" into library work
+Parsing entity <l2_lru5>.
+Parsing architecture <l2_lru5_a> of entity <l2_lru5>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru4.vhd" into library work
+Parsing entity <l2_lru4>.
+Parsing architecture <l2_lru4_a> of entity <l2_lru4>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru3.vhd" into library work
+Parsing entity <l2_lru3>.
+Parsing architecture <l2_lru3_a> of entity <l2_lru3>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru2.vhd" into library work
+Parsing entity <l2_lru2>.
+Parsing architecture <l2_lru2_a> of entity <l2_lru2>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru1.vhd" into library work
+Parsing entity <l2_lru1>.
+Parsing architecture <l2_lru1_a> of entity <l2_lru1>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l2_lru0.vhd" into library work
+Parsing entity <l2_lru0>.
+Parsing architecture <l2_lru0_a> of entity <l2_lru0>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\L2_cache_block.vhd" into library work
+Parsing entity <L2_cache_block>.
+Parsing architecture <L2_cache_block_a> of entity <l2_cache_block>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru3.vhd" into library work
+Parsing entity <l1_lru3>.
+Parsing architecture <l1_lru3_a> of entity <l1_lru3>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru2.vhd" into library work
+Parsing entity <l1_lru2>.
+Parsing architecture <l1_lru2_a> of entity <l1_lru2>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru1.vhd" into library work
+Parsing entity <l1_lru1>.
+Parsing architecture <l1_lru1_a> of entity <l1_lru1>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru0.vhd" into library work
+Parsing entity <l1_lru0>.
+Parsing architecture <l1_lru0_a> of entity <l1_lru0>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l2_lru_mem.vhd" into library work
+Parsing entity <l2_lru_mem>.
+Parsing architecture <Behavioral> of entity <l2_lru_mem>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l2_comparator.vhd" into library work
+Parsing entity <l2_comparator>.
+Parsing architecture <Behavioral> of entity <l2_comparator>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l2_cache_mem.vhd" into library work
+Parsing entity <l2_cache_mem>.
+Parsing architecture <Behavioral> of entity <l2_cache_mem>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_lru_mem.vhd" into library work
+Parsing entity <l1_lru_mem>.
+Parsing architecture <Behavioral> of entity <l1_lru_mem>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_comparator.vhd" into library work
+Parsing entity <l1_comparator>.
+Parsing architecture <Behavioral> of entity <l1_comparator>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_cache_mem.vhd" into library work
+Parsing entity <l1_cache_mem>.
+Parsing architecture <Behavioral> of entity <l1_cache_mem>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\trace_ram.vhd" into library work
+Parsing entity <trace_ram>.
+Parsing architecture <trace_ram_a> of entity <trace_ram>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\uart_tx.vhd" into library work
+Parsing entity <UART_TX>.
+Parsing architecture <RTL> of entity <uart_tx>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\uart_rx.vhd" into library work
+Parsing entity <UART_RX>.
+Parsing architecture <Behavioral> of entity <uart_rx>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\trace_ram_wrapper.vhd" into library work
+Parsing entity <trace_ram_wrapper>.
+Parsing architecture <STRUCTURE> of entity <trace_ram_wrapper>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l2_top_level.vhd" into library work
+Parsing entity <l2_top_level>.
+Parsing architecture <Behavioral> of entity <l2_top_level>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_top_level.vhd" into library work
+Parsing entity <l1_top_level>.
+Parsing architecture <Behavioral> of entity <l1_top_level>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\getlocation.vhd" into library work
+Parsing entity <main_controller>.
+Parsing architecture <Behavioral> of entity <main_controller>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <main_controller> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <UART_RX> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "C:\Xilinx\cache_final_1\uart_rx.vhd" Line 132. Case statement is complete. others clause is never selected
+
+Elaborating entity <UART_TX> (architecture <RTL>) with generics from library <work>.
+INFO:HDLCompiler:679 - "C:\Xilinx\cache_final_1\uart_tx.vhd" Line 126. Case statement is complete. others clause is never selected
+
+Elaborating entity <trace_ram_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <trace_ram> (architecture <trace_ram_a>) from library <work>.
+
+Elaborating entity <l1_top_level> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l1_cache_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <L1_cache_block> (architecture <L1_cache_block_a>) from library <work>.
+
+Elaborating entity <l1_lru_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l1_lru0> (architecture <l1_lru0_a>) from library <work>.
+
+Elaborating entity <l1_lru1> (architecture <l1_lru1_a>) from library <work>.
+
+Elaborating entity <l1_lru2> (architecture <l1_lru2_a>) from library <work>.
+
+Elaborating entity <l1_lru3> (architecture <l1_lru3_a>) from library <work>.
+
+Elaborating entity <l1_comparator> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l2_top_level> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l2_cache_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <L2_cache_block> (architecture <L2_cache_block_a>) from library <work>.
+
+Elaborating entity <l2_lru_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l2_lru0> (architecture <l2_lru0_a>) from library <work>.
+
+Elaborating entity <l2_lru1> (architecture <l2_lru1_a>) from library <work>.
+
+Elaborating entity <l2_lru2> (architecture <l2_lru2_a>) from library <work>.
+
+Elaborating entity <l2_lru3> (architecture <l2_lru3_a>) from library <work>.
+
+Elaborating entity <l2_lru4> (architecture <l2_lru4_a>) from library <work>.
+
+Elaborating entity <l2_lru5> (architecture <l2_lru5_a>) from library <work>.
+
+Elaborating entity <l2_lru6> (architecture <l2_lru6_a>) from library <work>.
+
+Elaborating entity <l2_lru7> (architecture <l2_lru7_a>) from library <work>.
+
+Elaborating entity <l2_comparator> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 382: Variable prev_val0 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 383: Variable prev_val1 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 384: Variable prev_val2 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 385: Variable prev_val3 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 386: Variable prev_val4 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 387: Variable prev_val5 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 388: Variable prev_val6 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l2_top_level.vhd" Line 389: Variable prev_val7 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:634 - "C:\Xilinx\cache_final_1\getlocation.vhd" Line 86: Net <l1_wea> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Xilinx\cache_final_1\getlocation.vhd" Line 87: Net <l1_lru_update> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Xilinx\cache_final_1\getlocation.vhd" Line 91: Net <l1_hit_cntr[4]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Xilinx\cache_final_1\getlocation.vhd" Line 94: Net <l2_dina[127]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Xilinx\cache_final_1\getlocation.vhd" Line 95: Net <l2_wea> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Xilinx\cache_final_1\getlocation.vhd" Line 96: Net <l2_lru_update> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <main_controller>.
+    Related source file is "C:\Xilinx\cache_final_1\getlocation.vhd".
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 179: Output port <o_TX_Done> of the instance <UART_TX_INST> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <l1_douta> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <lru_0> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <lru_1> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <lru_2> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <lru_3> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <tag0> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <tag1> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <tag2> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <tag3> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <l1_hit> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 204: Output port <l1_lru_complete> of the instance <Inst_l1_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_0> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_1> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_2> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_3> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_4> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_5> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_6> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <lru_7> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag0> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag1> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag2> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag3> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag4> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag5> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag6> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <tag7> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <l2_hit> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Xilinx\cache_final_1\getlocation.vhd" line 219: Output port <l2_lru_complete> of the instance <Inst_l2_top_level> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <l1_hit_cntr<4:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <l2_dina> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <l1_wea> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <l1_lru_update> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <l2_wea> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <l2_lru_update> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <wea>.
+    Found 4-bit register for signal <state>.
+    Found 10-bit register for signal <addra>.
+    Found 8-bit register for signal <r_TX_BYTE>.
+    Found 1-bit register for signal <r_TX_DV>.
+    Found 16-bit register for signal <dina>.
+INFO:Xst:1799 - State hit_l1 is never reached in FSM <state>.
+INFO:Xst:1799 - State wait_for_l1_write is never reached in FSM <state>.
+INFO:Xst:1799 - State wait_for_l1_lru is never reached in FSM <state>.
+INFO:Xst:1799 - State incr_addra is never reached in FSM <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 15                                             |
+    | Transitions        | 21                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | write_msb                                      |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit adder for signal <addra[9]_GND_6_o_add_19_OUT> created at line 305.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <main_controller> synthesized.
+
+Synthesizing Unit <UART_RX>.
+    Related source file is "C:\Xilinx\cache_final_1\uart_rx.vhd".
+        g_CLKS_PER_BIT = 10417
+    Found 1-bit register for signal <r_RX_Data>.
+    Found 1-bit register for signal <r_RX_DV>.
+    Found 14-bit register for signal <r_Clk_Count>.
+    Found 3-bit register for signal <r_Bit_Index>.
+    Found 3-bit register for signal <r_SM_Main>.
+    Found 8-bit register for signal <r_RX_Byte>.
+    Found 1-bit register for signal <r_RX_Data_R>.
+    Found finite state machine <FSM_1> for signal <r_SM_Main>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | i_Clk (rising_edge)                            |
+    | Power Up State     | s_idle                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <r_Bit_Index[2]_GND_7_o_add_11_OUT> created at line 104.
+    Found 14-bit adder for signal <r_Clk_Count[13]_GND_7_o_add_19_OUT> created at line 117.
+    Found 3-bit comparator greater for signal <r_Bit_Index[2]_PWR_7_o_LessThan_11_o> created at line 103
+    Found 14-bit comparator greater for signal <r_Clk_Count[13]_PWR_7_o_LessThan_19_o> created at line 116
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred  14 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <UART_RX> synthesized.
+
+Synthesizing Unit <UART_TX>.
+    Related source file is "C:\Xilinx\cache_final_1\uart_tx.vhd".
+        g_CLKS_PER_BIT = 10417
+    Found 1-bit register for signal <o_TX_Serial>.
+    Found 1-bit register for signal <r_TX_Done>.
+    Found 14-bit register for signal <r_Clk_Count>.
+    Found 4-bit register for signal <r_Bit_Index>.
+    Found 8-bit register for signal <r_TX_Data>.
+    Found 3-bit register for signal <r_SM_Main>.
+    Found 1-bit register for signal <o_TX_Active>.
+    Found finite state machine <FSM_2> for signal <r_SM_Main>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | i_Clk (rising_edge)                            |
+    | Power Up State     | s_idle                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <r_Bit_Index[3]_GND_8_o_add_10_OUT> created at line 95.
+    Found 14-bit adder for signal <r_Clk_Count[13]_GND_8_o_add_17_OUT> created at line 110.
+    Found 1-bit 8-to-1 multiplexer for signal <r_Bit_Index[2]_r_TX_Data[7]_Mux_6_o> created at line 85.
+    Found 4-bit comparator greater for signal <r_Bit_Index[3]_GND_8_o_LessThan_10_o> created at line 94
+    Found 14-bit comparator greater for signal <r_Clk_Count[13]_PWR_9_o_LessThan_17_o> created at line 109
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <UART_TX> synthesized.
+
+Synthesizing Unit <trace_ram_wrapper>.
+    Related source file is "C:\Xilinx\cache_final_1\trace_ram_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <trace_ram_wrapper> synthesized.
+
+Synthesizing Unit <l1_top_level>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_top_level.vhd".
+WARNING:Xst:647 - Input <l1_addra<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <l1_douta> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 2-bit register for signal <lru_in0>.
+    Found 2-bit register for signal <lru_in1>.
+    Found 2-bit register for signal <lru_in2>.
+    Found 1-bit register for signal <l1_lru_complete>.
+    Found 1-bit register for signal <wea0>.
+    Found 1-bit register for signal <wea1>.
+    Found 1-bit register for signal <wea2>.
+    Found 1-bit register for signal <wea3>.
+    Found 1-bit register for signal <write_state>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <l1_top_level> synthesized.
+
+Synthesizing Unit <l1_cache_mem>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_cache_mem.vhd".
+    Summary:
+	no macro.
+Unit <l1_cache_mem> synthesized.
+
+Synthesizing Unit <l1_lru_mem>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_lru_mem.vhd".
+    Summary:
+	no macro.
+Unit <l1_lru_mem> synthesized.
+
+Synthesizing Unit <l1_comparator>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_comparator.vhd".
+    Summary:
+Unit <l1_comparator> synthesized.
+
+Synthesizing Unit <l2_top_level>.
+    Related source file is "C:\Xilinx\cache_final_1\l2_top_level.vhd".
+WARNING:Xst:647 - Input <l2_addra<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <l2_douta> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 3-bit register for signal <lru_in0>.
+    Found 3-bit register for signal <lru_in1>.
+    Found 3-bit register for signal <lru_in4>.
+    Found 3-bit register for signal <lru_in5>.
+    Found 3-bit register for signal <lru_in6>.
+    Found 3-bit register for signal <lru_in7>.
+    Found 1-bit register for signal <l2_lru_complete>.
+    Found 1-bit register for signal <wea0>.
+    Found 1-bit register for signal <wea1>.
+    Found 1-bit register for signal <wea2>.
+    Found 1-bit register for signal <wea3>.
+    Found 1-bit register for signal <wea4>.
+    Found 1-bit register for signal <wea5>.
+    Found 1-bit register for signal <wea6>.
+    Found 1-bit register for signal <wea7>.
+    Found 1-bit register for signal <write_state>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+Unit <l2_top_level> synthesized.
+
+Synthesizing Unit <l2_cache_mem>.
+    Related source file is "C:\Xilinx\cache_final_1\l2_cache_mem.vhd".
+    Summary:
+	no macro.
+Unit <l2_cache_mem> synthesized.
+
+Synthesizing Unit <l2_lru_mem>.
+    Related source file is "C:\Xilinx\cache_final_1\l2_lru_mem.vhd".
+    Summary:
+	no macro.
+Unit <l2_lru_mem> synthesized.
+
+Synthesizing Unit <l2_comparator>.
+    Related source file is "C:\Xilinx\cache_final_1\l2_comparator.vhd".
+    Summary:
+Unit <l2_comparator> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 10-bit adder                                          : 1
+ 14-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 42
+ 1-bit register                                        : 24
+ 10-bit register                                       : 1
+ 14-bit register                                       : 2
+ 16-bit register                                       : 1
+ 2-bit register                                        : 3
+ 3-bit register                                        : 7
+ 4-bit register                                        : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 4
+ 14-bit comparator greater                             : 2
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 1
+# Multiplexers                                         : 28
+ 1-bit 2-to-1 multiplexer                              : 10
+ 1-bit 8-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 4
+ 14-bit 2-to-1 multiplexer                             : 7
+ 16-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 3
+# Xors                                                 : 68
+ 1-bit xor2                                            : 68
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/trace_ram.ngc>.
+Reading core <ipcore_dir/L1_cache_block.ngc>.
+Reading core <ipcore_dir/l1_lru0.ngc>.
+Reading core <ipcore_dir/l1_lru1.ngc>.
+Reading core <ipcore_dir/l1_lru2.ngc>.
+Reading core <ipcore_dir/l1_lru3.ngc>.
+Reading core <ipcore_dir/L2_cache_block.ngc>.
+Reading core <ipcore_dir/l2_lru0.ngc>.
+Reading core <ipcore_dir/l2_lru1.ngc>.
+Reading core <ipcore_dir/l2_lru2.ngc>.
+Reading core <ipcore_dir/l2_lru3.ngc>.
+Reading core <ipcore_dir/l2_lru4.ngc>.
+Reading core <ipcore_dir/l2_lru5.ngc>.
+Reading core <ipcore_dir/l2_lru6.ngc>.
+Reading core <ipcore_dir/l2_lru7.ngc>.
+Loading core <trace_ram> for timing and area information for instance <trace_ram_i>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block0>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block1>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block2>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block3>.
+Loading core <l1_lru0> for timing and area information for instance <lru0>.
+Loading core <l1_lru1> for timing and area information for instance <lru1>.
+Loading core <l1_lru2> for timing and area information for instance <lru2>.
+Loading core <l1_lru3> for timing and area information for instance <lru3>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block0>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block1>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block2>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block3>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block4>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block5>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block6>.
+Loading core <L2_cache_block> for timing and area information for instance <l1_block7>.
+Loading core <l2_lru0> for timing and area information for instance <lru0>.
+Loading core <l2_lru1> for timing and area information for instance <lru1>.
+Loading core <l2_lru2> for timing and area information for instance <lru2>.
+Loading core <l2_lru3> for timing and area information for instance <lru3>.
+Loading core <l2_lru4> for timing and area information for instance <lru4>.
+Loading core <l2_lru5> for timing and area information for instance <lru5>.
+Loading core <l2_lru6> for timing and area information for instance <lru6>.
+Loading core <l2_lru7> for timing and area information for instance <lru7>.
+WARNING:Xst:1290 - Hierarchical block <L1_comparator_0> is unconnected in block <Inst_l1_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <L1_comparator_1> is unconnected in block <Inst_l1_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <L1_comparator_2> is unconnected in block <Inst_l1_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <L1_comparator_3> is unconnected in block <Inst_l1_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_0> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_1> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_2> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_3> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_4> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_5> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_6> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <l2_comparator_7> is unconnected in block <Inst_l2_top_level>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <lru_in4_2> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in5_0> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in5_1> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in5_2> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in6_0> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in6_1> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in6_2> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in7_0> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in7_1> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in7_2> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea0> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea1> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea2> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea3> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea4> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea7> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea5> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea6> has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in0_0> (without init value) has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in0_1> (without init value) has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in1_0> (without init value) has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in1_1> (without init value) has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in2_0> (without init value) has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in2_1> (without init value) has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea0> has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea1> has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea2> has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <wea3> has a constant value of 0 in block <Inst_l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in0_0> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in0_1> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in0_2> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in1_0> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in1_1> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in1_2> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in4_0> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <lru_in4_1> (without init value) has a constant value of 0 in block <Inst_l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <write_state> of sequential type is unconnected in block <Inst_l1_top_level>.
+WARNING:Xst:2677 - Node <write_state> of sequential type is unconnected in block <Inst_l2_top_level>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 10-bit adder                                          : 1
+ 14-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 133
+ Flip-Flops                                            : 133
+# Comparators                                          : 4
+ 14-bit comparator greater                             : 2
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 1
+# Multiplexers                                         : 28
+ 1-bit 2-to-1 multiplexer                              : 10
+ 1-bit 8-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 4
+ 14-bit 2-to-1 multiplexer                             : 7
+ 16-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 3
+# Xors                                                 : 68
+ 1-bit xor2                                            : 68
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <lru_in0_0> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in0_1> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in1_0> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in1_1> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in2_0> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in2_1> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <l1_lru_complete> (without init value) has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea0> has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea1> has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea2> has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea3> has a constant value of 0 in block <l1_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <write_state> of sequential type is unconnected in block <l1_top_level>.
+WARNING:Xst:1293 - FF/Latch <wea7> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea6> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea5> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea4> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea3> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea1> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea0> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wea2> has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <l2_lru_complete> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in7_2> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in7_1> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in7_0> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in5_2> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in5_1> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in5_0> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in4_2> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in4_1> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in4_0> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in6_2> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in6_1> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in6_0> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in1_2> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in1_1> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in1_0> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in0_2> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in0_1> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <lru_in0_0> (without init value) has a constant value of 0 in block <l2_top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <write_state> of sequential type is unconnected in block <l2_top_level>.
+WARNING:Xst:2973 - All outputs of instance <Inst_l1_top_level/L1_comparator_3> of block <l1_comparator> are unconnected in block <main_controller>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <Inst_l1_top_level/L1_comparator_2> of block <l1_comparator> are unconnected in block <main_controller>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <Inst_l1_top_level/L1_comparator_1> of block <l1_comparator> are unconnected in block <main_controller>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <Inst_l1_top_level/L1_comparator_0> of block <l1_comparator> are unconnected in block <main_controller>. Underlying logic will be removed.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state[1:4]> with user encoding.
+-------------------------------
+ State             | Encoding
+-------------------------------
+ write_msb         | 0000
+ write_lsb         | 0001
+ wait_for_msb      | 0010
+ wait_for_lsb      | 0011
+ start_send        | 0100
+ start_send2       | 0101
+ send_msb          | 0110
+ sending_msb       | 0111
+ send_lsb          | 1000
+ sending_lsb       | 1001
+ hit_l1            | unreached
+ wait_for_l1_write | unreached
+ wait_for_l1_lru   | unreached
+ incr_addra        | unreached
+ idle              | 1110
+-------------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <UART_RX_INST/FSM_1> on signal <r_SM_Main[1:3]> with user encoding.
+----------------------------
+ State          | Encoding
+----------------------------
+ s_idle         | 000
+ s_rx_start_bit | 001
+ s_rx_data_bits | 010
+ s_rx_stop_bit  | 011
+ s_cleanup      | 100
+----------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <UART_TX_INST/FSM_2> on signal <r_SM_Main[1:3]> with user encoding.
+----------------------------
+ State          | Encoding
+----------------------------
+ s_idle         | 000
+ s_tx_start_bit | 001
+ s_tx_data_bits | 010
+ s_tx_stop_bit  | 011
+ s_cleanup      | 100
+----------------------------
+
+Optimizing unit <l2_cache_mem> ...
+
+Optimizing unit <l2_lru_mem> ...
+
+Optimizing unit <main_controller> ...
+
+Optimizing unit <UART_RX> ...
+
+Optimizing unit <UART_TX> ...
+WARNING:Xst:1293 - FF/Latch <r_Bit_Index_3> has a constant value of 0 in block <UART_TX>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <r_Bit_Index_3> has a constant value of 0 in block <UART_TX>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <l2_top_level> ...
+WARNING:Xst:2677 - Node <UART_TX_INST/r_TX_Done> of sequential type is unconnected in block <main_controller>.
+WARNING:Xst:1293 - FF/Latch <addra_5> has a constant value of 0 in block <main_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addra_6> has a constant value of 0 in block <main_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addra_7> has a constant value of 0 in block <main_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addra_8> has a constant value of 0 in block <main_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addra_9> has a constant value of 0 in block <main_controller>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <UART_RX_INST/r_SM_Main_FSM_FFd1> in Unit <main_controller> is equivalent to the following FF/Latch, which will be removed : <UART_RX_INST/r_RX_DV> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main_controller, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <main_controller> :
+	Found 2-bit shift register for signal <UART_RX_INST/r_RX_Data>.
+Unit <main_controller> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 93
+ Flip-Flops                                            : 93
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : main_controller.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 310
+#      GND                         : 51
+#      INV                         : 5
+#      LUT1                        : 26
+#      LUT2                        : 2
+#      LUT3                        : 39
+#      LUT4                        : 22
+#      LUT5                        : 24
+#      LUT6                        : 31
+#      MUXCY                       : 26
+#      MUXF7                       : 6
+#      VCC                         : 50
+#      XORCY                       : 28
+# FlipFlops/Latches                : 94
+#      FD                          : 13
+#      FDE                         : 81
+# RAMS                             : 37
+#      RAMB16BWER                  : 25
+#      RAMB8BWER                   : 12
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 1
+#      OBUF                        : 6
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              94  out of  54576     0%  
+ Number of Slice LUTs:                  150  out of  27288     0%  
+    Number used as Logic:               149  out of  27288     0%  
+    Number used as Memory:                1  out of   6408     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    244
+   Number with an unused Flip Flop:     150  out of    244    61%  
+   Number with an unused LUT:            94  out of    244    38%  
+   Number of fully used LUT-FF pairs:     0  out of    244     0%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                          10
+ Number of bonded IOBs:                   8  out of    218     3%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               31  out of    116    26%  
+    Number using Block RAM only:         31
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                                          | Load  |
+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+clk                                | BUFGP                                                                                                                                          | 132   |
+trace_ram/trace_ram_i/N1           | NONE(trace_ram/trace_ram_i/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 1     |
+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.969ns (Maximum Frequency: 251.930MHz)
+   Minimum input arrival time before clock: 1.801ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.969ns (frequency: 251.930MHz)
+  Total number of paths / destination ports: 2350 / 723
+-------------------------------------------------------------------------
+Delay:               3.969ns (Levels of Logic = 3)
+  Source:            UART_RX_INST/r_Clk_Count_2 (FF)
+  Destination:       UART_RX_INST/r_SM_Main_FSM_FFd2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: UART_RX_INST/r_Clk_Count_2 to UART_RX_INST/r_SM_Main_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.981  UART_RX_INST/r_Clk_Count_2 (UART_RX_INST/r_Clk_Count_2)
+     LUT6:I0->O            2   0.203   0.721  UART_RX_INST/GND_7_o_r_Clk_Count[13]_equal_2_o<13>2 (UART_RX_INST/GND_7_o_r_Clk_Count[13]_equal_2_o<13>1)
+     LUT4:I2->O           16   0.203   1.109  UART_RX_INST/GND_7_o_r_Clk_Count[13]_equal_2_o<13>3 (UART_RX_INST/GND_7_o_r_Clk_Count[13]_equal_2_o)
+     LUT5:I3->O            1   0.203   0.000  UART_RX_INST/r_SM_Main_FSM_FFd2-In1 (UART_RX_INST/r_SM_Main_FSM_FFd2-In)
+     FD:D                      0.102          UART_RX_INST/r_SM_Main_FSM_FFd2
+    ----------------------------------------
+    Total                      3.969ns (1.158ns logic, 2.811ns route)
+                                       (29.2% logic, 70.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.801ns (Levels of Logic = 1)
+  Source:            uart_rxd (PAD)
+  Destination:       UART_RX_INST/Mshreg_r_RX_Data (FF)
+  Destination Clock: clk rising
+
+  Data Path: uart_rxd to UART_RX_INST/Mshreg_r_RX_Data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  uart_rxd_IBUF (uart_rxd_IBUF)
+     SRLC16E:D                -0.060          UART_RX_INST/Mshreg_r_RX_Data
+    ----------------------------------------
+    Total                      1.801ns (1.222ns logic, 0.579ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            UART_TX_INST/o_TX_Serial (FF)
+  Destination:       uart_txd (PAD)
+  Source Clock:      clk rising
+
+  Data Path: UART_TX_INST/o_TX_Serial to uart_txd
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.579  UART_TX_INST/o_TX_Serial (UART_TX_INST/o_TX_Serial)
+     OBUF:I->O                 2.571          uart_txd_OBUF (uart_txd)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.969|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.05 secs
+ 
+--> 
+
+Total memory usage is 255260 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  126 (   0 filtered)
+Number of infos    :   36 (   0 filtered)
+

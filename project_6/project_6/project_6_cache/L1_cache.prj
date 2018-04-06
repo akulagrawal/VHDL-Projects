@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/L1_block_ram.vhd"
+vhdl work "L1_cache.vhd"

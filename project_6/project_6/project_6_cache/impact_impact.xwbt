@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Xilinx\cache_final_1\impact.xsl
+OUTFILE=C:\Xilinx\cache_final_1\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Xilinx\cache_final_1
+LICENSE=iMPACT
+USER_INFO=iMPACT

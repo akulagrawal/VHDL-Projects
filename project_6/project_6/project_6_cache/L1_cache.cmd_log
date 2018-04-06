@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Xilinx projects/cache_final_1/L1_cache.xst" -ofn "C:/Xilinx projects/cache_final_1/L1_cache.syr" 
+xst -intstyle ise -ifn "C:/Xilinx projects/cache_final_1/L1_cache.xst" -ofn "C:/Xilinx projects/cache_final_1/L1_cache.syr" 
+xst -intstyle ise -ifn "C:/Xilinx projects/cache_final_1/L1_cache.xst" -ofn "C:/Xilinx projects/cache_final_1/L1_cache.syr" 
+xst -intstyle ise -ifn "C:/Xilinx projects/cache_final_1/L1_cache.xst" -ofn "C:/Xilinx projects/cache_final_1/L1_cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc port_map.ucf -p xc6slx45-csg324-3 "L1_cache.ngc" L1_cache.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L1_cache_map.ncd L1_cache.ngd L1_cache.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc port_map.ucf -p xc6slx45-csg324-3 "L1_cache.ngc" L1_cache.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L1_cache_map.ncd L1_cache.ngd L1_cache.pcf 
+par -w -intstyle ise -ol high -mt off L1_cache_map.ncd L1_cache.ncd L1_cache.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L1_cache.twx L1_cache.ncd -o L1_cache.twr L1_cache.pcf -ucf port_map.ucf 
+bitgen -intstyle ise -f L1_cache.ut L1_cache.ncd 

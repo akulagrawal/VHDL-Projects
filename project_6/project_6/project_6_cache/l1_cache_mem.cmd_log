@@ -1,0 +1,1 @@
+vhdtdtfi -prj cache_final_1 -o "C:/Xilinx projects/cache_final_1/l1_cache_mem.vhi" -module l1_cache_mem -template C:/Xilinx/14.1/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/L1_cache_block.vhd -lib work l1_cache_mem.vhd 

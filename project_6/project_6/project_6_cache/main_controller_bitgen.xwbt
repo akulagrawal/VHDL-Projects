@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\cache_final_1\main_controller.ncd
+OUTFILE=C:\Xilinx\cache_final_1\main_controller.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Xilinx\cache_final_1
+LICENSE=WebPack
+USER_INFO=__0_0_0

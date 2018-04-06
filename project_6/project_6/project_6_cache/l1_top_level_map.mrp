@@ -1,0 +1,1309 @@
+Release 14.1 Map P.15xf (nt)
+Xilinx Mapping Report File for Design 'l1_top_level'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o l1_top_level_map.ncd l1_top_level.ngd
+l1_top_level.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sun Apr 01 00:05:11 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   65
+Slice Logic Utilization:
+  Number of Slice Registers:                    18 out of  54,576    1%
+    Number used as Flip Flops:                  18
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                         54 out of  27,288    1%
+    Number used as logic:                       54 out of  27,288    1%
+      Number using O6 output only:              46
+      Number using O5 output only:               0
+      Number using O5 and O6:                    8
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   6,408    0%
+
+Slice Logic Distribution:
+  Number of occupied Slices:                    27 out of   6,822    1%
+  Nummber of MUXCYs used:                        0 out of  13,644    0%
+  Number of LUT Flip Flop pairs used:           56
+    Number with an unused Flip Flop:            38 out of      56   67%
+    Number with an unused LUT:                   2 out of      56    3%
+    Number of fully used LUT-FF pairs:          16 out of      56   28%
+    Number of unique control sets:              11
+    Number of slice register sites lost
+      to control set restrictions:              70 out of  54,576    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       117 out of     218   53%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         4 out of     116    3%
+  Number of RAMB8BWERs:                          4 out of     232    1%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     376    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      58    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       4    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                4.09
+
+Peak Memory Usage:  342 MB
+Total REAL time to MAP completion:  21 secs 
+Total CPU time to MAP completion:   21 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:MapLib:701 - Signal l1_dina<127> connected to top level port
+   l1_dina<127> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<126> connected to top level port
+   l1_dina<126> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<125> connected to top level port
+   l1_dina<125> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<124> connected to top level port
+   l1_dina<124> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<123> connected to top level port
+   l1_dina<123> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<122> connected to top level port
+   l1_dina<122> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<121> connected to top level port
+   l1_dina<121> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<120> connected to top level port
+   l1_dina<120> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<119> connected to top level port
+   l1_dina<119> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<118> connected to top level port
+   l1_dina<118> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<117> connected to top level port
+   l1_dina<117> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<116> connected to top level port
+   l1_dina<116> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<115> connected to top level port
+   l1_dina<115> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<114> connected to top level port
+   l1_dina<114> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<113> connected to top level port
+   l1_dina<113> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<112> connected to top level port
+   l1_dina<112> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<111> connected to top level port
+   l1_dina<111> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<110> connected to top level port
+   l1_dina<110> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<109> connected to top level port
+   l1_dina<109> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<108> connected to top level port
+   l1_dina<108> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<107> connected to top level port
+   l1_dina<107> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<106> connected to top level port
+   l1_dina<106> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<105> connected to top level port
+   l1_dina<105> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<104> connected to top level port
+   l1_dina<104> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<103> connected to top level port
+   l1_dina<103> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<102> connected to top level port
+   l1_dina<102> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<101> connected to top level port
+   l1_dina<101> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<100> connected to top level port
+   l1_dina<100> has been removed.
+WARNING:MapLib:701 - Signal l1_dina<99> connected to top level port l1_dina<99>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<98> connected to top level port l1_dina<98>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<97> connected to top level port l1_dina<97>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<96> connected to top level port l1_dina<96>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<95> connected to top level port l1_dina<95>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<94> connected to top level port l1_dina<94>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<93> connected to top level port l1_dina<93>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<92> connected to top level port l1_dina<92>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<91> connected to top level port l1_dina<91>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<90> connected to top level port l1_dina<90>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<89> connected to top level port l1_dina<89>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<88> connected to top level port l1_dina<88>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<87> connected to top level port l1_dina<87>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<86> connected to top level port l1_dina<86>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<85> connected to top level port l1_dina<85>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<84> connected to top level port l1_dina<84>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<83> connected to top level port l1_dina<83>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<82> connected to top level port l1_dina<82>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<81> connected to top level port l1_dina<81>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<80> connected to top level port l1_dina<80>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<79> connected to top level port l1_dina<79>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<78> connected to top level port l1_dina<78>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<77> connected to top level port l1_dina<77>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<76> connected to top level port l1_dina<76>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<75> connected to top level port l1_dina<75>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<74> connected to top level port l1_dina<74>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<73> connected to top level port l1_dina<73>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<72> connected to top level port l1_dina<72>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<71> connected to top level port l1_dina<71>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<70> connected to top level port l1_dina<70>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<69> connected to top level port l1_dina<69>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<68> connected to top level port l1_dina<68>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<67> connected to top level port l1_dina<67>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<66> connected to top level port l1_dina<66>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<65> connected to top level port l1_dina<65>
+   has been removed.
+WARNING:MapLib:701 - Signal l1_dina<64> connected to top level port l1_dina<64>
+   has been removed.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network l1_addra<3> has no load.
+INFO:LIT:395 - The above info message is repeated 643 more times for the
+   following (max. 5 shown):
+   l1_addra<2>,
+   l1_addra<1>,
+   l1_addra<0>,
+   l1_douta<127>,
+   l1_douta<126>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 132 block(s) removed
+  34 block(s) optimized away
+ 640 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "l1_mem/l1_block3/douta<135>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<134>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<133>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<132>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<131>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<130>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<129>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<128>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<127>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<126>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<125>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<124>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<123>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<122>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<121>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<120>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<119>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<118>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<117>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<116>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<115>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<114>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<113>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<112>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<111>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<110>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<109>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<108>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<107>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<106>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<105>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<104>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<103>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<102>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<101>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<100>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<99>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<98>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<97>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<96>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<95>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<94>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<93>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<92>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<91>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<90>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<89>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<88>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<87>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<86>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<85>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<84>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<83>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<82>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<81>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<80>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<79>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<78>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<77>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<76>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<75>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<74>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<73>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<72>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<71>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<70>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<69>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<68>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<67>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<66>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<65>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<64>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<63>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<62>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<61>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<60>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<59>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<58>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<57>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<56>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<55>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<54>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<53>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<52>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<51>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<50>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<49>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<48>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<47>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<46>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<45>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<44>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<43>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<42>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<41>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<40>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<39>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<38>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<37>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<36>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<35>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<34>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<33>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<32>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<31>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<30>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<29>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<28>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<27>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<26>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<25>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<24>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<23>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<22>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<21>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<20>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<19>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<18>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<17>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<16>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<15>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<14>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<13>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<12>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<11>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<10>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<9>" is sourceless and has been removed.
+The signal "l1_mem/l1_block3/douta<8>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<135>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<134>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<133>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<132>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<131>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<130>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<129>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<128>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<127>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<126>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<125>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<124>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<123>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<122>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<121>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<120>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<119>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<118>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<117>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<116>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<115>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<114>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<113>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<112>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<111>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<110>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<109>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<108>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<107>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<106>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<105>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<104>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<103>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<102>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<101>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<100>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<99>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<98>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<97>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<96>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<95>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<94>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<93>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<92>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<91>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<90>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<89>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<88>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<87>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<86>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<85>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<84>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<83>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<82>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<81>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<80>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<79>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<78>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<77>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<76>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<75>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<74>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<73>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<72>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<71>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<70>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<69>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<68>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<67>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<66>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<65>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<64>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<63>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<62>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<61>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<60>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<59>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<58>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<57>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<56>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<55>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<54>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<53>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<52>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<51>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<50>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<49>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<48>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<47>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<46>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<45>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<44>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<43>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<42>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<41>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<40>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<39>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<38>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<37>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<36>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<35>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<34>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<33>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<32>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<31>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<30>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<29>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<28>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<27>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<26>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<25>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<24>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<23>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<22>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<21>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<20>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<19>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<18>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<17>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<16>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<15>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<14>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<13>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<12>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<11>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<10>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<9>" is sourceless and has been removed.
+The signal "l1_mem/l1_block2/douta<8>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<135>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<134>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<133>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<132>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<131>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<130>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<129>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<128>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<127>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<126>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<125>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<124>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<123>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<122>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<121>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<120>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<119>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<118>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<117>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<116>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<115>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<114>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<113>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<112>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<111>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<110>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<109>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<108>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<107>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<106>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<105>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<104>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<103>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<102>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<101>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<100>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<99>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<98>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<97>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<96>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<95>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<94>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<93>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<92>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<91>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<90>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<89>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<88>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<87>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<86>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<85>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<84>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<83>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<82>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<81>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<80>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<79>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<78>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<77>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<76>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<75>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<74>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<73>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<72>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<71>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<70>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<69>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<68>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<67>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<66>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<65>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<64>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<63>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<62>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<61>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<60>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<59>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<58>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<57>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<56>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<55>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<54>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<53>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<52>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<51>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<50>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<49>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<48>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<47>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<46>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<45>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<44>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<43>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<42>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<41>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<40>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<39>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<38>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<37>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<36>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<35>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<34>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<33>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<32>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<31>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<30>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<29>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<28>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<27>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<26>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<25>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<24>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<23>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<22>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<21>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<20>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<19>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<18>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<17>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<16>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<15>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<14>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<13>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<12>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<11>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<10>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<9>" is sourceless and has been removed.
+The signal "l1_mem/l1_block1/douta<8>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<135>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<134>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<133>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<132>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<131>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<130>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<129>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<128>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<127>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<126>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<125>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<124>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<123>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<122>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<121>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<120>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<119>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<118>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<117>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<116>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<115>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<114>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<113>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<112>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<111>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<110>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<109>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<108>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<107>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<106>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<105>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<104>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<103>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<102>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<101>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<100>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<99>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<98>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<97>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<96>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<95>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<94>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<93>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<92>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<91>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<90>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<89>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<88>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<87>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<86>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<85>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<84>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<83>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<82>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<81>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<80>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<79>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<78>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<77>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<76>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<75>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<74>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<73>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<72>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<71>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<70>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<69>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<68>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<67>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<66>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<65>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<64>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<63>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<62>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<61>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<60>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<59>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<58>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<57>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<56>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<55>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<54>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<53>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<52>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<51>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<50>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<49>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<48>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<47>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<46>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<45>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<44>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<43>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<42>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<41>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<40>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<39>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<38>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<37>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<36>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<35>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<34>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<33>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<32>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<31>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<30>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<29>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<28>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<27>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<26>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<25>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<24>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<23>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<22>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<21>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<20>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<19>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<18>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<17>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<16>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<15>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<14>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<13>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<12>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<11>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<10>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<9>" is sourceless and has been removed.
+The signal "l1_mem/l1_block0/douta<8>" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "l1_dina_127_IBUF" is unused and has been removed.
+ Unused block "l1_dina_127_IBUF" (BUF) removed.
+  The signal "l1_dina<127>" is unused and has been removed.
+   Unused block "l1_dina<127>" (PAD) removed.
+The signal "l1_dina_126_IBUF" is unused and has been removed.
+ Unused block "l1_dina_126_IBUF" (BUF) removed.
+  The signal "l1_dina<126>" is unused and has been removed.
+   Unused block "l1_dina<126>" (PAD) removed.
+The signal "l1_dina_125_IBUF" is unused and has been removed.
+ Unused block "l1_dina_125_IBUF" (BUF) removed.
+  The signal "l1_dina<125>" is unused and has been removed.
+   Unused block "l1_dina<125>" (PAD) removed.
+The signal "l1_dina_124_IBUF" is unused and has been removed.
+ Unused block "l1_dina_124_IBUF" (BUF) removed.
+  The signal "l1_dina<124>" is unused and has been removed.
+   Unused block "l1_dina<124>" (PAD) removed.
+The signal "l1_dina_123_IBUF" is unused and has been removed.
+ Unused block "l1_dina_123_IBUF" (BUF) removed.
+  The signal "l1_dina<123>" is unused and has been removed.
+   Unused block "l1_dina<123>" (PAD) removed.
+The signal "l1_dina_122_IBUF" is unused and has been removed.
+ Unused block "l1_dina_122_IBUF" (BUF) removed.
+  The signal "l1_dina<122>" is unused and has been removed.
+   Unused block "l1_dina<122>" (PAD) removed.
+The signal "l1_dina_121_IBUF" is unused and has been removed.
+ Unused block "l1_dina_121_IBUF" (BUF) removed.
+  The signal "l1_dina<121>" is unused and has been removed.
+   Unused block "l1_dina<121>" (PAD) removed.
+The signal "l1_dina_120_IBUF" is unused and has been removed.
+ Unused block "l1_dina_120_IBUF" (BUF) removed.
+  The signal "l1_dina<120>" is unused and has been removed.
+   Unused block "l1_dina<120>" (PAD) removed.
+The signal "l1_dina_119_IBUF" is unused and has been removed.
+ Unused block "l1_dina_119_IBUF" (BUF) removed.
+  The signal "l1_dina<119>" is unused and has been removed.
+   Unused block "l1_dina<119>" (PAD) removed.
+The signal "l1_dina_118_IBUF" is unused and has been removed.
+ Unused block "l1_dina_118_IBUF" (BUF) removed.
+  The signal "l1_dina<118>" is unused and has been removed.
+   Unused block "l1_dina<118>" (PAD) removed.
+The signal "l1_dina_117_IBUF" is unused and has been removed.
+ Unused block "l1_dina_117_IBUF" (BUF) removed.
+  The signal "l1_dina<117>" is unused and has been removed.
+   Unused block "l1_dina<117>" (PAD) removed.
+The signal "l1_dina_116_IBUF" is unused and has been removed.
+ Unused block "l1_dina_116_IBUF" (BUF) removed.
+  The signal "l1_dina<116>" is unused and has been removed.
+   Unused block "l1_dina<116>" (PAD) removed.
+The signal "l1_dina_115_IBUF" is unused and has been removed.
+ Unused block "l1_dina_115_IBUF" (BUF) removed.
+  The signal "l1_dina<115>" is unused and has been removed.
+   Unused block "l1_dina<115>" (PAD) removed.
+The signal "l1_dina_114_IBUF" is unused and has been removed.
+ Unused block "l1_dina_114_IBUF" (BUF) removed.
+  The signal "l1_dina<114>" is unused and has been removed.
+   Unused block "l1_dina<114>" (PAD) removed.
+The signal "l1_dina_113_IBUF" is unused and has been removed.
+ Unused block "l1_dina_113_IBUF" (BUF) removed.
+  The signal "l1_dina<113>" is unused and has been removed.
+   Unused block "l1_dina<113>" (PAD) removed.
+The signal "l1_dina_112_IBUF" is unused and has been removed.
+ Unused block "l1_dina_112_IBUF" (BUF) removed.
+  The signal "l1_dina<112>" is unused and has been removed.
+   Unused block "l1_dina<112>" (PAD) removed.
+The signal "l1_dina_111_IBUF" is unused and has been removed.
+ Unused block "l1_dina_111_IBUF" (BUF) removed.
+  The signal "l1_dina<111>" is unused and has been removed.
+   Unused block "l1_dina<111>" (PAD) removed.
+The signal "l1_dina_110_IBUF" is unused and has been removed.
+ Unused block "l1_dina_110_IBUF" (BUF) removed.
+  The signal "l1_dina<110>" is unused and has been removed.
+   Unused block "l1_dina<110>" (PAD) removed.
+The signal "l1_dina_109_IBUF" is unused and has been removed.
+ Unused block "l1_dina_109_IBUF" (BUF) removed.
+  The signal "l1_dina<109>" is unused and has been removed.
+   Unused block "l1_dina<109>" (PAD) removed.
+The signal "l1_dina_108_IBUF" is unused and has been removed.
+ Unused block "l1_dina_108_IBUF" (BUF) removed.
+  The signal "l1_dina<108>" is unused and has been removed.
+   Unused block "l1_dina<108>" (PAD) removed.
+The signal "l1_dina_107_IBUF" is unused and has been removed.
+ Unused block "l1_dina_107_IBUF" (BUF) removed.
+  The signal "l1_dina<107>" is unused and has been removed.
+   Unused block "l1_dina<107>" (PAD) removed.
+The signal "l1_dina_106_IBUF" is unused and has been removed.
+ Unused block "l1_dina_106_IBUF" (BUF) removed.
+  The signal "l1_dina<106>" is unused and has been removed.
+   Unused block "l1_dina<106>" (PAD) removed.
+The signal "l1_dina_105_IBUF" is unused and has been removed.
+ Unused block "l1_dina_105_IBUF" (BUF) removed.
+  The signal "l1_dina<105>" is unused and has been removed.
+   Unused block "l1_dina<105>" (PAD) removed.
+The signal "l1_dina_104_IBUF" is unused and has been removed.
+ Unused block "l1_dina_104_IBUF" (BUF) removed.
+  The signal "l1_dina<104>" is unused and has been removed.
+   Unused block "l1_dina<104>" (PAD) removed.
+The signal "l1_dina_103_IBUF" is unused and has been removed.
+ Unused block "l1_dina_103_IBUF" (BUF) removed.
+  The signal "l1_dina<103>" is unused and has been removed.
+   Unused block "l1_dina<103>" (PAD) removed.
+The signal "l1_dina_102_IBUF" is unused and has been removed.
+ Unused block "l1_dina_102_IBUF" (BUF) removed.
+  The signal "l1_dina<102>" is unused and has been removed.
+   Unused block "l1_dina<102>" (PAD) removed.
+The signal "l1_dina_101_IBUF" is unused and has been removed.
+ Unused block "l1_dina_101_IBUF" (BUF) removed.
+  The signal "l1_dina<101>" is unused and has been removed.
+   Unused block "l1_dina<101>" (PAD) removed.
+The signal "l1_dina_100_IBUF" is unused and has been removed.
+ Unused block "l1_dina_100_IBUF" (BUF) removed.
+  The signal "l1_dina<100>" is unused and has been removed.
+   Unused block "l1_dina<100>" (PAD) removed.
+The signal "l1_dina_99_IBUF" is unused and has been removed.
+ Unused block "l1_dina_99_IBUF" (BUF) removed.
+  The signal "l1_dina<99>" is unused and has been removed.
+   Unused block "l1_dina<99>" (PAD) removed.
+The signal "l1_dina_98_IBUF" is unused and has been removed.
+ Unused block "l1_dina_98_IBUF" (BUF) removed.
+  The signal "l1_dina<98>" is unused and has been removed.
+   Unused block "l1_dina<98>" (PAD) removed.
+The signal "l1_dina_97_IBUF" is unused and has been removed.
+ Unused block "l1_dina_97_IBUF" (BUF) removed.
+  The signal "l1_dina<97>" is unused and has been removed.
+   Unused block "l1_dina<97>" (PAD) removed.
+The signal "l1_dina_96_IBUF" is unused and has been removed.
+ Unused block "l1_dina_96_IBUF" (BUF) removed.
+  The signal "l1_dina<96>" is unused and has been removed.
+   Unused block "l1_dina<96>" (PAD) removed.
+The signal "l1_dina_95_IBUF" is unused and has been removed.
+ Unused block "l1_dina_95_IBUF" (BUF) removed.
+  The signal "l1_dina<95>" is unused and has been removed.
+   Unused block "l1_dina<95>" (PAD) removed.
+The signal "l1_dina_94_IBUF" is unused and has been removed.
+ Unused block "l1_dina_94_IBUF" (BUF) removed.
+  The signal "l1_dina<94>" is unused and has been removed.
+   Unused block "l1_dina<94>" (PAD) removed.
+The signal "l1_dina_93_IBUF" is unused and has been removed.
+ Unused block "l1_dina_93_IBUF" (BUF) removed.
+  The signal "l1_dina<93>" is unused and has been removed.
+   Unused block "l1_dina<93>" (PAD) removed.
+The signal "l1_dina_92_IBUF" is unused and has been removed.
+ Unused block "l1_dina_92_IBUF" (BUF) removed.
+  The signal "l1_dina<92>" is unused and has been removed.
+   Unused block "l1_dina<92>" (PAD) removed.
+The signal "l1_dina_91_IBUF" is unused and has been removed.
+ Unused block "l1_dina_91_IBUF" (BUF) removed.
+  The signal "l1_dina<91>" is unused and has been removed.
+   Unused block "l1_dina<91>" (PAD) removed.
+The signal "l1_dina_90_IBUF" is unused and has been removed.
+ Unused block "l1_dina_90_IBUF" (BUF) removed.
+  The signal "l1_dina<90>" is unused and has been removed.
+   Unused block "l1_dina<90>" (PAD) removed.
+The signal "l1_dina_89_IBUF" is unused and has been removed.
+ Unused block "l1_dina_89_IBUF" (BUF) removed.
+  The signal "l1_dina<89>" is unused and has been removed.
+   Unused block "l1_dina<89>" (PAD) removed.
+The signal "l1_dina_88_IBUF" is unused and has been removed.
+ Unused block "l1_dina_88_IBUF" (BUF) removed.
+  The signal "l1_dina<88>" is unused and has been removed.
+   Unused block "l1_dina<88>" (PAD) removed.
+The signal "l1_dina_87_IBUF" is unused and has been removed.
+ Unused block "l1_dina_87_IBUF" (BUF) removed.
+  The signal "l1_dina<87>" is unused and has been removed.
+   Unused block "l1_dina<87>" (PAD) removed.
+The signal "l1_dina_86_IBUF" is unused and has been removed.
+ Unused block "l1_dina_86_IBUF" (BUF) removed.
+  The signal "l1_dina<86>" is unused and has been removed.
+   Unused block "l1_dina<86>" (PAD) removed.
+The signal "l1_dina_85_IBUF" is unused and has been removed.
+ Unused block "l1_dina_85_IBUF" (BUF) removed.
+  The signal "l1_dina<85>" is unused and has been removed.
+   Unused block "l1_dina<85>" (PAD) removed.
+The signal "l1_dina_84_IBUF" is unused and has been removed.
+ Unused block "l1_dina_84_IBUF" (BUF) removed.
+  The signal "l1_dina<84>" is unused and has been removed.
+   Unused block "l1_dina<84>" (PAD) removed.
+The signal "l1_dina_83_IBUF" is unused and has been removed.
+ Unused block "l1_dina_83_IBUF" (BUF) removed.
+  The signal "l1_dina<83>" is unused and has been removed.
+   Unused block "l1_dina<83>" (PAD) removed.
+The signal "l1_dina_82_IBUF" is unused and has been removed.
+ Unused block "l1_dina_82_IBUF" (BUF) removed.
+  The signal "l1_dina<82>" is unused and has been removed.
+   Unused block "l1_dina<82>" (PAD) removed.
+The signal "l1_dina_81_IBUF" is unused and has been removed.
+ Unused block "l1_dina_81_IBUF" (BUF) removed.
+  The signal "l1_dina<81>" is unused and has been removed.
+   Unused block "l1_dina<81>" (PAD) removed.
+The signal "l1_dina_80_IBUF" is unused and has been removed.
+ Unused block "l1_dina_80_IBUF" (BUF) removed.
+  The signal "l1_dina<80>" is unused and has been removed.
+   Unused block "l1_dina<80>" (PAD) removed.
+The signal "l1_dina_79_IBUF" is unused and has been removed.
+ Unused block "l1_dina_79_IBUF" (BUF) removed.
+  The signal "l1_dina<79>" is unused and has been removed.
+   Unused block "l1_dina<79>" (PAD) removed.
+The signal "l1_dina_78_IBUF" is unused and has been removed.
+ Unused block "l1_dina_78_IBUF" (BUF) removed.
+  The signal "l1_dina<78>" is unused and has been removed.
+   Unused block "l1_dina<78>" (PAD) removed.
+The signal "l1_dina_77_IBUF" is unused and has been removed.
+ Unused block "l1_dina_77_IBUF" (BUF) removed.
+  The signal "l1_dina<77>" is unused and has been removed.
+   Unused block "l1_dina<77>" (PAD) removed.
+The signal "l1_dina_76_IBUF" is unused and has been removed.
+ Unused block "l1_dina_76_IBUF" (BUF) removed.
+  The signal "l1_dina<76>" is unused and has been removed.
+   Unused block "l1_dina<76>" (PAD) removed.
+The signal "l1_dina_75_IBUF" is unused and has been removed.
+ Unused block "l1_dina_75_IBUF" (BUF) removed.
+  The signal "l1_dina<75>" is unused and has been removed.
+   Unused block "l1_dina<75>" (PAD) removed.
+The signal "l1_dina_74_IBUF" is unused and has been removed.
+ Unused block "l1_dina_74_IBUF" (BUF) removed.
+  The signal "l1_dina<74>" is unused and has been removed.
+   Unused block "l1_dina<74>" (PAD) removed.
+The signal "l1_dina_73_IBUF" is unused and has been removed.
+ Unused block "l1_dina_73_IBUF" (BUF) removed.
+  The signal "l1_dina<73>" is unused and has been removed.
+   Unused block "l1_dina<73>" (PAD) removed.
+The signal "l1_dina_72_IBUF" is unused and has been removed.
+ Unused block "l1_dina_72_IBUF" (BUF) removed.
+  The signal "l1_dina<72>" is unused and has been removed.
+   Unused block "l1_dina<72>" (PAD) removed.
+The signal "l1_dina_71_IBUF" is unused and has been removed.
+ Unused block "l1_dina_71_IBUF" (BUF) removed.
+  The signal "l1_dina<71>" is unused and has been removed.
+   Unused block "l1_dina<71>" (PAD) removed.
+The signal "l1_dina_70_IBUF" is unused and has been removed.
+ Unused block "l1_dina_70_IBUF" (BUF) removed.
+  The signal "l1_dina<70>" is unused and has been removed.
+   Unused block "l1_dina<70>" (PAD) removed.
+The signal "l1_dina_69_IBUF" is unused and has been removed.
+ Unused block "l1_dina_69_IBUF" (BUF) removed.
+  The signal "l1_dina<69>" is unused and has been removed.
+   Unused block "l1_dina<69>" (PAD) removed.
+The signal "l1_dina_68_IBUF" is unused and has been removed.
+ Unused block "l1_dina_68_IBUF" (BUF) removed.
+  The signal "l1_dina<68>" is unused and has been removed.
+   Unused block "l1_dina<68>" (PAD) removed.
+The signal "l1_dina_67_IBUF" is unused and has been removed.
+ Unused block "l1_dina_67_IBUF" (BUF) removed.
+  The signal "l1_dina<67>" is unused and has been removed.
+   Unused block "l1_dina<67>" (PAD) removed.
+The signal "l1_dina_66_IBUF" is unused and has been removed.
+ Unused block "l1_dina_66_IBUF" (BUF) removed.
+  The signal "l1_dina<66>" is unused and has been removed.
+   Unused block "l1_dina<66>" (PAD) removed.
+The signal "l1_dina_65_IBUF" is unused and has been removed.
+ Unused block "l1_dina_65_IBUF" (BUF) removed.
+  The signal "l1_dina<65>" is unused and has been removed.
+   Unused block "l1_dina<65>" (PAD) removed.
+The signal "l1_dina_64_IBUF" is unused and has been removed.
+ Unused block "l1_dina_64_IBUF" (BUF) removed.
+  The signal "l1_dina<64>" is unused and has been removed.
+   Unused block "l1_dina<64>" (PAD) removed.
+Unused block
+"l1_mem/l1_block0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+str/ramloop[1].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram" (RAMB16BWER) removed.
+Unused block
+"l1_mem/l1_block1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+str/ramloop[1].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram" (RAMB16BWER) removed.
+Unused block
+"l1_mem/l1_block2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+str/ramloop[1].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram" (RAMB16BWER) removed.
+Unused block
+"l1_mem/l1_block3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+str/ramloop[1].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram" (RAMB16BWER) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND
+		l1_lru/lru0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_GND
+VCC
+		l1_lru/lru0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_VCC
+GND 		l1_lru/lru0/XST_GND
+VCC 		l1_lru/lru0/XST_VCC
+GND
+		l1_lru/lru1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_GND
+VCC
+		l1_lru/lru1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_VCC
+GND 		l1_lru/lru1/XST_GND
+VCC 		l1_lru/lru1/XST_VCC
+GND
+		l1_lru/lru2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_GND
+VCC
+		l1_lru/lru2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_VCC
+GND 		l1_lru/lru2/XST_GND
+VCC 		l1_lru/lru2/XST_VCC
+GND
+		l1_lru/lru3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_GND
+VCC
+		l1_lru/lru3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_VCC
+GND 		l1_lru/lru3/XST_GND
+VCC 		l1_lru/lru3/XST_VCC
+GND
+		l1_mem/l1_block0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_GND
+VCC
+		l1_mem/l1_block0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_VCC
+GND 		l1_mem/l1_block0/XST_GND
+VCC 		l1_mem/l1_block0/XST_VCC
+GND
+		l1_mem/l1_block1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_GND
+VCC
+		l1_mem/l1_block1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_VCC
+GND 		l1_mem/l1_block1/XST_GND
+VCC 		l1_mem/l1_block1/XST_VCC
+GND
+		l1_mem/l1_block2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_GND
+VCC
+		l1_mem/l1_block2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_VCC
+GND 		l1_mem/l1_block2/XST_GND
+VCC 		l1_mem/l1_block2/XST_VCC
+GND
+		l1_mem/l1_block3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_GND
+VCC
+		l1_mem/l1_block3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.
+cstr/XST_VCC
+GND 		l1_mem/l1_block3/XST_GND
+VCC 		l1_mem/l1_block3/XST_VCC
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clka                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<4>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<5>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<6>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<7>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<8>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<9>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<10>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<11>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<12>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<13>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<14>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_addra<15>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<0>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<1>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<2>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<3>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<4>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<5>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<6>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<7>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<8>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<9>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<10>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<11>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<12>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<13>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<14>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<15>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<16>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<17>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<18>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<19>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<20>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<21>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<22>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<23>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<24>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<25>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<26>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<27>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<28>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<29>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<30>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<31>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<32>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<33>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<34>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<35>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<36>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<37>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<38>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<39>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<40>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<41>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<42>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<43>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<44>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<45>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<46>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<47>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<48>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<49>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<50>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<51>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<52>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<53>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<54>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<55>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<56>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<57>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<58>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<59>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<60>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<61>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<62>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_dina<63>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_hit                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| l1_lru_complete                    | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| l1_lru_update                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| l1_wea                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| lru_0<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_0<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_1<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_1<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_2<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_2<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_3<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| lru_3<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag0<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag1<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag2<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| tag3<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

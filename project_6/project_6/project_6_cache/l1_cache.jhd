@@ -1,0 +1,9 @@
+MODULE l1_cache
+	SUBMODULE L1_cache_block
+		INSTANCE XLXI_1
+	SUBMODULE L1_cache_block
+		INSTANCE XLXI_2
+	SUBMODULE L1_cache_block
+		INSTANCE XLXI_3
+	SUBMODULE L1_cache_block
+		INSTANCE XLXI_4

@@ -1,0 +1,37 @@
+Release 14.1 ngdbuild P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc port_map.ucf -p xc6slx45-csg324-3
+L1_cache.ngc L1_cache.ngd
+
+Reading NGO file "C:/Xilinx projects/cache_final_1/L1_cache.ngc" ...
+Loading design module "ipcore_dir/L1_block_ram.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "port_map.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 154100 kilobytes
+
+Writing NGD file "L1_cache.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "L1_cache.bld"...

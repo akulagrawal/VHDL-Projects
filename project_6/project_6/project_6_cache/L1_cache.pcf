@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Thu Mar 29 20:37:35 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "fx2Clk_in" LOCATE = SITE "C10" LEVEL 1;
+COMP "led_out<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "led_out<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "led_out<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "led_out<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "add<0>" LOCATE = SITE "P12" LEVEL 1;
+COMP "add<1>" LOCATE = SITE "R5" LEVEL 1;
+COMP "add<2>" LOCATE = SITE "T5" LEVEL 1;
+COMP "add<3>" LOCATE = SITE "E4" LEVEL 1;
+COMP "wea" LOCATE = SITE "F6" LEVEL 1;
+COMP "dina<0>" LOCATE = SITE "A10" LEVEL 1;
+COMP "dina<1>" LOCATE = SITE "D14" LEVEL 1;
+COMP "dina<2>" LOCATE = SITE "C14" LEVEL 1;
+COMP "dina<3>" LOCATE = SITE "P15" LEVEL 1;
+SCHEMATIC END;
+

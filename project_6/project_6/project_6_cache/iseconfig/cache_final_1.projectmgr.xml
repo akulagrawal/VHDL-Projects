@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="cache_final_1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/l1_cache_mem - Behavioral C:|Xilinx|cache_final_1|l2_cache_mem.vhd</ClosedNode>
+         <ClosedNode>/l1_lru_mem - Behavioral C:|Xilinx|newcache|l1_lru_mem.vhd</ClosedNode>
+         <ClosedNode>/l1_top_level - Behavioral C:|Xilinx|cache_final_1|l1_top_level.vhd/l1_lru - l1_lru_mem - Behavioral</ClosedNode>
+         <ClosedNode>/l1_top_level - Behavioral C:|Xilinx|cache_final_1|l1_top_level.vhd/l1_mem - l1_cache_mem - Behavioral</ClosedNode>
+         <ClosedNode>/l2_cache_mem - Behavioral C:|Xilinx|cache_final_1|l2_cache_mem.vhd</ClosedNode>
+         <ClosedNode>/l2_lru_mem - Behavioral C:|Xilinx|cache_final_1|l2_lru_mem.vhd</ClosedNode>
+         <ClosedNode>/l2_lru_mem - Behavioral C:|Xilinx|newcache|l2_lru_mem.vhd</ClosedNode>
+         <ClosedNode>/l2_top_level - Behavioral C:|Xilinx|cache_final_1|l2_top_level.vhd</ClosedNode>
+         <ClosedNode>/l2_top_level - Behavioral C:|Xilinx|cache_final_1|l2_top_level.vhd/l2_lru - l2_lru_mem - Behavioral</ClosedNode>
+         <ClosedNode>/l2_top_level - Behavioral C:|Xilinx|cache_final_1|l2_top_level.vhd/l2_mem - l2_cache_mem - Behavioral</ClosedNode>
+         <ClosedNode>/main_controller - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l1_top_level - l1_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/main_controller - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l2_top_level - l2_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/main_controller - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/trace_ram - trace_ram_wrapper - STRUCTURE</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l1_top_level - l1_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l1_top_level - l1_top_level - Behavioral/l1_lru - l1_lru_mem - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l1_top_level - l1_top_level - Behavioral/l1_mem - l1_cache_mem - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l2_top_level - l2_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l2_top_level - l2_top_level - Behavioral/l2_lru - l2_lru_mem - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l2_top_level - l2_top_level - Behavioral/l2_mem - l2_cache_mem - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/trace_ram - trace_ram_wrapper - STRUCTURE</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|newcache|getlocation.vhd/Inst_l1_top_level - l1_top_level - Behavioral/l1_mem - l1_cache_mem - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|newcache|getlocation.vhd/Inst_l2_top_level - l2_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|newcache|getlocation.vhd/trace_ram - trace_ram_wrapper - STRUCTURE</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>test_rx - Behavioral (C:/Xilinx/newcache/getlocation.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001cd000000020000000000000000000000000200000064ffffffff000000810000000300000002000001cd0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>test_rx - Behavioral (C:/Xilinx/newcache/getlocation.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Configure Target Device</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Configure Target Device</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff000000810000000000000004000000760000000100000000000000cc00000001000000000000005d0000000100000000000001330000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>L1_cache_block.xco</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000e0000000010001000100000000000000000000000064ffffffff000000810000000000000001000000e00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>User Constraints</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>User Constraints</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e0000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/l1_tb - behavior C:|Xilinx|cache_final_1|l1_tb.vhd</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l1_top_level - l1_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/Inst_l2_top_level - l2_top_level - Behavioral</ClosedNode>
+         <ClosedNode>/test_rx - Behavioral C:|Xilinx|cache_final_1|getlocation.vhd/trace_ram - trace_ram_wrapper - STRUCTURE</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Inst_l2_top_level - l2_top_level - Behavioral (C:/Xilinx/cache_final_1/l2_top_level.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001cc000000020000000000000000000000000200000064ffffffff000000810000000300000002000001cc0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Inst_l2_top_level - l2_top_level - Behavioral (C:/Xilinx/cache_final_1/l2_top_level.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

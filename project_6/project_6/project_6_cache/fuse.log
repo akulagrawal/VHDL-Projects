@@ -1,0 +1,54 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Xilinx projects/cache_final_1/l1_tb_isim_beh.exe -prj C:/Xilinx projects/cache_final_1/l1_tb_beh.prj work.l1_tb 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/ipcore_dir/L1_cache_block.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/ipcore_dir/l1_lru3.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/ipcore_dir/l1_lru2.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/ipcore_dir/l1_lru1.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/ipcore_dir/l1_lru0.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/l1_lru_mem.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/l1_comparator.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/l1_cache_mem.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/l1_top_level.vhd" into library work
+Parsing VHDL file "C:/Xilinx projects/cache_final_1/l1_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_1_output_stage [\BLK_MEM_GEN_V7_1_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_1_softecc_output_reg_stage [\BLK_MEM_GEN_V7_1_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture l1_cache_block_a of entity L1_cache_block [l1_cache_block_default]
+Compiling architecture behavioral of entity l1_cache_mem [l1_cache_mem_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_1_output_stage [\BLK_MEM_GEN_V7_1_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_1_softecc_output_reg_stage [\BLK_MEM_GEN_V7_1_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture l1_lru0_a of entity l1_lru0 [l1_lru0_default]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture l1_lru1_a of entity l1_lru1 [l1_lru1_default]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture l1_lru2_a of entity l1_lru2 [l1_lru2_default]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture l1_lru3_a of entity l1_lru3 [l1_lru3_default]
+Compiling architecture behavioral of entity l1_lru_mem [l1_lru_mem_default]
+Compiling architecture behavioral of entity l1_comparator [l1_comparator_default]
+Compiling architecture behavioral of entity l1_top_level [l1_top_level_default]
+Compiling architecture behavior of entity l1_tb
+Time Resolution for simulation is 1ps.
+Waiting for 23 sub-compilation(s) to finish...
+Compiled 54 VHDL Units
+Built simulation executable C:/Xilinx projects/cache_final_1/l1_tb_isim_beh.exe
+Fuse Memory Usage: 43216 KB
+Fuse CPU Usage: 1077 ms

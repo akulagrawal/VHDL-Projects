@@ -1,0 +1,13 @@
+net "clk" loc="L15";
+net "uart_txd" loc="B16";
+net "uart_rxd" loc="A16";
+net "data_i" loc="A10";
+#net "done" loc="M14";
+#
+net "data_o<0>" loc="U18";
+net "data_o<1>" loc="M14";
+net "data_o<2>" loc="N14";
+net "data_o<3>" loc="L14";
+net "data_o<4>" loc="M13";
+net "data_o<5>" loc="D4";
+net "data_o<6>" loc="P16";

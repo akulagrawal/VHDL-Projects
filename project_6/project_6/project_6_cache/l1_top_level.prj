@@ -1,0 +1,4 @@
+vhdl work "ipcore_dir/L1_cache_block.vhd"
+vhdl work "l1_comparator.vhd"
+vhdl work "l1_cache_mem.vhd"
+vhdl work "l1_top_level.vhd"

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/l2_top_level.xst" -ofn "C:/Xilinx/cache_final_1/l2_top_level.syr" 
+vhdtdtfi -prj cache_final_1 -o C:/Xilinx/cache_final_1/l2_top_level.vhi -module l2_top_level -template C:/Xilinx/14.1/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/L1_cache_block.vhd -lib work ipcore_dir/l2_lru7.vhd -lib work ipcore_dir/l2_lru6.vhd -lib work ipcore_dir/l2_lru5.vhd -lib work ipcore_dir/l2_lru4.vhd -lib work ipcore_dir/l2_lru3.vhd -lib work ipcore_dir/l2_lru2.vhd -lib work ipcore_dir/l2_lru1.vhd -lib work ipcore_dir/l2_lru0.vhd -lib work ipcore_dir/L2_cache_block.vhd -lib work l2_lru_mem.vhd -lib work l2_comparator.vhd -lib work l2_cache_mem.vhd -lib work l2_top_level.vhd 
+vhdtdtfi -prj cache_final_1 -o C:/Xilinx/cache_final_1/l2_top_level.vhi -module l2_top_level -template C:/Xilinx/14.1/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/L1_cache_block.vhd -lib work ipcore_dir/l2_lru7.vhd -lib work ipcore_dir/l2_lru6.vhd -lib work ipcore_dir/l2_lru5.vhd -lib work ipcore_dir/l2_lru4.vhd -lib work ipcore_dir/l2_lru3.vhd -lib work ipcore_dir/l2_lru2.vhd -lib work ipcore_dir/l2_lru1.vhd -lib work ipcore_dir/l2_lru0.vhd -lib work ipcore_dir/L2_cache_block.vhd -lib work l2_lru_mem.vhd -lib work l2_comparator.vhd -lib work l2_cache_mem.vhd -lib work l2_top_level.vhd 

@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.1\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml L1_cache.twx L1_cache.ncd -o L1_cache.twr L1_cache.pcf -ucf
+port_map.ucf
+
+Design file:              L1_cache.ncd
+Physical constraint file: L1_cache.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.21 2012-04-23)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock fx2Clk_in
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+add<0>      |    2.001(R)|      SLOW  |   -0.892(R)|      SLOW  |fx2Clk_in_BUFGP   |   0.000|
+add<1>      |    3.361(R)|      SLOW  |   -2.093(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+add<2>      |    3.215(R)|      SLOW  |   -1.808(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+add<3>      |    5.583(R)|      SLOW  |   -2.965(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+dina<0>     |    5.394(R)|      SLOW  |   -3.155(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+dina<1>     |    4.828(R)|      SLOW  |   -2.829(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+dina<2>     |    4.626(R)|      SLOW  |   -2.747(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+dina<3>     |    1.553(R)|      SLOW  |   -0.526(R)|      SLOW  |fx2Clk_in_BUFGP   |   0.000|
+wea         |    5.271(R)|      SLOW  |   -3.023(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock fx2Clk_in to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led_out<0>  |         9.700(R)|      SLOW  |         4.973(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+led_out<1>  |         9.873(R)|      SLOW  |         5.064(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+led_out<2>  |        10.140(R)|      SLOW  |         5.747(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+led_out<3>  |        10.254(R)|      SLOW  |         5.803(R)|      FAST  |fx2Clk_in_BUFGP   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+
+Analysis completed Thu Mar 29 20:37:59 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 208 MB
+
+
+

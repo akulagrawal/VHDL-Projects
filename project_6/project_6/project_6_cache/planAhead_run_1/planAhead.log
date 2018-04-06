@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# PlanAhead v14.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Fri Mar 30 02:42:23 2018
+# Process ID: 10292
+# Log file: C:/Xilinx projects/cache_final_1/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx projects/cache_final_1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Device-36] Loading parts and site information from C:/Xilinx/14.1/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.1/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.1/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Xilinx projects/cache_final_1/pa.fromNetlist.tcl}
+# create_project -name cache_final_1 -dir "C:/Xilinx projects/cache_final_1/planAhead_run_2" -part xc6slx45csg324-3
+Parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Xilinx projects/cache_final_1/l1_top_level.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Xilinx projects/cache_final_1} {ipcore_dir} }
+# add_files [list {ipcore_dir/L1_block_ram.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/L1_cache_block.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/l1_lru0.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/l1_lru1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/l1_lru2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/l1_lru3.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/L2_cache_block.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/l2_lru0.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/l2_lru1.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "port_map.ucf" [current_fileset -constrset]
+Adding file 'C:\Xilinx projects\cache_final_1\port_map.ucf' to fileset 'constrs_1'
+# add_files [list {port_map.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx45csg324-3
+Release 14.1 - ngc2edif P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design l1_top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to l1_top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file l1_top_level.edif ...
+ngc2edif: Total memory usage is 88780 kilobytes
+
+Parsing EDIF File [.\planAhead_run_2\cache_final_1.data\cache\l1_top_level_ngc_42722522.edif]
+ERROR: 'rdi::source' was cancelled
+exit
+INFO: [Common-206] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\Xilinx projects\cache_final_1\l1_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx projects/cache_final_1/l1_tb_isim_beh.wdb 
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 5 ns(1), Instance /l1_tb/uut/l1_lru/lru0/U0/native_mem_module/mem_module/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 5 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_lru/lru0/U0/native_mem_module/mem_module/).
+at 5 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_lru/lru1/U0/native_mem_module/mem_module/).
+at 5 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_lru/lru2/U0/native_mem_module/mem_module/).
+at 5 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_lru/lru3/U0/native_mem_module/mem_module/).
+at 35 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_mem/l1_block3/U0/native_mem_module/mem_module/).
+at 95 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_mem/l1_block2/U0/native_mem_module/mem_module/).
+at 155 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_mem/l1_block1/U0/native_mem_module/mem_module/).
+at 255 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/l1_tb/uut/l1_mem/l1_block0/U0/native_mem_module/mem_module/).

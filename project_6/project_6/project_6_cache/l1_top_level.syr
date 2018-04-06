@@ -1,0 +1,558 @@
+Release 14.1 - xst P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Reading design: l1_top_level.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "l1_top_level.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "l1_top_level"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : l1_top_level
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\L1_cache_block.vhd" into library work
+Parsing entity <L1_cache_block>.
+Parsing architecture <L1_cache_block_a> of entity <l1_cache_block>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru3.vhd" into library work
+Parsing entity <l1_lru3>.
+Parsing architecture <l1_lru3_a> of entity <l1_lru3>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru2.vhd" into library work
+Parsing entity <l1_lru2>.
+Parsing architecture <l1_lru2_a> of entity <l1_lru2>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru1.vhd" into library work
+Parsing entity <l1_lru1>.
+Parsing architecture <l1_lru1_a> of entity <l1_lru1>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\ipcore_dir\l1_lru0.vhd" into library work
+Parsing entity <l1_lru0>.
+Parsing architecture <l1_lru0_a> of entity <l1_lru0>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_lru_mem.vhd" into library work
+Parsing entity <l1_lru_mem>.
+Parsing architecture <Behavioral> of entity <l1_lru_mem>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_comparator.vhd" into library work
+Parsing entity <l1_comparator>.
+Parsing architecture <Behavioral> of entity <l1_comparator>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_cache_mem.vhd" into library work
+Parsing entity <l1_cache_mem>.
+Parsing architecture <Behavioral> of entity <l1_cache_mem>.
+Parsing VHDL file "C:\Xilinx\cache_final_1\l1_top_level.vhd" into library work
+Parsing entity <l1_top_level>.
+Parsing architecture <Behavioral> of entity <l1_top_level>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <l1_top_level> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l1_cache_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <L1_cache_block> (architecture <L1_cache_block_a>) from library <work>.
+
+Elaborating entity <l1_lru_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <l1_lru0> (architecture <l1_lru0_a>) from library <work>.
+
+Elaborating entity <l1_lru1> (architecture <l1_lru1_a>) from library <work>.
+
+Elaborating entity <l1_lru2> (architecture <l1_lru2_a>) from library <work>.
+
+Elaborating entity <l1_lru3> (architecture <l1_lru3_a>) from library <work>.
+
+Elaborating entity <l1_comparator> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l1_top_level.vhd" Line 269: Variable prev_val0 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l1_top_level.vhd" Line 270: Variable prev_val1 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l1_top_level.vhd" Line 271: Variable prev_val2 does not hold its value under NOT(clock-edge) condition
+WARNING:HDLCompiler:1853 - "C:\Xilinx\cache_final_1\l1_top_level.vhd" Line 272: Variable prev_val3 does not hold its value under NOT(clock-edge) condition
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <l1_top_level>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_top_level.vhd".
+WARNING:Xst:647 - Input <l1_addra<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 2-bit register for signal <lru_update.min_val>.
+    Found 2-bit register for signal <lru_in0>.
+    Found 2-bit register for signal <lru_in1>.
+    Found 2-bit register for signal <lru_in2>.
+    Found 2-bit register for signal <lru_in3>.
+    Found 1-bit register for signal <lru_wea0>.
+    Found 1-bit register for signal <lru_wea1>.
+    Found 1-bit register for signal <lru_wea2>.
+    Found 1-bit register for signal <lru_wea3>.
+    Found 2-bit register for signal <update_state>.
+    Found 1-bit register for signal <l1_lru_complete>.
+    Found 1-bit register for signal <wea0>.
+    Found 1-bit register for signal <wea1>.
+    Found 1-bit register for signal <wea2>.
+    Found 1-bit register for signal <wea3>.
+    Found 1-bit register for signal <write_state>.
+    Found 1-bit register for signal <ini>.
+    Found finite state machine <FSM_0> for signal <update_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clka (rising_edge)                             |
+    | Power Up State     | start_update                                   |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit adder for signal <lru_out0[1]_GND_6_o_add_29_OUT> created at line 304.
+    Found 2-bit adder for signal <lru_out1[1]_GND_6_o_add_32_OUT> created at line 307.
+    Found 2-bit adder for signal <lru_out2[1]_GND_6_o_add_35_OUT> created at line 310.
+    Found 2-bit adder for signal <lru_out3[1]_GND_6_o_add_38_OUT> created at line 313.
+    Found 2-bit comparator greater for signal <lru_out0[1]_lru_update.min_val[1]_LessThan_29_o> created at line 303
+    Found 2-bit comparator greater for signal <lru_out1[1]_lru_update.min_val[1]_LessThan_32_o> created at line 306
+    Found 2-bit comparator greater for signal <lru_out2[1]_lru_update.min_val[1]_LessThan_35_o> created at line 309
+    Found 2-bit comparator greater for signal <lru_out3[1]_lru_update.min_val[1]_LessThan_38_o> created at line 312
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  12 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <l1_top_level> synthesized.
+
+Synthesizing Unit <l1_cache_mem>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_cache_mem.vhd".
+    Summary:
+	no macro.
+Unit <l1_cache_mem> synthesized.
+
+Synthesizing Unit <l1_lru_mem>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_lru_mem.vhd".
+    Summary:
+	no macro.
+Unit <l1_lru_mem> synthesized.
+
+Synthesizing Unit <l1_comparator>.
+    Related source file is "C:\Xilinx\cache_final_1\l1_comparator.vhd".
+    Summary:
+Unit <l1_comparator> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 4
+# Registers                                            : 16
+ 1-bit register                                        : 11
+ 2-bit register                                        : 5
+# Comparators                                          : 4
+ 2-bit comparator greater                              : 4
+# Multiplexers                                         : 12
+ 2-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 1
+# Xors                                                 : 28
+ 1-bit xor2                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/L1_cache_block.ngc>.
+Reading core <ipcore_dir/l1_lru0.ngc>.
+Reading core <ipcore_dir/l1_lru1.ngc>.
+Reading core <ipcore_dir/l1_lru2.ngc>.
+Reading core <ipcore_dir/l1_lru3.ngc>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block0>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block1>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block2>.
+Loading core <L1_cache_block> for timing and area information for instance <l1_block3>.
+Loading core <l1_lru0> for timing and area information for instance <lru0>.
+Loading core <l1_lru1> for timing and area information for instance <lru1>.
+Loading core <l1_lru2> for timing and area information for instance <lru2>.
+Loading core <l1_lru3> for timing and area information for instance <lru3>.
+WARNING:Xst:1426 - The value init of the FF/Latch ini hinder the constant cleaning in the block l1_top_level.
+   You should achieve better results by setting this init to 0.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 4
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+# Comparators                                          : 4
+ 2-bit comparator greater                              : 4
+# Multiplexers                                         : 12
+ 2-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 1
+# Xors                                                 : 28
+ 1-bit xor2                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch ini hinder the constant cleaning in the block l1_top_level.
+   You should achieve better results by setting this init to 0.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <update_state[1:2]> with user encoding.
+------------------------------
+ State            | Encoding
+------------------------------
+ start_update     | 00
+ l1_wea_down      | 01
+ l1_complete_down | 10
+------------------------------
+INFO:Xst:2261 - The FF/Latch <lru_wea0> in Unit <l1_top_level> is equivalent to the following 3 FFs/Latches, which will be removed : <lru_wea1> <lru_wea2> <lru_wea3> 
+
+Optimizing unit <l1_top_level> ...
+INFO:Xst:2261 - The FF/Latch <lru_wea0> in Unit <l1_top_level> is equivalent to the following FF/Latch, which will be removed : <update_state_FSM_FFd2> 
+INFO:Xst:2261 - The FF/Latch <l1_lru_complete> in Unit <l1_top_level> is equivalent to the following FF/Latch, which will be removed : <update_state_FSM_FFd1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block l1_top_level, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : l1_top_level.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 98
+#      GND                         : 17
+#      INV                         : 3
+#      LUT2                        : 3
+#      LUT3                        : 5
+#      LUT4                        : 8
+#      LUT5                        : 15
+#      LUT6                        : 28
+#      MUXF7                       : 2
+#      VCC                         : 17
+# FlipFlops/Latches                : 18
+#      FD                          : 1
+#      FDE                         : 13
+#      FDRE                        : 4
+# RAMS                             : 12
+#      RAMB16BWER                  : 8
+#      RAMB8BWER                   : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 180
+#      IBUF                        : 142
+#      OBUF                        : 38
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              18  out of  54576     0%  
+ Number of Slice LUTs:                   62  out of  27288     0%  
+    Number used as Logic:                62  out of  27288     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     80
+   Number with an unused Flip Flop:      62  out of     80    77%  
+   Number with an unused LUT:            18  out of     80    22%  
+   Number of fully used LUT-FF pairs:     0  out of     80     0%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                         313
+ Number of bonded IOBs:                 181  out of    218    83%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               10  out of    116     8%  
+    Number using Block RAM only:         10
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clka                               | BUFGP                  | 30    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 7.912ns (Maximum Frequency: 126.386MHz)
+   Minimum input arrival time before clock: 7.621ns
+   Maximum output required time after clock: 8.179ns
+   Maximum combinational path delay: 7.888ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clka'
+  Clock period: 7.912ns (frequency: 126.386MHz)
+  Total number of paths / destination ports: 2044 / 122
+-------------------------------------------------------------------------
+Delay:               7.912ns (Levels of Logic = 6)
+  Source:            l1_mem/l1_block3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram (RAM)
+  Destination:       lru_in0_0 (FF)
+  Source Clock:      clka rising
+  Destination Clock: clka rising
+
+  Data Path: l1_mem/l1_block3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram to lru_in0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKA->DOA7    1   1.850   0.808  ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram (DOUTA<7>)
+     end scope: 'l1_mem/l1_block3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr:DOUTA<7>'
+     end scope: 'l1_mem/l1_block3:douta<7>'
+     LUT5:I2->O            1   0.205   0.684  L1_comparator_3/equal1 (L1_comparator_3/equal)
+     LUT6:I4->O            6   0.203   0.973  L1_comparator_3/equal3 (equal_3)
+     LUT5:I2->O            3   0.205   0.755  Mmux_lru_update.min_val[1]_lru_out0[1]_mux_17_OUT21 (Mmux_lru_update.min_val[1]_lru_out0[1]_mux_17_OUT2)
+     LUT5:I3->O           11   0.203   0.883  Mmux_lru_update.min_val[1]_lru_out0[1]_mux_17_OUT24 (lru_update.min_val[1]_lru_out0[1]_mux_17_OUT<0>)
+     LUT6:I5->O            2   0.205   0.616  _n0251_inv2 (_n0251_inv2)
+     FDE:CE                    0.322          lru_in2_0
+    ----------------------------------------
+    Total                      7.912ns (3.193ns logic, 4.719ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clka'
+  Total number of paths / destination ports: 2065 / 687
+-------------------------------------------------------------------------
+Offset:              7.621ns (Levels of Logic = 6)
+  Source:            l1_addra<15> (PAD)
+  Destination:       lru_in0_0 (FF)
+  Destination Clock: clka rising
+
+  Data Path: l1_addra<15> to lru_in0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   1.147  l1_addra_15_IBUF (l1_addra_15_IBUF)
+     LUT5:I0->O            1   0.203   0.684  L1_comparator_3/equal1 (L1_comparator_3/equal)
+     LUT6:I4->O            6   0.203   0.973  L1_comparator_3/equal3 (equal_3)
+     LUT5:I2->O            3   0.205   0.755  Mmux_lru_update.min_val[1]_lru_out0[1]_mux_17_OUT21 (Mmux_lru_update.min_val[1]_lru_out0[1]_mux_17_OUT2)
+     LUT5:I3->O           11   0.203   0.883  Mmux_lru_update.min_val[1]_lru_out0[1]_mux_17_OUT24 (lru_update.min_val[1]_lru_out0[1]_mux_17_OUT<0>)
+     LUT6:I5->O            2   0.205   0.616  _n0251_inv2 (_n0251_inv2)
+     FDE:CE                    0.322          lru_in2_0
+    ----------------------------------------
+    Total                      7.621ns (2.563ns logic, 5.058ns route)
+                                       (33.6% logic, 66.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clka'
+  Total number of paths / destination ports: 69 / 38
+-------------------------------------------------------------------------
+Offset:              8.179ns (Levels of Logic = 5)
+  Source:            l1_mem/l1_block0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram (RAM)
+  Destination:       l1_hit (PAD)
+  Source Clock:      clka rising
+
+  Data Path: l1_mem/l1_block0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram to l1_hit
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKA->DOA7    1   1.850   0.808  ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM18.ram (DOUTA<7>)
+     end scope: 'l1_mem/l1_block0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr:DOUTA<7>'
+     end scope: 'l1_mem/l1_block0:douta<7>'
+     LUT5:I2->O            1   0.205   0.684  L1_comparator_0/equal1 (L1_comparator_0/equal)
+     LUT6:I4->O            9   0.203   1.077  L1_comparator_0/equal3 (equal_0)
+     LUT4:I0->O            1   0.203   0.579  l1_hit1 (l1_hit_OBUF)
+     OBUF:I->O                 2.571          l1_hit_OBUF (l1_hit)
+    ----------------------------------------
+    Total                      8.179ns (5.032ns logic, 3.147ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 28 / 1
+-------------------------------------------------------------------------
+Delay:               7.888ns (Levels of Logic = 5)
+  Source:            l1_addra<15> (PAD)
+  Destination:       l1_hit (PAD)
+
+  Data Path: l1_addra<15> to l1_hit
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   1.147  l1_addra_15_IBUF (l1_addra_15_IBUF)
+     LUT5:I0->O            1   0.203   0.684  L1_comparator_0/equal1 (L1_comparator_0/equal)
+     LUT6:I4->O            9   0.203   1.077  L1_comparator_0/equal3 (equal_0)
+     LUT4:I0->O            1   0.203   0.579  l1_hit1 (l1_hit_OBUF)
+     OBUF:I->O                 2.571          l1_hit_OBUF (l1_hit)
+    ----------------------------------------
+    Total                      7.888ns (4.402ns logic, 3.486ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clka
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clka           |    7.912|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.26 secs
+ 
+--> 
+
+Total memory usage is 245532 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

@@ -1,0 +1,276 @@
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/cache_final_1/test_rx.xst" -ofn "C:/Xilinx/cache_final_1/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/newcache/test_rx.xst" -ofn "C:/Xilinx/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 test_rx.ngc test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 
+xst -intstyle ise -ifn "C:/Xilinx projects/newcache/test_rx.xst" -ofn "C:/Xilinx projects/newcache/test_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc portmap.ucf -p xc6slx45-csg324-3 "test_rx.ngc" test_rx.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_rx_map.ncd test_rx.ngd test_rx.pcf 
+par -w -intstyle ise -ol high -mt off test_rx_map.ncd test_rx.ncd test_rx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_rx.twx test_rx.ncd -o test_rx.twr test_rx.pcf -ucf portmap.ucf 
+bitgen -intstyle ise -f test_rx.ut test_rx.ncd 

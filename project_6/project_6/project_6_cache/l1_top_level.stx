@@ -1,0 +1,67 @@
+Release 14.1 - xst P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Xilinx/newcache/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to C:/Xilinx/newcache/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: l1_top_level.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Xilinx\newcache\ipcore_dir\L1_cache_block.vhd" into library work
+Parsing entity <L1_cache_block>.
+Parsing architecture <L1_cache_block_a> of entity <l1_cache_block>.
+Parsing VHDL file "C:\Xilinx\newcache\l1_comparator.vhd" into library work
+Parsing entity <l1_comparator>.
+Parsing architecture <Behavioral> of entity <l1_comparator>.
+Parsing VHDL file "C:\Xilinx\newcache\l1_cache_mem.vhd" into library work
+Parsing entity <l1_cache_mem>.
+Parsing architecture <Behavioral> of entity <l1_cache_mem>.
+Parsing VHDL file "C:\Xilinx\newcache\l1_top_level.vhd" into library work
+Parsing entity <l1_top_level>.
+Parsing architecture <Behavioral> of entity <l1_top_level>.
+ERROR:HDLCompiler:1728 - "C:\Xilinx\newcache\l1_top_level.vhd" Line 328: Type error near lru_in0 ; current type std_logic_vector; expected type lru_array
+ERROR:HDLCompiler:1728 - "C:\Xilinx\newcache\l1_top_level.vhd" Line 329: Type error near lru_in1 ; current type std_logic_vector; expected type lru_array
+ERROR:HDLCompiler:1728 - "C:\Xilinx\newcache\l1_top_level.vhd" Line 330: Type error near lru_in2 ; current type std_logic_vector; expected type lru_array
+ERROR:HDLCompiler:1728 - "C:\Xilinx\newcache\l1_top_level.vhd" Line 331: Type error near lru_in3 ; current type std_logic_vector; expected type lru_array
+ERROR:HDLCompiler:854 - "C:\Xilinx\newcache\l1_top_level.vhd" Line 54: Unit <behavioral> ignored due to previous errors.
+VHDL file C:\Xilinx\newcache\l1_top_level.vhd ignored due to errors
+--> 
+
+Total memory usage is 204784 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
