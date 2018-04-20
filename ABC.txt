@@ -1,0 +1,1774 @@
+JOURNAL
+ARTICLE
+10.1177/0022002704272040
+Victoroff
+/ THE
+OF CONFLICT
+MIND OF THE
+RESOLUTION
+TERRORIST
+
+The Mind of the Terrorist
+A REVIEW AND CRITIQUE OF PSYCHOLOGICAL APPROACHES
+
+JEFF VICTOROFF
+Department of Neurology and Psychiatry
+University of Southern California School of Medicine
+
+This article reviews the state of the art of available theories and data regarding the psychology of terrorism. Data and theoretical material were gathered from the world’s unclassified literature. Multiple theories
+and some demographic data have been published, but very few controlled empirical studies have been conducted investigating the psychological bases of terrorism. The field is largely characterized by theoretical
+speculation based on subjective interpretation of anecdotal observations. Moreover, most studies and theories fail to take into account the great heterogeneity of terrorists. Many practical, conceptual, and psychological barriers have slowed progress in this important field. Nonetheless, even at this early stage of terrorism
+studies, preliminary reports suggest that modifiable social and psychological factors contribute to the genesis of the terrorist mind-set. Psychological scholarship could possibly mitigate the risk of catastrophic attack
+by initiating the long overdue scientific study of terrorist mentalities.
+Keywords: terrorism; terrorist; psychiatry; psychology; sociology; homeland security
+
+T
+
+errorism has surely existed since before the dawn of recorded history (Merari and
+Friedland 1985). Human nature has not changed. However, three interlocking trends
+have significantly changed the nature and degree of the threat: the globalization of
+commerce, travel, and information transfer, which puts economic disparities and ideological competition in sharp relief and facilitates cooperative aggression by far-flung
+but like-minded conspirators; the ascent of religious fundamentalism as an aggrieved
+competitor with the market-economic, democratic, and secular trends of modernity;
+and the privatization of weapons of mass destruction, putting the potential of macroterrorist acts into the hands of small groups or even individuals (Hoffman 1998;
+Laqueur 1999; Enders and Sandler 2000). September 11, 2001, is one result—and
+probably a warning of events to come (Gunaratna 2002). It perhaps would not be an
+exaggeration to state that these fast-evolving trends together constitute a clear and
+present danger to the security of civilization (Stern 1999).
+AUTHOR’S NOTE: This work was supported in part by a grant from the Freya Foundation for Brain,
+Behavior, and Society. I gratefully acknowledge critical reviews of this manuscript by Jessica Stern and Todd
+Sandler. It represents a revision of a lecture first presented at the annual meeting of the American Neuropsychiatric Association, San Diego, California, March 2002. Address reprint requests to victorof@usc.edu.
+JOURNAL OF CONFLICT RESOLUTION, Vol. 49 No. 1, February 2005 3-42
+DOI: 10.1177/0022002704272040
+© 2005 Sage Publications
+
+3
+
+4
+
+JOURNAL OF CONFLICT RESOLUTION
+
+It would seem appropriate for the scholarly disciplines of psychology and psychiatry to bring their intellectual resources to bear on the political problem of terrorism, a
+problem that—stripped to the basics—is one of atypical human behavior. Apart from a
+drive for truth, political psychological theory advises that the better a target group
+understands the roots of the terrorist mind-set, the better that group may develop policies to effectively manage the risk (Wardlaw 1989; Clayton, Barlow, and BallifSpanvill 1998). Despite the compelling need for such an understanding, many theoretical and practical impediments have delayed, and perhaps even derailed, the objective
+scientific psychological study of terrorism (Reich 1998; Horgan 2003). Indeed, the
+following question must be asked: to what degree are leading psychological theories
+of terrorism supported by valid concepts and objective research? A comprehensive
+review of the literature suggests that a lack of systematic scholarly investigation has
+left policy makers to design counterterrorism strategies without the benefit of facts
+regarding the origin of terrorist behavior—or, worse, guided by theoretical presumptions couched as facts. Investigating the terrorist mind may be a necessary first step
+toward actualizing modern political psychology’s potential for uncovering the bases
+of terrorist aggression and designing an optimum counterterrorism policy.
+Information for this article was derived from a review of the unclassified literature
+on psychosocial aspects of terrorism, including peer-reviewed articles, books and
+book chapters, news reports, and personal communications with terrorism experts.
+Scholarly articles were identified by a search for the term terrorism in the following
+databases: PsychINFO (1887-2003), Sociological Abstracts (1974-2003), Medline
+(1966-2003), and Lexis-Nexis Academic Universe (1980-2003), as well as from bibliographies of the identified articles. This article critically reviews published theories of
+the psychological bases of terrorism, reviews the psychosocial data describing terrorists, defines the limits of and impediments to inquiry in this field, and offers a preliminary political-psychological classification of terrorism.
+DEFINITION AND DIMENSIONS
+OF TERRORIST BEHAVIOR
+Schmid (1983) compiled 109 academic definitions of terrorism, suggesting that
+there are roughly as many available definitions as there are published experts in the
+field. The lack of consensus is to some extent inescapable, given the heterogeneity of
+terrorist behaviors, the variety of declared or assumed motivations, and the question of
+point of view, a.k.a., the “one man’s terrorist is another man’s freedom fighter” problem (Jenkins 1982; Hoffman 1998). Nonetheless, two common elements are usually
+found in contemporary definitions: (1) that terrorism involves aggression against noncombatants and (2) that the terrorist action in itself is not expected by its perpetrator to
+accomplish a political goal but instead to influence a target audience and change that
+audience’s behavior in a way that will serve the interests of the terrorist (Badey 1998;
+Laqueur 1999).
+The typology of terrorism is complex and controversial since actors can be characterized across multiple variables. Schultz (1980) proposed seven such variables—
+
+Victoroff / THE MIND OF THE TERRORIST
+
+5
+
+TABLE 1
+
+Dimensions of Terrorism
+Variable
+Perpetrator number
+Sponsorship
+Relation to authority
+Locale
+Military status
+Spiritual motivation
+Financial motivation
+Political ideology
+Hierarchical role
+Willingness to die
+Target
+Methodology
+
+Classification
+Individual vs. group
+State vs. substate vs. individual
+Anti-state/anti-establishment/separatist vs. pro-state/pro-establishment
+Intrastate vs. transnational
+Civilian vs. paramilitary or military
+Secular vs. religious
+Idealistic vs. entrepreneurial
+Leftist/socialist vs. rightist/fascist vs. anarchist
+Sponsor vs. leader versus middle management vs. follower
+Suicidal vs. nonsuicidal
+Property (including data) vs. individuals vs. masses of people
+Bombing, assassination, kidnapping/hostage taking, mass poisoning,
+rape, other (e.g., bioterrorism, cyberterrorism)
+
+causes, environment, goals, strategy, means, organization, and participation—that
+might be specified for revolutionary versus subrevolutionary terrorism. Post (2004)
+usefully divided political substate terrorism into (1) social revolutionary terrorism, (2)
+right-wing terrorism, (3) nationalist-separatist terrorism, (4) religious extremist terrorism, and (5) single-issue (e.g., animal rights) terrorism, proposing that each type
+tends to be associated with its own social-psychological dynamics. A more comprehensive typology is shown in Table 1, listing variables subject to analysis and classifications within those variables.
+Any such typology must be considered a heuristic compendium of ideal types, and
+classes should not necessarily be construed as dichotomous. For example, while many
+instances of collective violence unequivocally meet the criteria for state terrorism
+(e.g., the gassing of Iraqi civilians in Halabja), the distinction between state and
+substate terrorism can be blurred, as in the case of pro-government paramilitary death
+squads in South Africa or Columbia (Hoffman 1998; Stern 1999). It is an open question whether a particular type of mind is disproportionately associated with a given
+political category of terrorism. Yet another challenge to any psychological inquiry into
+the “mind of the terrorist” is that terrorist groups typically exhibit hierarchical organization, with various roles assumed within each level of that hierarchy (see Figure 1).
+Each position on such a matrix may attract individuals with different predispositions
+who perhaps play their roles because of profoundly different psychological factors.
+One might postulate, for example, that some leaders are more likely to be selfimagined idealists or altruists, others are driven by messianic delusions, others by ethnic or religious animus, and others by entrepreneurial ambitions—a point that seems
+clear when we intuit, for example, the differences of psychic attributes likely separating the three convicted terrorist leaders Shoko Asahara, Abu Nidal, and Nelson
+Mandela. Of course, roles may blur depending on the type of the group and its size.
+Nonetheless, since individuals of different temperaments might play extremely differ-
+
+6
+
+JOURNAL OF CONFLICT RESOLUTION
+
+Sponsor
+
+Leader
+
+Executive
+Committee
+
+State
+authority
+figure
+
+Selfimagined
+idealist
+
+Political
+policy
+maker
+
+Strategist/
+technocrat
+
+Foot soldier/
+action
+perpetrator
+
+Substate
+group
+sponsor
+
+Selfimagined
+messianic
+
+Military
+policy
+maker
+
+Recruiter
+
+Technician
+
+Individual
+financial
+contributor
+
+Ethnic or
+religious
+animusdriven
+
+Trainer/
+dispatcher
+
+Researcher/
+surveyor/
+errand runner
+
+Entrepreneur
+
+Middle
+Manage ment
+
+Supplier/
+armorer
+
+Follower
+
+Lone
+Wolf
+
+Tr ansporter/
+harborer
+
+Sympathizer/
+fellow
+traveler
+Figure 1: Roles and Types within Terrorist Hierarchies
+NOTE: Most terrorists, depending on the political category and size of organization, belong to groups exhibiting some or all of the hierarchical levels of authority depicted here. The exception is the Lone Wolf (e.g.,
+Theodore Kaczynski)—a terrorist acting in isolation. Role or responsibility within each level of authority is
+probably determined in part by self-selection. Levels and roles may blur in application. Note that the proposed typology of leaders is theoretical and preliminary, a heuristic list of ideal types based on a review of
+multiple sources. The self-imagined idealist leader (e.g., Menachim Begin, Ulrike Meinhof, Nelson
+Mandela, and possibly Usama bin Laden) commits his life to a goal he imagines as a moral necessity, calling
+for a strategic triumph he claims to engineer altruistically. The self-imagined messianic leader (e.g., Adolph
+Hitler, David Koresh, Shoko Asahara, and possibly some Islamic extremist imams) regards himself as a guru
+destined to fulfill a unique place in history in which strategic triumph equates to personal ascendancy. Many
+leaders, especially those promoting violence against all out-group members (e.g., perhaps Yasser Arafat,
+Slobodan Milosevic, various Provisional Irish Republican Army (PIRA) leaders, and possibly Usama bin
+Laden), may be primarily driven by ethnic or religious animus that overrides idealistic or messianic aims.
+The entrepreneurial leader (e.g., Abu Nidal, “Carlos the Jackal,” and leaders of the Abu Sayyaf group) may
+justify his actions according to one of the other types but is primarily circumscribed by shallow, materialist
+drives.
+
+ent parts in a terrorist group, any empirical study claiming to characterize “the
+psychology of terrorists” might be very misleading if it fails to stratify its findings
+according to level and role.
+Most important for a psychological analysis, it seems reasonable that there may be
+heterogeneity in the temperaments, ideologies, thought processes, and cognitive
+
+Victoroff / THE MIND OF THE TERRORIST
+
+7
+
+capacities of terrorists within political categories, hierarchical levels, and roles (Taylor
+and Ryan 1988; Reich 1998). Thus, it is essential to acknowledge from the outset that
+any effort to uncover the “terrorist mind” will more likely result in uncovering a
+spectrum of terrorist minds.
+PSYCHOSOCIAL DATA DESCRIBING TERRORISTS
+Demographic studies from the 1960s and 1970s constructed a profile of the typical
+terrorist as a well-educated single male in his mid-twenties from a middle-class background (see Table 2). For instance, in a 1976 study of eighteen groups, average ages of
+members ranged from 23.2 to 31.3. Most identified/convicted terrorists came from
+middle- or upper-middle-class backgrounds, and the majority had some college education (Russell and Miller 1983). These findings are similar to those from a contemporaneous study of 48 Euzkadi ta Askatasuna (ETA) members (Clark 1983). Handler
+(1990) investigated the relationship between political orientation and socioeconomic
+factors by tabulating Federal Bureau of Investigation (FBI) interview data on rightand left-wing terrorists active in the United States during the 1960s and 1970s. He
+reported that women represented a much larger proportion of left- than right-wing terrorists (46.2 vs. 11.2 percent), college completion was much more common among
+left- than right-wing terrorists (67.6 vs. 19.0 percent), blue-collar occupation was
+more frequent among right- than left-wing terrorists (74.8 vs. 24.3 percent), and there
+was a trend for both left- and right-wing terrorists to achieve low- to medium-income
+levels even if they had college education. Weinberg and Eubank’s (1987) data on 451
+Italian women terrorists also reveal a predominance of those in their twenties,
+although the majority were teachers or white-collar workers. In a rare controlled study,
+Ferracuti (1982; Ferracuti and Bruno 1981; see also Post 2004) compared Italian Red
+Brigade terrorists with politically active controls, finding no notable differences in
+family backgrounds.
+The pendulum swung in the 1980s with the relative quiescence of American terrorist groups, the decimation of European revolutionary anarchist-Marxist groups, and
+the rising world profile of radical Islamic terrorists. The typical Palestinian terrorist of
+that later period was age seventeen to twenty-three, came from a large family with an
+impoverished background, and had low educational achievement (Strentz 1988). But
+the pendulum has swung again. Middle Eastern terrorists in the late 1990s and early
+twenty-first century come from a wider demographic range, including university students, professionals, married men in their late forties, and young women (Rees et al.
+2002). For example, the 9/11 pilots included the middle-aged, middle-class urban
+planner Mohammad Atta and the well-to-do Ziad Jarrah, a man from an affluent family who attended Christian schools and enjoyed discos and beer (Carey 2002; Laabs
+and McDermott 2003; Anonymous 2004). The most recent development, the recruitment of women as suicide bombers, arises at least in part from the fact that the al-Aqsa
+Martyr’s Brigade—associated with Yasser Arafat’s Fatah—is the first secular group
+fighting for Palestinian independence and therefore permits females to participate
+(Rees et al. 2002; Wilkinson 2002).
+
+8
+
+JOURNAL OF CONFLICT RESOLUTION
+TABLE 2
+
+Reported Demographics of Terrorists
+Author(s) and Year
+Russell and Miller
+(1983)
+
+Subjects
+
+Age
+
+Social Class
+
+350 members of eighteen
+European, Middle Eastern,
+South American, and Japanese groups, active 19661976
+48 ETA members, active
+1970s
+451 Italian women terrorists
+
+23.2-31.3
+
+> 2/3 middle or upper middle class
+
+24 (avg.)
+
+Strentz (1988)
+
+U.S. domestic terrorists:
+1960s and 1970s leftist
+groups (n, NA)
+
+Strentz (1988)
+
+Leader,
+25-40;
+follower,
+20-25
+17-23
+
+28 percent lower; 30 percent
+middle
+Terrorists: 35 percent students, 43
+percent white-collar workers or
+teachers, and 7 percent “workers”; fathers of subgroup of 27:
+10 percent blue-collar workers
+and 41 percent upper middle
+class
+Middle class
+
+1980s Middle Eastern terrorists (n, NA)
+161 right-wing and 119 left- NA
+wing terrorists active in
+United States, 1960s-1970s
+
+Clark (1983)
+Weinberg and
+Eubank (1987)
+
+Handler (1990)
+
+Hassan (2001)
+Pedahzur, Perliger,
+and Weinberg
+(2003)
+Sageman (2004)
+
+60 percent
+ages 20-29
+
+“Nearly 250” Hamas or
+Islamic Jihad members,
+1996-1999
+80 Palestinian suicide
+terrorists
+
+18-38
+
+102 Salafi Muslim terrorists
+from Saudi Arabia, Egypt,
+France, Algeria, Morocco,
+and Indonesia
+
+25.69 (avg.
+age of
+joining)
+
+24.5 (avg.)
+
+“Unskilled and unemployable”
+Right wing: 74.8 percent bluecollar workers, 18.3 percent
+white-collar workers; left wing:
+24.3 percent blue-collar workers,
+15 percent white-collar workers
+“Many” middle class
+Mean socioeconomic status
+(SES) = 5.97 (high SES = 1;
+low = 10)
+18 percent upper class, 55 percent
+middle class, and 27 percent
+lower class
+
+NOTE: NA = not available; ETA = Euzkadi ta Askatasuna.
+
+A poll conducted by the Palestinian Center for Policy and Survey Research
+(PCPSR) in 2001 among 1,357 adults in the West Bank and Gaza tested the hypothesis
+that poverty or low levels of education influence attitudes regarding political violence
+and found that support for terrorism against Israeli civilians was even more common
+among professionals than among laborers (43.3 vs. 34.6 percent) and more common
+among those with secondary education than among illiterate respondents (39.4 vs.
+32.3 percent) (Krueger and Maleckova 2002). This is consistent with Sageman’s
+(2004) finding that 94 of 132 (71 percent) of Muslim terrorists had at least some college education, and 57 of 134 (43 percent) were professionals, although his study is
+
+Victoroff / THE MIND OF THE TERRORIST
+
+9
+
+biased toward leaders. More important, Krueger and Maleckova (2002) also tested
+how economic status and education compared with actual participation in political
+violence: comparing 129 Hezbollah fighters ages fifteen to thirty-eight who died in
+action between 1982 and 1994 with members of the general Lebanese population of
+the same age range, the poverty rate was similar (28 percent among fighters vs. 33 percent in the population), but fighters were significantly more likely to have attended
+secondary school (33 vs. 23 percent). These findings are not consistent with theories
+tying political violence to poverty and lack of education (although a critique of this
+conclusion is noted later in the section on sociological theories).
+Psychological data are even sparser than socioeconomic data, although several projects reported “typical” psychosocial characteristics of terrorists in the 1970s and
+1980s. On the basis of unstructured interviews, American psychiatrist David Hubbard
+(1971) reported five traits of skyjackers: (1) violent, often alcoholic father; (2) deeply
+religious mother; (3) sexually shy, timid, and passive; (4) younger sisters toward
+whom the terrorist acted protectively; and (5) poor social achievement. On the basis of
+primarily secondhand source material regarding a subsample of 908 right-wing terrorists in Italy, Ferracuti, and Bruno (1981) claimed to have identified nine typical characteristics: (1) ambivalence toward authority, (2) defective insight, (3) adherence to convention, (4) emotional detachment from the consequences of their actions, (5) sexual
+role uncertainties, (6) magical thinking, (7) destructiveness, (8) low education, and
+(9) adherence to violent subculture norms and weapons fetishes. It is interesting that
+these lists, compiled a decade apart, overlap in regard to sexual role uncertainties and
+probably low education (if this is a proxy for poor social achievement). Yet apart from
+this superficial overlap, the two studies do not suggest common features of background or personality. Neither of these studies used controls or validated psychological instruments. The largest study of this kind was that performed under the auspices of
+the West German Ministry of the Interior; this ambitious 1980-1983 project involved
+semistructured interviews of 227 left-wing terrorists and 23 right-wing extremists
+(Jäger, Schmidtchen, and Süllwold 1981). Certain demographic, life historical, or
+psychological factors were reported with high frequency in this study population: 25
+percent of leftist terrorists had lost one or both parents by age fourteen, 33 percent
+reported severe conflict with parents, and 33 percent had a history of juvenile court
+conviction. This study also claimed to have identified two patterns of personality traits
+common to terrorists: an extroverted, stimulus-seeking, dependent pattern and a hostile, suspicious, defensive pattern. This German study presents a major challenge to
+some psychology theories of terrorism simply by recognizing heterogeneous psychological categories among terrorists. But again, the psychological conclusions were
+impressionistic, and different psychologists on the German team drew different conclusions (Crenshaw 1986). Without the use of valid and reliable behavioral measures
+and without a control group, one cannot conclude that the characteristics identified in
+the American, Italian, or German studies distinguish terrorists from nonterrorists.
+Since the tragic events of September 11, 2001, attention has shifted to the psychology of Islamic fundamentalist terrorism. There is a dearth of published literature describing psychological studies of Muslim extremists. Merari and colleagues administered a battery of standardized psychological tests, including some measures of
+
+10
+
+JOURNAL OF CONFLICT RESOLUTION
+
+cognitive function, to Hezbollah, Amal, and secular pro-Syrian fighters captured infiltrating Israel from Lebanon in the late 1980s (Ariel Merari, personal communication,
+2003). Unfortunately, his data have been classified by the Israeli Defense Forces and
+are unavailable for scholarly scrutiny or attempted replication. Post, Sprinzak, and
+Denny (2003) conducted semistructured interviews with thirty-five incarcerated Middle Eastern extremists, including twenty-one Islamic religious terrorists from Hamas
+and its armed wing, Izz a-Din al-Qassam, Islamic Jihad, and Hezbollah, as well as
+fourteen secular terrorists from Fatah. Most had a high school education; some had
+additional schooling. (However, the subgroup of suicide bombers among the Palestinians was described as ages seventeen to twenty-two, “uneducated, unemployed,
+unmarried.”) Most came from respected families that supported their activism, with 30
+percent of the families of religious terrorists and 15 percent of the families of secular
+terrorists reporting their own radical involvement. Peer influence was cited as the
+major reason for joining a terrorist group, and joining increased social standing. Membership was described as being associated with a fusion of the young adult’s individual
+identity with the group’s collective identity and goals. Prison experience was claimed
+to strengthen group commitment for most terrorists of both types. Anger and hatred
+without remorse were often expressed, but there was little interest in obtaining weapons of mass destruction. This project is one of the few to employ a direct psychological
+examination of recently active terrorists. Unfortunately, the method of subject selection, the circumstances of the interviews, and the method of interviewing were not
+described in this otherwise impressive report; few specific demographics were reported, no formal measures of any psychological variables were used, and no controls
+were examined.
+Psychiatrist Marc Sageman (2004) compiled data from public sources on 172 individuals he identified as members of a “global Salafi mujahedin,” meaning Muslims
+engaged in terrorist acts against the “far enemy” in the service of a new Islamic world
+order. He included expatriate leaders of the Egyptian Islamic Group (EIG), members
+of the Egyptian Islamic Jihad (EIJ), Jemaah Islamiyah, the Moro Islamic Liberation
+Front, the Algerian Groupe Salafiste pour la Prédication et le Combat (GSPC), and al
+Qaeda. Sageman excluded terrorists engaged in local jihads, such as Chechnyans,
+Kashmiris, Afghans, and Palestinians. His sample is thus biased toward those involved
+in transnational terrorism and toward the subgroup, mostly leaders, who have come to
+public attention. He identified “some fragment of childhood data” in 61 cases. Only 4
+had histories suggestive of conduct disorder. Only 1 case (Habib Zacarias Moussaoui)
+was suggestive of a childhood trauma. Descriptors of childhood personality were
+found for 69 cases; although loners outnumbered outgoing children, most descriptors
+were neutral or positive. One-quarter of the group had histories of petty crime. Detailed biographies were examined for 10 cases. Sageman claims that he found “no evidence of pathological narcissism” and “no pattern of paranoid personality disorder” in
+this subgroup, with the exception of possible traits of al Qaeda leader Ayman alZawahiri. Although Sageman’s conclusions seem highly plausible, the author is candid in admitting the limitations of this work: his sample is very small, atypical, and
+uncontrolled, and the author had no formal method for confirming these indirect
+psychiatric impressions.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+11
+
+Potentially high-value data were gathered outside the academic research apparatus
+by United Nations (UN) relief worker Nasra Hassan, based on unstructured interviews
+with “nearly 250” members of Hamas or Islamic Jihad conducted in Gaza between
+1996 and 1999. She reports that the suicide bombers ranged in age from eighteen to
+thirty-eight, more than half were refugees, “many” were middle class, 2 were sons of
+millionaires, and none were depressed, although “many” reported that they had been
+beaten or tortured by Israeli forces. Unfortunately, Hassan’s lucid and widely cited
+report does not specify the actual number of terrorist subjects, as well as what proportion of this total subject population were intended suicide bombers, failed suicide
+bombers, or trainers, and offers no specific demographic, socioeconomic, or psychological data (Hassan 2001; Atran 2003). (Some of these data will be incorporated into
+a forthcoming book [N. Hassan, personal communication, 2004].) Barber (1999) conducted the most extensive study of psychological factors possibly associated with
+Islamic political violence. His report is based on data from the Palestinian Family
+Study, a project involving 6,923 ninth-grade students in the West Bank and Gaza.
+Aggressivity and mood were measured with the Child Behavior Checklist
+(Achenbach and Edelbrock 1987), “family values” were measured by one question
+regarding the importance that respondents placed on getting married and having a
+family, and participation in the intifada of 1987-1993 was measured by the yes/no
+response to a single question: “Before the withdrawal of Israeli troops from the Gaza
+Strip and Jericho, did you ever distribute leaflets, protect someone from Israeli soldiers or police, march or demonstrate against the occupation, and throw stones at
+Israeli soldiers?” A yes answer to this question was positively associated with depression, aggression, and family values. Unfortunately, this question does not allow discrimination between violent and nonviolent political participation, undermining conclusions one might draw from this ambitious study regarding the predictive value of
+psychological factors for Islamic insurgent aggression.
+OVERVIEW OF PSYCHOLOGICAL THEORIES
+Attempts to account for the behavior of terrorists fall into two general categories:
+top-down approaches that seek the seeds of terrorism in political, social, economic, or
+even evolutionary circumstances and bottom-up approaches that explore the characteristics of individuals and groups that turn to terrorism (e.g., Wieviorka 1993, 2004).
+These approaches are not mutually exclusive. In fact, approaches such as rational
+choice theory and relative deprivation/oppression theory combine these points of
+view, considering interactions between circumstances and actors. While acknowledging the importance of top-down analyses and ultimate causes, this article focuses primarily on bottom-up approaches and proximal causes in substate terrorism. The principal approaches are organized into groups for the sake of clarity. However, it will
+become apparent that conceptual overlap exists between theories within and between
+groups. It will also become apparent that a particular fundamental conceptual framework—such as psychoanalysis—may inform diverse theories and that the same theory may be championed from different conceptual frameworks. For example, group
+
+12
+
+JOURNAL OF CONFLICT RESOLUTION
+
+theory has psychoanalytic and nonpsychoanalytic champions. Theories of terrorism
+also vary in the extent to which they consider psychological differences between terrorists playing different roles (e.g., leaders vs. followers), whether terrorists are regarded as psychologically homogeneous or heterogeneous, and whether subtypes of
+terrorism are associated with subtypes of terrorists.
+PSYCHOPATHOLOGICAL THEORY
+At one end of the spectrum is the popular opinion that terrorists must be insane or
+psychopathic (Hacker 1976; Cooper 1977; Pearce 1977; Taylor 1988). Here a distinction must be made: modern Western psychiatry identifies adult behavioral disorders
+according to a multiaxial classification scheme in which Axis I refers to the major clinical illnesses—those such as schizophrenia or major depression—while Axis II refers
+to personality disorders—such as antisocial personality disorder (APD) (American
+Psychiatric Association 2000). APD is the current term for a pattern of remorseless
+disregard for the rights of others that was called psychopathy up until the mid-1950s
+and sociopathy thereafter. Psychosis refers to a loss of reality testing observed primarily in a subgroup of Axis I disorders (e.g., schizophrenia) but is not expected in Axis II
+disorders such as APD. Insanity is not a behavioral science term but a legal term that
+usually implies psychosis, although its definition is subject to significant jurisdictional
+variance (Resnick and Noffsinger 2004). Hence, a psychotic or “insane” person is so
+mentally disordered as to not know right from wrong, while a sociopath knows right
+from wrong and chooses wrong for selfish reasons without pangs of conscience.
+In regard to Axis I clinical disorders among terrorists, very little research has been
+done involving comprehensive psychiatric examination, and no properly controlled
+research is found in the open literature. However, the conclusion—at least on the basis
+of uncontrolled empirical psychological studies of left-wing German militants, members of the Algerian Front de Libération Nationale (FLN), members of the Provisional
+Irish Republican Army (PIRA), and Hezbollah—has been that terrorists do not usually exhibit what we refer to as Axis I or even Axis II psychiatric disorders (Crenshaw
+1981; Jäger, Schmidtchen, and Süllwold 1981; Heskin 1984; Merari 1998). German
+psychiatrist Wilfred Rasch (1979) examined eleven terrorist suspects, including members of the Baader-Meinhof group, and reported on a Federal Police study of another
+forty persons wanted as terrorists, finding no evidence of mental illness in any respondent. Post, Sprinzak, and Denny (2003; also see Post and Gold 2002) also found no
+Axis I disorders on psychiatric evaluations of twenty-one secular and fourteen radical
+Islamic Middle Eastern terrorists. As criminologist Franco Ferracuti (1982) suggested
+more than two decades ago, and as has been supported by subsequent reports (Reich
+1998; Silke 1998; Horgan 2003), while terrorist groups are sometimes led by insane
+individuals, and while a few terrorist acts might be attributed to unequivocally insane
+persons, terrorists rarely meet psychiatric criteria for insanity.
+Rather, most of the literature attributing clinical mental disorder to terrorists speaks
+of the remorseless personality type, psychopathy or sociopathy (Taylor 1988). Cooper
+(1977, 1978), for example, states that terrorists, like psychopaths, are ruthless “out-
+
+Victoroff / THE MIND OF THE TERRORIST
+
+13
+
+laws” and “outcasts” who adhere to an anomalous scheme of values out of tune with
+that of the rest of society and that there is a “near identity of this fundamental characteristic in both the psychopath and the terrorist.” Pearce (1977) stated that terrorists
+were sociopaths acting antisocially due to “superego lacunae,” meaning gaps in selfmonitoring; he supports his conclusion partly on the basis of tattoos found on one
+terrorist.
+The claim of sociopathy, advanced without evidence from any empirical study,
+raises the important question of whether terrorism is usually antisocial or prosocial
+behavior. It makes a common kind of sense that individuals who harm innocents are
+antisocial. Those who reject and attack their own society, such as the German student
+who joined the 1970s Red Army Faction or the Christian-to-Muslim convert who joins
+a modern radical Islamic cell, stand against their own and might be regarded as antisocial. Yet several lines of reasoning tend to discredit the simplistic claim that antisociality is typical or even common among terrorists. First, extensive evidence supports the observation that, far from being outcasts, terrorists are often regarded by their
+in-group as heroic freedom fighters. As Post (2004) points out, nationalist-separatist
+terrorists must be distinguished from revolutionary terrorists in this regard since the
+former are typically regarded as risking their lives for social welfare, while the latter
+attack their society of origin. That is, the Basque student who joins the ETA, the
+Chechen “black widow” who terrorizes a Moscow theater, or the Liberation Tigers of
+Tamil Ealem (LTTE) suicide bomber all use terrorism to fight on behalf of their ingroup. The Irishman who joins the PIRA or the Middle Eastern student who joins an
+Islamic radical group, depending on his specific nation and province, may enjoy considerable popular support and conscientiously serve his society in a prosocial way.
+Ironically, therefore, with respect to in-groups of identity, certain types of terrorism
+often represent prosocial behavior. Second, evidence exists from the quantitative literature that the actions of terrorists, even those who fail and die, might benefit their kin
+and social group (Azam forthcoming). Further evidence of the prosociality of some
+terrorists comes from the empirical work of Italian sociologist Donatella della Porta
+(1988): among 1,214 Italian militants, 351 (45.6 percent) enjoyed personal ties with
+eight or more group members before joining a terrorist organization. This raises the
+question of how large one’s group of identity must be to consider collaboration prosocial, but it at least suggests that recruitment often involves a network of shared social
+values. Pedahzur, Perliger, and Weinberg (2003) examined this issue from the perspective of Durkheim, who distinguished altruistic suicide—suicide in the service of
+society—from egoistic and anomic suicide. Based on the observation that 80 Palestinian suicide terrorists from 1973 to 2002 exhibited a higher rate of religious education,
+membership in fundamentalist organizations, and repeat terrorist acts compared with
+nonsuicidal terrorists, these authors proposed that they were probably acting from
+altruistic motives. Indeed, this is the essence of the concept of istishad, selfless death
+in the service of Allah (Post, Sprinzak, and Denny 2003; see also Sageman 2004). It is
+obviously conceptually inadequate to judge antisociality from the perspective of
+the targeted out-group, yet it is premature to conclude that most members of ethnic,
+religious, or national-separatist terrorist groups exhibit prosociality based on these
+limited reports. Some antisocial individuals perhaps use the moral cover of group
+
+14
+
+JOURNAL OF CONFLICT RESOLUTION
+
+affiliation to disguise their aggressive and remorseless drives. However, pending data
+to the contrary, it seems plausible that many terrorists act in a prosocial manner, both
+believing themselves to be serving society and judged by their in-group to be acting in
+its interest. (It is a separate question to ask whether they subjectively adopt the moral
+position that Corrado [1981] labeled “misplaced idealism.”) Thus, Ferracuti’s (1982)
+formulation regarding the relationship between insanity and terrorism might equally
+apply to the relationship between sociopathy and terrorism: sociopaths may
+sometimes be among the terrorists, but terrorists are not, by virtue of their political
+violence, necessarily sociopaths. Intuitively, one might expect different personality
+traits among antisocial and prosocial terrorists. This speculation requires further
+study.
+RATIONAL CHOICE THEORY
+If most terrorists do not meet diagnostic criteria for a major mental illness or for
+sociopathy, must one conclude that they are rational? This raises the question of the
+explanatory power of rational choice theory—the theory that terrorist action derives
+from a conscious, rational, calculated decision to take this particular type of action as
+the optimum strategy to accomplish a sociopolitical goal (Sandler, Tschirhart, and
+Cauley 1983; Sandler and Lapan 1988; Crenshaw 1992; Wilson 2000). A distinction
+should be made between rational—or strategic—choice theory and other individual or
+group psychological theories of terrorism. The latter try to explain why people are
+inclined toward a type or style of behavior (e.g., to be a terrorist), while rational choice
+theory, derived from economics, assumes this behavioral proclivity as a given and
+attempts to explain how changes in policy—the rules of the “game” that is played
+between terrorists and governments—might predictably alter behavior. Since rational
+choice theory considers both policy and individual behavioral responses to policy, it
+combines the top-down and bottom-up approaches.
+Game theory, based on this “assumption of rationality” in strategic choice formulations, has been used to analyze and predict political behavior since the seminal work of
+Deutsch in the 1950s (Deutsch 1954; Deutsch and Krause 1962; Milburn and Watman
+1981; Machina et al. 1989). Empirical support for game theory comes from experiments in which volunteers play against rivals in games such as the prisoner’s dilemma,
+sometimes to win a payoff such as points, sometimes to avoid costs such as loss of face
+or electric shocks (von Neumann and Morgenstern 1947; Deutsch 1954; Borah 1963;
+Rapoport and Chammah 1968). Sandler and Arce (2003) listed six strengths of modern game theory for revealing quantifiable factors theoretically underlying the behavior of terrorists and targeted governments: game theory (1) captures the interdependent nature of such interactions, (2) helps discover the strategic implications when
+each side acts according to its best guess about how the other side thinks, (3) incorporates the impact of threats and promises from each side, (4) takes advantage of
+the observation that “players” tend to maximize goals subject to constraints, (5) helps
+predict outcomes in bargaining over demands, and (6) acknowledges the impact of
+uncertainty—incomplete information—on all the above. They cite the example of the
+
+Victoroff / THE MIND OF THE TERRORIST
+
+15
+
+shift away from skyjackings to kidnappings after the installation of metal detectors at
+airports in 1973 as evidence of a predictable and rational response to new constraints.
+Political scientist Martha Crenshaw (2000) has cautioned that the ostensible goal of
+terrorists often appears so unlikely to be achieved by the chosen action that it is difficult to support an overarching rationalist theory of terrorism. Furthermore, the outrageous inhumanity of attacks on innocent civilians challenges the commonplace understanding of “rational” behavior. Given questions about incoherent motivations,
+ghastly means, and political inefficacy of terrorism, some scholars have proposed that
+the typical terrorist is not simply a “rational actor” in the strict Weberian sense
+(Brannan, Eslerm, and Anders Strindberg 2001). On the other hand, historical evidence suggests that terrorism is sometimes a practical, low-cost strategy through
+which subordinate groups leverage their power to successfully achieve their ends
+(Sandler and Enders 2004). Indeed, modern history is replete with examples of successful substate political violence: Irgun’s bombings were a major factor in securing
+the independence of Eretz Israel from the British; terrorism by the Irish Republican
+Army (IRA) precipitated accommodations leading to the Irish Free State; Shi’ite Muslim terrorists provided key assistance in the ouster of the Shah of Iran; Hezbollah’s suicide bombing campaign of 1983-1985 directly led to the American, French, and Israeli
+withdrawal and establishment of a Shi’a-controlled society in major parts of Lebanon;
+and the African National Congress (ANC) used terrorism as part of its remarkably successful strategy to overthrow the apartheid government of South Africa. More recently, al Qaeda’s brutal transnational campaign, including the mass murders at New
+York’s World Trade Center in 2001, may have not only rapidly advanced Usama bin
+Laden’s stated goal of removing the large U.S. military presence from Saudi Arabia
+but also served as an extremely potent recruiting tool (Laqueur 1987; Hoffman 1998,
+1999; Whittaker 2001). Thus, historical precedents support many terrorists’ expectations of success, so the theory of strategic choice must not be discounted on the
+grounds that terrorism’s goals are uniformly improbable. Game-theoretical approaches are also sophisticated enough to recognize that the “winnings” that satisfy
+terrorists may not be their overt antigovernment goals but less obvious goals such as
+martyrdom, which may not only serve as an end in itself but also yield unexpected benefits to the terrorist’s offspring that exceed the “opportunity cost” of an educated life
+lost prematurely (Brooks 2002; Azam forthcoming). Moreover, game theory has
+yielded evidence of counterintuitive but important predictions such as the possibility
+that government investments in deterrence might waste resources or even produce
+paradoxical increases in threats (Sandler and Arce 2003).
+Strategic choice theory potentially offers vital insights into the potential payoff of
+terrorist versus government actions. By uncovering otherwise cryptic benefits, this
+approach may help explain otherwise enigmatic behaviors. Insofar as humans evolved
+to function as sophisticated calculators of risks and benefits, and insofar as groups
+function collectively to actualize the will of their members, one can make quantitative
+predictions regarding the theoretical circumstances under which terrorist behavior
+serves group and individual interests. Such microeconomic analyses may help in
+calculating the likely outcome of different policy options, such as hardening targets,
+calculating concessions, or performing retaliatory strikes (Sandler and Lapan 1988;
+
+16
+
+JOURNAL OF CONFLICT RESOLUTION
+
+Lee 1988; Brophy-Baermann and Conybeare 1994; Sandler and Arce 2003; Sandler
+and Enders 2004). But the following question remains: what are the limitations, or
+even potential pitfalls, of the game-theoretical approach?
+Evidence suggests that very few individuals who rationally believe that terrorism
+may advance their cause ever become terrorists (Schbley 2000). This is conceivably
+related to the discovery that 85 percent of World War II infantrymen facing the enemy
+failed to pull the triggers of their weapons, despite the urgent rational benefits
+(Grossman 1995). In other words, even obvious strategic benefits may not compel
+humans to violence, an arguably irrational result of modern culture. And some terrorists (e.g., “lone wolf” terrorist Theodore Kaczinski) commit violence due to unequivocally irrational motives (in his case, paranoid schizophrenia). Thus, the rare and idiosyncratic decision to become a terrorist cannot be explained by rational choice theory.
+Yet it is inappropriate to criticize this theory because it fails to explain why only a tiny
+minority of individuals turns to terrorism; it does not try to. It focuses instead on what
+members of this rare group are likely to do under various conditions.
+Two other criticisms of rational choice theory may be more compelling. First, rational choice theory claims predictive power for future events, extrapolating both from
+laboratory experiments of the behavior of nonterrorists playing nonnaturalistic games
+and from post hoc analysis of real-world incidents. But as Wieviorka (1993, 57)
+observed, this kind of strategic analysis weighs “questions of resources and power
+relationships . . . as if the principles underlying their actions had been established once
+and for all, and as if the effects of violence were predictable and measurable” (see also
+Wieviorka 2004). The uncertainty of the principles of terrorist-government interaction
+adds to the uncertainty of the facts known by the players since, as the early work in
+game theory illustrates, a slight change in the “rules” may yield opposite behavioral
+results (von Neumann and Morgenstern 1947; Milburn and Watman 1981; Machina
+et al. 1989). Refinements in the understanding of terrorist-government engagements
+based on increasingly sophisticated event analysis and classification should reduce
+this element of uncertainty and strengthen the predictive validity of this approach.
+Second, it may be dangerous to assume that a profile of a “typical player” will predict an actual terrorist’s responses. As Merari (2002, 4) has said, “In a perfectly rational system, the basic idea of deterrence is to deliver a clear, credible message to the
+opponent that the cost of pursuing a certain course of behavior outweighs its benefits.
+In reality, however, this simple formula rarely, if ever, works according to expectations.” The most likely explanation for such unanticipated consequences is simply that
+the immense plasticity and individual variability of the human central nervous system
+often generate idiosyncratic and individualistic responses that defy predictions not
+only because of incomplete information held by the actor but also because of impulsivity, faulty cognition, and emotional processes that overrule adaptive choices.
+Writing the applicable game-theoretical equation becomes ever more challenging as
+imponderable variables are added to accommodate individual emotional peculiarities
+of terrorists, victims, and governments: the lure of bravado and romance of risk, the
+self-destructive urge for “success” in likely failure with or without the utility of martyrdom, the Svengali-like influence of charismatic leaders on either side whose fol-
+
+Victoroff / THE MIND OF THE TERRORIST
+
+17
+
+lowers march in maladaptive columns, the power of rage to better reason, the blindness
+of ambition, the illogic of spite, or the frenzy of revenge all may contribute to the stochastic occurrence of surprising scenarios. Moreover, the lack of an empirically validated typology of terrorist variants complicates writing optimum theorems for subtypes of players who may exhibit very different behavioral proclivities (Bowen et al.
+1985; Friedland and Merari 1985; Merari 2002). Nonetheless, no behavioral theory is
+expected to accommodate all examples; the law of large numbers by itself guarantees
+some failures of prediction. It would be sufficiently valuable if rational choice calculations predicted a higher proportion of terrorist behaviors than did nonquantitative
+methods or reliably predicted responses in some subtype of engagements. Merari’s
+(2002) strong claim that terrorist behaviors “rarely, if ever” follow such predictions is
+the key question. Further empirical work should be able to resolve that debate.
+I would propose that rational choice analysis is a powerful tool for discovering theoretically valid and surprisingly counterintuitive forces that probably influence terrorist and government behaviors. Game theory may also prove invaluable in predicting
+likely changes in the base rate (the rate predicted in rational actor simulations) of
+behaviors of an idealized terrorist in response to concessions or deterrents. However,
+rational choice theories cannot predict idiosyncratic responses. Policy recommendations that predict deterrence of terrorist acts are only as valuable as their capacity to
+anticipate the extraordinary variability and adaptability of humans.
+Moreover, at present, rational choice theory does not explain why a very few individuals, among hundreds of thousands in virtually identical political positions,
+become terrorists. As Crozier (1960, 9) suggested, “Men do not necessarily rebel
+merely because their conditions of life are intolerable: it takes a rebel to rebel.” Individual factors must be at work. Temperaments vary. Human frontal lobe cortical planning based on rational calculation of costs and benefits is forever subject to limbic tyranny. Passion often trumps rationality, behaviors may deviate significantly from the
+predicted base rate, and understanding the mind of the terrorist—with or without prediction of future behavior—requires investigations beyond the realm of game theory.
+If neither insanity/sociopathy nor rational choice can fully account for the genesis
+of terrorist behaviors, what alternative psychological explanations seem most plausible? As Crenshaw (1986, 386) stated, even though terrorism does not result from a
+specific psychopathological condition, that is not to say that “the political decision to
+join a terrorist organization is not influenced or, in some cases, even determined by
+subconscious or latent psychological motives.” In other words, although terrorists
+rarely exhibit psychological disorders, they may exhibit identifiable psychological
+traits or may have been influenced by identifiable social factors. Political scientists,
+sociologists, psychologists, and psychiatrists have offered diverse opinions regarding
+the degree to which the roots of terrorist aggression are innate versus acquired, the
+product of psychodynamic versus social forces, or the product of individual versus
+group forces. The most frequently cited theories can be divided into sociological theories, psychoanalytic approaches to individual psychology, nonpsychoanalytic psychological approaches to individual psychology, and theories of group process.
+
+18
+
+JOURNAL OF CONFLICT RESOLUTION
+
+SOCIOLOGICAL THEORIES
+SOCIAL LEARNING THEORY
+
+Bandura’s (1973, 1998) social learning theory of aggression suggests that violence
+follows observation and imitation of an aggressive model, and a variant of this theory
+has been invoked to explain terrorist behaviors not as the consequence of innate
+aggressivity but of cognitive “reconstrual” of moral imperatives. Teenagers living in
+hotbeds of political strife may directly witness terrorist behaviors and seek to imitate
+them or, even more commonly, learn from their culture’s public glorification of terrorists—for example, the “martyr posters” lining the streets of Shi’a regions of Lebanon
+and Palestinian refugee camps or the songs celebrating the exploits of the PIRA
+(Crenshaw 1992; Taylor and Quayle 1994; Kelly and Rieber 1995). Social learning of
+the acceptability of terrorist violence may also take a didactic form, as in the teaching
+of an extremist form of jihad in many Pakistani and Palestinian madrasas—religious
+schools for young Muslim boys. Madrasas have existed since the time of Muhammad,
+but the recent worldwide resurgence of Islamic fundamentalism has led to an increase
+in their numbers and possibly in the violence of their message (Armstrong 2000; Marshall and Danizewski 2001; Kepel 2002; Atran 2003). Evidence suggests that a minority of prominent transnational Muslim terrorists were educated in madrasas (Sageman
+2004; Anonymous 2004). This, however, does not exclude the possibility that widespread education of this type influences even nonattendees via cultural diffusion.
+Terrorist didactic learning also occurs via the dissemination of terrorist philosophy
+and methodology in communiqués, audiovisual tapes, compact disks, books, and Web
+sites. The most influential historical example may be the widely translated 1969
+“Mini-Manual” or “Handbook of Urban Guerilla Warfare” by Brazilian terrorist
+Carlos Marighella (1971; also see Saper 1988), which, among other practical advice,
+suggests that readers learn to pilot a plane. The charter of the Islamic Resistance
+Movement (Harakat Al-Muqawama Al-Islamiya [Hamas]) represents a more recent
+example; article 15 of this document emphasizes the importance of teaching jihad:
+“We must imprint on the minds of generations of Muslims that the Palestinian problem
+is a religious one . . . I indeed wish to go to war for the sake of Allah! I will assault and
+kill, assault and kill, assault and kill” (Alexander 2002, 57). It seems plausible that
+didactic teaching or social learning may influence some young people toward terrorism. However, the social learning/cognitive restructuring model fails to explain why
+only a small minority among the hundreds of thousands of students educated for jihad
+in madrasas, the millions exposed to extremist publications, and the tens of millions
+exposed to public glorification of terrorists have become terrorists. As Taylor and
+Quayle (1994, 32) put it, “Not everyone from those communities, although subject to
+those same or similar influences, becomes a terrorist” (see also Sageman 2004).
+Therefore, while social learning probably helps animate the small minority who turns
+to political violence, this theory fails to explain why these particular individuals become terrorists. Other factors must be sought.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+19
+
+FRUSTRATION-AGGRESSION HYPOTHESIS
+
+This raises the question of how politically motivated people reach the point of no
+return at which their potential energy is converted into violent action. The frustrationaggression (FA) hypothesis—one outcome of an interdisciplinary collaboration by
+political and social scientists at Yale University to better understand the violence
+observed in early twentieth-century Europe—has often been cited, attributing the final
+expression of the terrorist impulse to desperation in the face of oppression (Dollard
+et al. 1939; Friedland 1992). Political psychologist John Chowing Davies (1973, 251)
+has even stated, “Violence is always a response to frustration” (emphasis added). The
+FA hypothesis is included here as a sociological theory, although the original intent of
+Dollard et al. (1939) was also to account for individual behavior; thus, terrorist violence of either groups or individuals might be explained by this theory.
+However, the application of this theory to terrorism studies has been criticized on
+several grounds: millions of people live in frustrating circumstances but never turn to
+terrorism, many terrorists do not belong to the desperate classes whose frustration they
+claim to be expressing, and terrorism does not uniformly appear to be an act of last
+resort by those who have exhausted alternate approaches (Billig 1976; Merari and
+Friedland 1985; Laqueur 1987; Friedland 1992; Sidanius and Pratto 1999). The leftist
+terrorism of 1970s Europe, for example, was primarily perpetrated by members of
+privileged classes, and state-sponsored terrorism can hardly be attributed to the
+oppression of the government by its victims. Frustration, therefore, may plausibly play
+some part in the genesis of some political violence, but the FA hypothesis is not by
+itself sufficient to explain terrorism.
+RELATIVE DEPRIVATION THEORY
+
+It has also been proposed that economic disparities cause terrorism. This claim
+underlies Gurr’s (1970) theory of relative deprivation—that rebellions come to be
+when people cannot bear the misery of their lot. As Schmid (1983) observed, Gurr’s
+theory derives more from psychoanalysis than from empirical sociology and is conceptually born of the FA hypothesis. Irrespective of these psychiatric roots, multiple
+writers have claimed a sociological link between poverty and terrorism (Schmid 1983;
+Harmon 2000; Hasisi and Pedahzur 2000; Krueger and Maleckova 2002). More
+recently, increasing differences between the material welfare of the haves and havenots have been postulated to provoke a new era of political violence that will accelerate
+as globalization not only creates new foci of poverty but facilitates communication
+between those who perceive themselves to be globalization’s victims (Maya, Lander,
+and Ungar 2002). One possibility is that either absolute deprivation or relative economic disparity ignites terrorist sentiments, especially among members of an oppressed underclass.
+The major European revolutions of the eighteenth through the early twentieth centuries were probably provoked, at least in part, by class disparities. From the French to
+the Russian revolutions, have-nots indisputably became major participants in political
+
+20
+
+JOURNAL OF CONFLICT RESOLUTION
+
+violence (Zamoyski 1999). On the other hand, as noted above, the left-wing terrorists
+of the 1960s to 1970s were not usually impoverished; indeed, they were sometimes
+accused of belonging to an idle middle class that expropriated the misery of a different
+class to serve their own goals. So, although poverty may play a role in some political
+violence, relative deprivation is neither necessary nor sufficient to explain revolutionary terrorism. Evidence also exists that right-wing extremism occurs independent of
+economic status. Canetti and Pedahzur (2002), for example, reported that right-wing
+extremist sentiments were unrelated to socioeconomic variables among 1,247 Israeli
+university students.
+Krueger and Maleckova’s (2002) previously cited important work with Palestinians does not support a simple poverty-causes-terrorism conclusion. However, their
+analysis is based on socioeconomic background, not on socioeconomic prospects.
+Given the 70 percent adult unemployment rate in Gaza, the gross domestic product of
+less than $1,000 throughout the Palestinian Territories, the severely constrained economic opportunities despite educational achievement due to the unresolved IsraeliPalestinian conflict, and the cultural importance of the male breadwinner role, it is premature to rule out the possibility that diminished economic prospects have helped provoke Palestinian terrorism (Bennet 2004). Furthermore, nationalist-separatist and
+many religious fundamentalist terrorists tend to enjoy the support of their communities. In such cases, terrorism may be a prosocial activity ostensibly undertaken on
+behalf of all classes. If the entire in-group (that of the political actor) faces economic
+disparities relative to an out-group (that of the privileged target), participation in political violence would not be expected to be an economic class phenomenon but a groupof-identity phenomenon. Further research will be necessary to determine the relationship between class of origin, economic expectations, individual factors, and terrorism.
+OPPRESSION THEORY
+
+Multiple authors, from sociologists to revolutionaries, contend that oppression provokes political violence (Fanon 1965; Whitaker 1972; Schmid 1983). Particularly in
+the case of nationalist-separatist or ethnic-sectarian terrorism (e.g., ETA, PIRA,
+Hamas), actors often cite the injustice of their treatment by governments that rob them
+of identity, dignity, security, and freedom as the motive for their joining a terrorist
+group (Crenshaw 1986; Taylor and Quayle 1994; Post, Sprinzak, and Denny 2003).
+Since it is difficult to measure oppression itself—a sociopolitical relationship subject
+to point of view—and since the impact of oppression may be felt subjectively to
+greater or lesser degrees by individuals within a community at risk, perceived oppression may be the proper cognitive-emotional variable to examine as a potential risk factor for terrorism. There are innumerable scales and instruments for assessing perceived prejudice and discrimination (e.g., McNeilly et al. 1996; Utsey and Ponterotto
+1996; Neto 2001; Loo et al. 2001; Murry et al. 2001; Duckitt et al. 2002). However,
+virtually all of these are specifically designed to address the experience of a single
+group—in most cases, African Americans. None of them measures the life-andliberty-threatening dominion of one group over another implied by the psychopolitical concept of oppression. In fact, an extensive review of multiple databases
+
+Victoroff / THE MIND OF THE TERRORIST
+
+21
+
+reveals that no general psychological instrument has yet been validated and published
+for the study of perceived oppression. As a result, no persuasive empirical evidence
+is available supporting the much-cited hypothesis that oppression or its perception
+drives the behavior of terrorists.
+Even if perceived oppression could be shown to breed terrorism, it would never be a
+sufficient explanation. As Silke (2003, 33) said so well, “Very few individuals of
+aggrieved minorities go on to become active terrorists. The question has always been,
+why did these particular individuals engage in terrorism when most of their compatriots did not?” Sociological theories, like rational choice approaches, do not answer this
+question.
+NATIONAL CULTURAL THEORY
+
+While many differences are observed between cultures, a specific variable was
+claimed to be key by Weinberg and Eubank (1994), who proposed that terrorism
+expresses itself differently in “collectivist” versus “individualist” cultures. According
+to this theory, in collectivist cultures, a person’s identity is primarily derived from the
+social system, dividing the world strictly according to in-groups and out-groups and
+linking their personal well-being to the well-being of their group, while in individualist cultures, identity is derived from personal goals. Weinberg and Eubank propose
+that collectivists would be more likely than individualists to carry out terrorist attacks
+on out-groups, including foreigners. Individualists would be less inhibited in attacking
+one of their own. The authors used psychological rankings of IBM corporate employees in forty nations on a scale of individualism/collectivism, reporting that U.S. citizens were the most individualistic (score 91), Israelis were in the middle (54), and
+Third World nations tended to be the most collectivist, such as Pakistan at 14 and
+Columbia at 13. Comparing these rankings with reports of terrorist activity from the
+“International Terrorism: Attributes of Terrorist Events 1968-1977” (ITERATE) database (Mickolus 1980), they claim that the data support their prediction that
+collectivists are more likely to attack foreigners, while individualists are more likely to
+attack conationals or members of other individualist cultures. They also claim, without
+data, that individualists feel morally restrained from attacking innocents, while
+collectivists have two moralities—one for the in-group, one for the out-group—and
+would not be morally inhibited from attacking innocents in the out-group.
+This work might be criticized on numerous grounds: the paucity of data that cultures can be ranked on this collectivist/individualist dimension; the doubt that IBM
+employees are representative of their cultures; the failure to address the possibility
+that, within nations, subcultures exist that vary on the presumed dimension (such that
+terrorists derive from a distinct subculture); the likelihood that, regardless of national
+culture, individualists arise who become terrorists; the likelihood that the ITERATE
+database for that decade captured primarily left-wing revolutionaries who may bear a
+different relationship to their culture of origin than do nationalist/separatists or religious radicals; and the fact that no data are offered supporting the theory of differential
+moral inhibition. Nonetheless, setting aside the simplistic concept of “national” culture, the concept that differences in group culture, as explored in cultural anthropol-
+
+22
+
+JOURNAL OF CONFLICT RESOLUTION
+
+ogy, might influence the expression of terrorism and audience responses to terrorism
+seems worthy of further investigation.
+PSYCHOLOGICAL THEORIES
+In contrast to sociological theories that emphasize factors influencing the behavior
+of an entire group, psychological theories of terrorist behavior primarily emphasize
+individual factors. Since the early twentieth century, a fierce controversy has roiled the
+psychiatric community, dividing psychoanalytic approaches to the study of individual
+psychology, primarily derivative of Freudian theory, from nonpsychoanalytic approaches (Wallerstein 1995). For the purposes of this review, these approaches are
+considered separately.
+PSYCHOANALYTIC PSYCHOLOGICAL
+THEORIES OF TERRORISM
+
+Psychoanalysis is based on the proposition that much of mental life is unconscious,
+that psychological development proceeds in stages based on infantile sexual fantasies,
+and that psychological distress derives from unresolved intrapsychic conflict regarding those fantasies (Gabbard 2000). The “dynamics” of this theory was literally derived from nineteenth-century concepts of physics, in which the flow of mental and
+libidinal energy is deterministically expressed, repressed, or discharged. The theory
+has variants, but they share the notions that (1) parenting (as opposed to intrinsic temperament) determines psychological temperament and health; (2) active, unconscious
+forces exclude unpleasant thoughts from the consciousness; and (3) relationships with
+others, “object relations,” are controlled by unconscious forces such as projection—
+the theory that one irrationally attributes one’s own attitude to others (Wallerstein
+1995; Gabbard 2000). Multiple nonscientific assumptions underlie the “discoveries”
+claimed by psychoanalysts, principally that the early analysts’ impressionistic interpretations of classic cases according to their own dynamic theory constitute evidence
+supporting that theory.
+Psychoanalytic approaches to terrorist behavior may be roughly divided according
+to their emphasis on identity theory, narcissism theory, paranoia theory, and absolutist
+thinking.
+Identity Theory
+It has been proposed that candidates for terrorism are young people lacking selfesteem who have strong or even desperate needs to consolidate their identities (Olsson
+1988). On the basis of unstructured (and largely undocumented) interviews with Irish
+and European terrorists, Taylor and Quayle (1994) reported that many became politically violent, seeking a sense of purpose and self-worth—“a place in the sun.” The
+theory of psychologist Erik Erikson (1959), that adolescents reach a stage of identity
+formation at which ideologies assist in self-definition, was the basis for Böllinger’s
+
+Victoroff / THE MIND OF THE TERRORIST
+
+23
+
+(1981; also see Crenshaw 1986) psychoanalytic interpretation of his interviews with
+eight members of German terrorist groups: Böllinger claimed that overcontrolling
+parents prevented these respondents from developing autonomy, leading to identity
+crises that made violent struggle irresistible. At the extreme, those with identity confusion are perhaps tormented by a sense of isolation, conceivably engaging in terrorist
+violence as an adaptive response to the pain of anomie (Ferracuti 1982).
+This perspective is consistent with Freud’s (1953-1974) speculation that the principle of self-determination may be inseparable from the impulse for destruction. This
+view is also reminiscent of the theories of psychiatrist Frantz Fanon (1965), who posited that violence against colonial oppression liberates not only the body but also the
+self-identity. Menachem Begin (1977) offered his own confirmation of this mode of
+thinking with his neo-Cartesian aphorism: “We fight, therefore we are.” Young people
+turning to political violence in a desperate search for identity may act alone (e.g., perhaps Charles Bishop, a fifteen-year-old who flew a small airplane into a bank in early
+2002, leaving a suicide note declaring his allegiance with al Qaeda) (Rosenberg,
+Waddell, and Smalley 2002), yet they may be very eager to join groups—a behavior
+offering an instantaneous grafting of identity. Identity-starved joiners are also hypothesized to be motivated by a desire to embrace the intimate tutelage of a charismatic
+leader—a form of anaclitic devotion (choosing a love object who resembles a parent).
+To date, no controlled empirical study testing the applicability of this theory to young
+terrorists has been published.
+Narcissism Theory
+John Crayton (1983), Eric Shaw (1986), Richard Pearlstein (1991), and others have
+invoked Kohut’s self psychology to explain the sequence that drives young people
+to terrorism. Psychoanalyst Heniz Kohut (1972, 1978; see also Wallerstein 1995;
+Gabbard 2000) developed self psychology as a departure from the classical ego psychology of Freud. Self psychology emphasizes the needs that an infant has for caring
+responses to develop normally. Failure of maternal empathy leads to damage to the
+self-image—so called narcissistic injury—that arrests development in one of two
+ways: persistent infantile grandiose fantasies or failure to internalize the idealized
+image of the parent. Either problem prevents the development of adult identity and
+morality. Crayton, for example, proposed that political experience, such as the humiliation of subordination, might produce an adult narcissistic injury that might reawaken
+the psychological trait of infantile narcissism. The result might be a pathological exaltation of self (the genesis of the leader), the abandonment of independence to merge
+with the archaic omnipotent figure (the genesis of the follower), or a combination of
+these impulses, as seen in the egotistical yearning for glory under the mask of selflessness. Both of these forms of infantile retreat are hypothesized to mobilize the expression of the desire to destroy the source of the injury (i.e., narcissistic rage). This rage is,
+in essence, rage against the damaged self, projected onto the target of the terrorist’s
+animus, as if the target were the source of the intolerable feelings the terrorist has about
+himself (Crayton 1983; Akhtar 1999). According to Risto Fried (1982), the target or
+victim is treated as a “discardable object,” which psychoanalyst Richard Pearlstein
+
+24
+
+JOURNAL OF CONFLICT RESOLUTION
+
+cited as evidence that terrorism is a “spectacularly vivid example of narcissistic object
+manipulation.”
+The theory of terrorist narcissism is consistent with many reports regarding the
+pathologically dependent psychology of cult adherents, but it is perhaps more pertinent that it fits with empirical observations of both Hubbard (1971) and el Sarraj
+(2002) that terrorists, far from being the aggressive psychopaths of public imagination, are often timid, emotionally damaged adolescents—those who have suffered ego
+injuries such as parental rejection that delay or prevent full achievement of adult identity—who seem to be in search of affiliation and meaning. In this respect, narcissism
+and identity theory overlap. Potential support for the importance of narcissism comes
+from Gustave Morf’s (1970) clinical examinations conducted with prisoners held as
+members of the Front for the Liberation of Quebec (FLQ). Morf reported that these
+individuals exhibited narcissistic traits, wishing to put themselves at the center of the
+universe, but did not fulfill the criteria for a full-blown narcissistic personality disorder. He further concluded that a “permissive society” was responsible for their narcissism. However, he used no standardized psychological instruments, reported no statistical data, and used no control group. Like Sageman’s (2004) previously cited exegesis
+of ten terrorist biographies, the conclusions regarding narcissism are impressionistic,
+not empirical. As a result, it remains undetermined whether the prevalence of narcissistic traits among terrorists exceeds the prevalence in the general population. And
+other authorities have objected that narcissism is unlikely to explain terrorism in even a
+small number of groups (Corrado 1981; Reich 1998). Again, the intuitively plausible
+scenario of identity deficit with narcissistic rage in the developmental path to terrorism
+has yet to be supported by scientific study.
+Paranoia Theory
+George Washington University psychiatrist Jerrold M. Post is unequivocally
+among the principal contributors to political psychological theories of terrorism. Post
+(1998, 2004) offers a comprehensive, psychoanalytically based formulation of terrorist behaviors—one that includes an explanation for the terrorist’s capacity for murder:
+echoing Kohut (1972, 1978), he posits that the salient feature of terrorist psychology is
+projection, an infantile defense that assigns intolerable internal feelings to an external
+object when an individual who has grown up with a damaged self-concept idealizes
+the good self and splits out the bad self. This projection is proposed to be the root of
+an adult persistence of the infantile phase that Melanie Klein called the “paranoidschizoid position” (Robins and Post 1997). While not overtly psychotic, the paranoid
+position nonetheless inflames the terrorist with suspicions that justify bloody acts of
+“self-defense” against his victims: “the zeal of the torturer, the alacrity of the killer,
+represents his eagerness to destroy the devalued and disowned part of the self” (Robins
+and Post 1997, 146). Post’s paranoia theory offers a developmental model that explains not only why only a minority of individuals with political grievances turns to
+terrorism but also why terrorists kill those who do not appear to constitute an imminent
+threat.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+25
+
+Post (1998, 2004) bases his theory in part on an interpretation of the findings of the
+German psychological team that interviewed 250 radicals from the 1970s—mostly
+left-wing revolutionaries (Jäger, Schmidtchen, and Süllwold 1981; Böllinger 1981).
+Unfortunately, despite the earnest ambitions of that major study, no formal measurements of paranoia were used, there was little effort to stratify according to hierarchical
+level and role, there were no controls, and extrapolations from this subtype of terrorists
+to other political categories may be inappropriate. It seems plausible, for example, that
+the student radical of the 1970s who adopted a flagrantly antisocial revolutionary ideology is more likely to have exhibited some kind of psychological atypicality than is
+the typical Palestinian extremist or Sunni Iraqi insurgent who chooses behavior widely
+supported within his community. A scientifically weak but plausible criticism of the
+paranoia theory is provided by Sageman’s (2004) finding that nine of ten Muslim terrorist biographies revealed no evidence of paranoia. Yet the most important criticism
+of such psychoanalytical theories is that it is impossible to test any hypothesis that
+attributes covert adult psychodynamic forces to covert psychosexual processes postulated to have occurred decades before, in infancy. Paranoia theory, like narcissism theory, remains an intriguing albeit impressionistic psychoanalytic interpretation that
+might, after controlled research using validated measures of paranoia, someday be
+shown to explain some instances of this very heterogeneous adult behavior.
+Absolutist/Apocalyptic Theory
+Harvard psychiatrist Robert J. Lifton is another important contributor. Lifton’s
+(2000) major recent contribution is an account of the Aum Shinrikyo cult and other
+apocalyptic groups that envision mass destruction as a path toward replacing the corrupt world with a pure new social order. Apocalyptic groups typically exhibit absolutist moral polarization, idealization of a messianic figure, and impaired reality testing,
+imagining vast conspiracies of evil such as a “world shadow government” of Jews.
+Lifton’s insights—that absolutist/totalist moral thinking helps motivate terrorism via
+its seductive appeal to young adults with weak identities and that terrorists defend
+themselves from normal emotional responses to violence through denial, psychic
+numbing, or isolation of affect—both fit with psychoanalytic theory. Although neither
+absolutism nor isolation of affect by themselves offers an animus belli or explains the
+specific impulse to harm innocents, it seems plausible to predict that irrational violence against the “other” would be precipitated when pathological defenses lead to
+black-and-white thinking about the out-group combined with paranoia about in-group
+annihilation. This is consistent with the proposal of Devine and Rafalko (1982) to the
+effect that, paradoxically, terrorists are often uncompromising moralists who see the
+world in starkly polar terms.
+Lifton’s (2000) absolutist approach to terrorism represents a compelling combination of psychoanalytic developmental theory with a theory of atypical cognitive style.
+However, the evidence offered to support this theory consists of a subjective, theorydriven interpretation of unstructured interviews with a few individuals who may not be
+representative, and the postulated existentialist despair, irrational fantasies of world-
+
+26
+
+JOURNAL OF CONFLICT RESOLUTION
+
+wide dominion, and pathologically dependent group behavior of apocalyptic cults led
+by messianic leaders seem to characterize only a small minority of terrorist actions.
+One must still explain the majority.
+The great strengths of psychoanalytic interpretations of terrorism are their
+acknowledgment that individual developmental factors beginning in early childhood
+probably influence adult behavioral proclivities, their recognition of the enormous
+power of the unconscious to influence conscious thought, and their observation that
+covert psychodynamic forces of groups may subsume individuality. The great weakness is their lack of falsifiability. Psychoanalysis has been largely abandoned among
+modern psychiatrists precisely because it rejects the scientific method, asking that
+adherents accept its propositions as received wisdom. This is not by any means to
+deny that early childhood, unconscious processes, and group dynamics may be key
+factors in the genesis of terrorism. However, psychoanalytic claims regarding pseudophysical intrapsychic dynamics tied to presumptive stages of sexuality cannot be confirmed according to the modern methods of social and behavioral science. A less ideological and more empirical psychodynamic model that nonetheless considers the
+crucial role of the unconscious—tested, for example, via controlled research examining whether a stratified subgroup of terrorists exhibit elevated scores on validated
+measures of maternal rejection, self-absorption, or paranoia—might more persuasively demonstrate how developmental and unconscious processes help drive
+terrorism.
+NONPSYCHOANALYTIC PSYCHOLOGICAL
+THEORIES OF TERRORISM
+
+Cognitive Theories
+Cognitive capacity refers to mental functions such as memory, attention, concentration, language, and the so-called “executive” functions, including the capacity to
+learn and follow rules, to anticipate outcomes, to make sensible inferences, and to perform accurate risk-benefit calculations (Lezak 1995). Many of these mental operations are conducted within the dorsolateral prefrontal cortex of the brain, a large neural
+association region that attends to perception of present circumstances, previously
+learned associations, and emotions to calculate and activate adaptive plans. In contrast, the capacity to restrain impulses and comport one’s behavior to social expectations depends on the ventromedial cortex, a region that sits just behind the eyes
+(Gazzaniga 2000; Mesulam 2000). Cognitive style refers to ways of thinking—that is,
+biases, prejudices, or tendencies to over- or underemphasize factors in decision making. Apart from reports of absolutist thinking, little attention has been paid to the possibility that terrorists, or subtypes of terrorists, exhibit idiosyncrasies of either cognitive
+capacity or cognitive style.
+Substantial evidence exists that violent behavior is influenced by cognitive capacity and/or style (Bryant et al. 1984; Kandel et al. 1988; Satterfield 1998; Ernst et al.
+2003). It has also been proposed that cognitive style influences the aggressive behav-
+
+Victoroff / THE MIND OF THE TERRORIST
+
+27
+
+ior of political leaders (Satterfield 1998). It is tempting to speculate that variations in
+either the capacity or style of thought might affect the likelihood that an individual
+would sympathize with, join, follow, or lead a terrorist group. It is also plausible that
+knowledge of typical variations in cognitive capacity or style might supplement the
+rational choice approach to help predict otherwise unaccountable behaviors in
+response to contingencies such as interactions with governments. Unfortunately, this
+potentially rich vein of study has hardly been mined. Taylor and Quayle (1994), for
+example, speculated that young people joining terrorist groups make a fundamental
+attribution error, a cognitive bias inaccurately attributing devious and evil motives to
+those they perceive as oppressors. However, they offer no data supporting this reasonable-sounding claim and no solution to this potential problem, a cognitive factor that
+might account for certain complications of conflict resolution. While some classified
+data exist regarding cognitive capacities of young terrorists (e.g., Merari 1998, 2002),
+the open literature does not report neuropsychological findings meaningfully comparing terrorists or ex-terrorists with matched nonterrorists.
+Sidanius (1985) conducted one study of potential importance to the question of
+cognitive style among terrorists: to examine cognitive factors in different types of
+extremism, he measured conservatism, cognitive flexibility, cognitive complexity, and
+intolerance of ambiguity using normed and validated instruments, including the
+Budner Intolerance of Ambiguity Scale (Budner 1962), in a randomly selected sample
+of 195 Swedish high school students. Respondents were classified as extreme leftists,
+moderate leftists, moderate, moderate rightists, or extreme rightists. Contrary to theories claiming that extremism is associated with cognitive limitations, extreme leftists
+and moderate rightists had the highest cognitive complexity; moderates had the lowest. Consistent with some assumptions regarding the rigidity of right-wing values, less
+cognitive flexibility was associated with more sexual repression and greater general
+conservatism. Perhaps most useful for the analysis of terrorism, reduced cognitive
+flexibility was associated not only with intolerance of ambiguity, especially the need
+for certainty and uniformity, but also with racism and ethnocentrism. Thus, it seems
+worth exploring whether those who become ethnic terrorists, driven by a black-andwhite animus that does not accept the possibility of valued characteristics among
+members of the out-group, are more likely to exhibit the trait of cognitive inflexibility.
+These findings perhaps mesh with those of Canetti and Pedahzur (2002), who reported
+that right-wing extremism among Israelis is associated with authoritarian attitudes,
+xenophobia, and supernatural beliefs.
+Much further work would be needed to determine whether cognitive factors such as
+inflexibility might conceivably represent a general trait of terrorists, a predictable trait
+of a political subgroup of terrorists, or a trait of leaders that might be identified by analysis at a distance. Findings in this area may conceivably have strategic importance. For
+example, terrorists with diminished executive function will fail to anticipate future
+consequences. As a result, their responses to negotiation or threat may be less predictable. Those with excessive intolerance of ambiguity or cognitive inflexibility may be
+less adaptable, unable to appreciate nuance, and more irrational in bargaining. Political psychologists could potentially capitalize on these factors to help refine security
+
+28
+
+JOURNAL OF CONFLICT RESOLUTION
+
+plans, identifying behavioral markers that distinguish terrorists who are more or less
+likely to follow projected paths.
+Novelty-Seeking Theory
+Some psychological theories attribute terrorism to specific innate aspects of temperament. For example, developmental theories might predict that youngsters with
+aggressive temperaments would be disproportionately attracted to terrorist organizations (Pettit 1997). However, no published research supports this intuitively plausible
+supposition. In fact, a semistructured psychological analysis of 227 left-wing German
+militants found no common pattern of aggressivity (Jäger, Schmidtchen, and Süllwold
+1981). Another possibility is that terrorism is associated with the trait of novelty seeking. Terrorist planning and execution is indisputably thrilling action outside the realm
+of ordinary experience, and many theorists have opined that political violence may satisfy innate, perhaps genetically determined needs for high-level stimulation, risk, and
+catharsis (Hacker 1983; Kellen 1979; Levine 1999). Possibly consistent with this proposal, many incarcerated terrorists have expressed their pleasure and excitement at
+being involved in such thrilling action (Juergensmeyer 2000). Israeli Prime Minister
+Yitshak Shamir, who spent his early adulthood with the terrorist organization Irgun,
+conceivably hinted at the same when he said, “That period in the underground was the
+best part of my life” (Marton 1996, 53). The “romance of risk” may explain the special
+affinity of teenagers for such behavior: adolescent anxieties, sexual frustration, and
+developmental attraction to risk taking may play a role in a dangerous flirtation with
+political violence (Ponton 1997; Levine 1999).
+This thesis raises two issues: first, sensation and novelty seeking, a normative feature of adolescent development probably tied to expected changes in neural activity
+(Dahl 2004), may play a role in the natural history of terrorist involvement. Second,
+the personality trait of novelty seeking—a measurable, nonnormative, and probably
+genetically influenced characteristic that persists in certain individuals well into adulthood (Zuckerman 2002)—possibly distinguishes those who are more likely to be terrorism prone. With regard to the first point, evidence suggests that the typical development of terrorist sympathies perhaps follows an arc: young adolescents are plastic in
+their political orientation and open to indoctrination. Positions harden in later adolescence such that, as Saper (1988, 26) put it, “once belief systems, resentments, and desperate response tendencies are rigidly instilled . . . they are virtually impossible to
+modify belatedly.” At the far end of the arc, reduction in destructiveness may occur
+with maturity: interviews with many “retired” terrorists have revealed a mellowing of
+attitude consistent with the theory that enthusiasm for terrorist action is primarily a
+developmental phenomenon of late adolescence and early adulthood (Laqueur 1987;
+Levine 1999; Akhtar 1999). So the normative developmental form of novelty seeking
+probably does contribute to terrorism. With regard to the second point, no studies have
+yet been reported assessing the association between terrorists and adult-persistent
+nonnormative traits of risk taking or novelty seeking. While it seems plausible that
+individuals exhibiting such traits are disproportionately represented among terrorists,
+
+Victoroff / THE MIND OF THE TERRORIST
+
+29
+
+pending supportive evidence, it is premature to conclude that this atypical personality
+feature helps drive terrorism.
+Humiliation-Revenge Theory
+Humiliation—and the consequent internal pressure for revenge—is another psychological factor that has been hypothesized to drive terrorist violence
+(Juergensmeyer 2000). Revenge for humiliation by an oppressor is, in fact, an ancient
+cultural tradition with direct links to the current violence in the Middle East. The
+oppression of the early Christians, embodied in the image of Christ on the cross, was
+part of the inspiration for the apocalyptic movement in Christianity that culminated in
+the First Crusade (Armstrong 2001). A cycle of oppression and humiliation, followed
+by violent action in the name of liberation, characterizes the subsequent history of the
+Middle East. Palestinian psychiatrist Eyad el Sarraj (2002) has specifically observed
+that humiliation is an important factor motivating young suicide bombers. Dr. Abdul
+Aziz Rantisi, the late political leader of Hamas, confirmed this notion in a statement
+published three years before his death via targeted killing by the Israeli Defense
+Forces: “To die in this way is better than to die daily in frustration and humiliation”
+(Juergensmeyer 2000, 187). Several other authorities also propose that humiliation,
+either by parents in early childhood or by political oppressors later in life, can provoke
+terrorism, but no quantitative research has yet explored this hypothesis (Crayton 1983;
+Volkan 1997; Stern 2003). Whether considered from the psychoanalytic point of view
+as an inevitable dynamic consequence of narcissistic injury or from the nonpsychoanalytic point of view as a painful social stressor, humiliation seems plausible as the
+root of an urge to retaliate against political entities that are perceived to be responsible.
+The concept that feelings of humiliation or being taken advantage of gives rise to a
+passion for revenge is very familiar in forensic psychiatry and criminology and probably contributes to many nonpolitical murders (Miller 1993; Brooks, Thomas, and
+Droppleman 1996; Schlesinger 2000; Meloy 2001). Note that revenge, in itself,
+should not be regarded as antisocial behavior but as a normal and potentially useful
+activity. Jurisprudence formalizes this feature of social contracts, emphasizing retribution in part as deterrence, and polities have used vengeance for misdeeds to maintain
+their integrity at least since the Trojan War. Indeed, revenge is an emotion that is probably deeply rooted in the adaptive instinct to punish transgressors who violate the contracts of social species; hence, it is a motivator that often serves not only the goals of a
+vengeful individual but also the goals of his group (Clutton-Brock and Parker 1995).
+In this sense, revenge is often prosocial and sometimes—if the vengeance taker (e.g.,
+Achilles or suicide bombers) stands to suffer and his group to gain—even altruistic. In
+a recent study combining psychological with functional neuroimaging studies in
+humans, de Quervain et al. (2004) showed that individuals punish social transgressors
+even when it is quite costly to the punisher, and they reported evidence that this altruistic behavior was driven by deep subcortical brain activity that may have overruled the
+more rational cortex. Knutson (2004) highlights the self-defeating and emotionally
+driven nature of vengeance demonstrated by this study, stating that these findings
+
+30
+
+JOURNAL OF CONFLICT RESOLUTION
+
+“chip yet another sliver from the rational model of economic man.” While this science intriguingly helps to explain how revenge might motivate terrorists and perhaps
+governments to commit murderous behaviors without likely strategic benefits, no
+questionnaire data or measurements of subjective humiliation, desire for revenge, or
+emotional satisfaction after retribution in terrorists or ex-terrorists have yet been published. This plausible theory awaits better substantiation.
+THEORIES OF GROUP PROCESS
+Most published psychological theories explain terrorism as the product of group
+psychology within idiosyncratic subcultures that coalesce in reaction to circumstances
+they perceive as intolerable (Taylor and Ryan 1988; Friedland 1992; Hoffman 1998;
+Merari 1998; Levine 1999; Post 2004; Sageman 2004). Membership in a terrorist
+organization offers disciples a heady liquor of a well-defined personal role, a righteous
+purpose, the opportunity for revenge for perceived humiliations, and the lifting of constraints on the expression of otherwise prohibited behaviors—freeing the member
+from personal responsibility for attacks on out-groups (Hacker 1983; Taylor and Ryan
+1988; Weinberg and Eubank 1994; Stern 1999). Group forces, including ideological
+indoctrination, repetitive training, and peer pressures, have been hypothesized to
+influence the group’s violence, whether or not individual members were predisposed
+to such behavior (Crenshaw 1992; Clayton, Barlow, and Ballif-Spanvill 1998). This
+may occur because collective identity subsumes individual identity. As Post, Sprinzak,
+and Denny (2003, 176) put it, “An overarching sense of the collective consumes the
+individual. This fusion with the group seems to provide the necessary justification for
+their actions with an attendant loss of felt responsibility.” This description of the submersion of individuality is very reminiscent of Eric Hoffer’s (1951, 128) statement
+that people who plunge into mass movements “are fashioned into incomplete and
+dependent human beings even when they have within themselves the making of selfsufficient entities.” Withdrawal from the mainstream may increase the potency of collective thought: based on a semiquantitative review of life histories of more than 1,500
+Italian and German militants, greater isolation is associated with greater separation
+from social reality (della Porta 1992).
+The principal debate among those discussing group versus individual factors in
+political violence centers on whether group dynamics are sufficient in and of themselves to turn an average person into a terrorist or whether individual history and personality must be considered as well. Sageman, one strong proponent of the group
+hypothesis, goes so far as to say that “it’s a group phenomenon. To search for individual characteristics . . . will lead you to a dead end” (Rotella 2004, A3). However,
+Sageman’s psychiatric assessments of Islamic mujahedin were exclusively based on
+secondary sources that did not include any objective behavioral data, so his conclusion
+seems premature. Rasch (1979, 82) observed that the dynamics of living in a terrorist
+group tends to alienate one from others but that “the starting point and personal needs
+existing at the time of entry into the terrorist group are very different for the different
+terrorists.” This claim of initial psychological heterogeneity followed by group-
+
+Victoroff / THE MIND OF THE TERRORIST
+
+31
+
+induced homogenization appears sensible, but it requires empirical verification. Consistent with this theory, Friedland (1992) postulated that terrorism is not purely a group
+phenomenon but is obviously the result of an interaction between social processes and
+individual dispositions. However, he proposes three conditions under which individual proclivity to violence is a relatively minor factor in the group’s terrorist turning:
+(1) deprivation is intense, (2) the group has ideologized its discontent, and (3) the
+group is cohesive and clearly differentiated from the out-group. He gives the example
+of the Palestinians, whose special circumstances drive individuals with no special propensity to violence to undertake terrorist acts. This formulation seems plausible on its
+surface. However, one still must account for the fact that, while most Palestinians support suicide bombing, a very small minority does it. Furthermore, no published studies
+support the proposition that these three conditions increase group dynamic success in
+driving nonviolent persons to political violence. Unless and until systematic research
+is conducted making in-depth psychological comparisons between terrorists and
+matched controls from identical political circumstances and estimating premembership and postmembership willingness to harm innocents, one cannot meaningfully
+quantify the relative influence of individual and group factors.
+LIMITS AND IMPEDIMENTS TO
+BEHAVIORAL SCIENCE RESEARCH ON TERRORISM
+Psychiatrist Walter Reich (1998, 262) has warned that “psychological accounts of
+terrorism are replete with explanations that ignore or blur the variety and complexity . . . a product of loose and weak thinking, a disregard for the need for evidence, and
+the habit, unfortunately endemic in so many areas of psychological discourse, of having a single idea and applying it to everything.” Reich’s strong caveat against
+overgeneralization and reductionism is a vital counter to the potpourri of psychological theories promulgated by terrorism scholars. In this, he supports Corrado’s (1981)
+critical review of the mental disorders approach to political terrorism; Corrado states
+that a terrorist personality probably does not exist and that efforts to psychopathologize this type of aggression are rooted in biased theory, not in unbiased data.
+Caveats against overgeneralization and unwarranted medicalization of terrorist
+behaviors are logical and important. Yet it seems reasonable to seek a middle ground
+between the reductionist position that proposes a single psychology of terrorism and
+the nihilist position that denies any explicit psychology of terrorism. That is, until a
+rigorous effort is made to investigate the null hypothesis via the collection of empirical
+evidence, it is premature to conclude that there are no distinguishing psychological
+characteristics among the tiny minority of individuals who are willing to send a terrifying political message to a target audience by attacking innocent noncombatants.
+Why has the behavioral science community so far failed to amass a persuasive body
+of evidence in this domain? Multiple practical and theoretical impediments have
+delayed the scientific psychological study of terrorism. Most of the practical barriers
+are obvious. For example, terrorism research may involve expensive and inconvenient
+travel to politically unstable regions, is potentially dangerous, and raises ethical issues
+
+32
+
+JOURNAL OF CONFLICT RESOLUTION
+
+that may challenge institutional review boards (e.g., Wieviorka 1995; Brannan,
+Eslerm, and Anders Strindberg 2001). These issues may explain why journalists,
+rather than academics, have published a substantial proportion of the available literature reporting behavioral observations of terrorists. Active terrorists may have little
+motivation to cooperate with behavioral assessment, and inactive terrorists may no
+longer exhibit the psychology of interest (Reich 1998). Language barriers—including
+the lack of expert translations of high-quality psychological instruments—frustrate
+collection of data. Authorities may deny scholars access to incarcerated terrorists
+because of security concerns and the perception that such assessments are not pertinent to counterterrorism.
+A theoretical issue that seriously limits the utility of interviews with specific terrorists or groups is the fact that, contrary to some published hypotheses, terrorism is not a
+unitary behavior (Crenshaw 1986; Laqueur 1987; Haroun 1999). As a result, theories
+that attempt to generalize and reduce the psychology of terrorism begin with a premise
+that is inconsistent with the available observations, and studies based on such theories
+will produce results with limited predictive value since they conflate data from mixed
+populations. Classifying terrorism according to probable homogeneous psychological
+subtypes that are “at least descriptive, inclusive, discrete, endowed with forecasting or
+prognostic value, policy-generating, possibly etiological, and theoretically
+grounded,” as advised by Ferracuti (1982, 132), may be an indispensable preliminary
+step to designing research projects and interpreting data (Wilson 2000). Moreover, as
+Crenshaw (1986, 384-85) urged, “the analysis of terrorism deals with the intersection
+of psychological predispositions (which may be derived as much from prior experience and socialization as from psychological traits emerging from early childhood and
+infancy) and the external environment.” A complete understanding of the psychology
+of terrorism, therefore, will require the difficult investigation of the dynamics of that
+intersection, in concert with an understanding of the forces of group dynamics and a
+quantitative analyses of events, a challenge demanding an interdisciplinary
+perspective beyond the borders of parochial regimes.
+Funding has long been a problem, with limited federal support (Jenkins 1983). In
+2004, the U.S. Homeland Security Department (DHS) published a Broad Agency
+Announcement soliciting proposals for a university-based Homeland Security Center
+for Behavioral and Social Aspects of Terrorism and Counter-terrorism, to be funded at
+$4 million per year for three years (U.S. Department of Homeland Security 2004). On
+one hand, this is a historic first, the largest grant ever offered to support research on this
+vital issue. On the other hand, the amount involved represents a very small proportion
+of the DHS research budget of more than $500 million per year (Brumfiel 2003) and a
+paltry part of the U.S. defense budget. The announcement emphasizes modeling “to
+detect, prevent, prepare for, and respond to terrorist activity at the earliest possible
+point in time” (U.S. Department of Homeland Security 2004, 8). The above review
+suggests that that “earliest point in time” may occur decades prior to the formation of a
+terrorist group or the planning of an attack and may relate to a combustible convergence of historical, political, and psychosocial factors. Psychological research may
+contribute most to long-term national security by an open-minded exploration of the
+deep roots of terrorism, with a time horizon that extends far beyond imminent threats
+
+Victoroff / THE MIND OF THE TERRORIST
+
+33
+
+and a conceptual horizon that extends beyond the traditional mission of intelligence
+services.
+But the most important barriers to scientific research on terrorism may have deeper
+origins.
+Terrorism, like a shark attack, wields tremendous psychological impact. It is rare
+but awesome, deriving almost mystical significance by virtue of the suddenness,
+drama, and outrageousness of its violence (Zulaika and Douglass 1996; Mahmood
+2001). But terrorists are not bogeymen, and both behavioral scientists and the
+counterterrorism community must be wary of explaining the terrorist mind-set by projecting the state of mind required to act in this way. “Terrorists,” writes psychoanalyst
+Lloyd DeMause (1986, 419), are “containers into which one can project one’s unconscious hostility.” While this statement again presumes a difficult-to-test psychodynamic theory, it is legitimate to propose that subjectivity confounds the design and
+the interpretation of terrorism studies. That is, in both the scholarly and counterterrorism realms, one must acknowledge the possibility that terrorism excites passions
+that erode logical discourse, leading to responses that are reactive and enraged rather
+than proactive and analytical (Zulaika and Douglass 1996). Just as the terrorist adopts
+absolutist thinking to justify his indefensibly immoral actions, the horrific threat of
+terrorism may perhaps provoke absolutist thinking about terrorists among some
+observers and may conceivably lead threatened groups not only to discount the value
+of objective study and prejudge or misinterpret the available data but also to rationalize
+extralegal steps and the curtailment of civil rights in the name of a war on terrorism
+(Pettit 1997). In his World War I–era essay, “Thoughts for the Times on War and
+Death,” Freud (1953-1974) admonished that nation-states sometimes “make use of
+their interests to rationalize their passions.” This hypothesis itself could be the subject
+of study.
+A cultural divide also separates behavioral scientists from law enforcement, intelligence, and military personnel: counterterrorism forces occupy an adversarial position
+and must steel themselves against any sympathetic consideration of the terrorist’s
+position. Behavioral scientists, no matter how much they despise terrorist actions,
+must steel themselves to adopt the position of unbiased observers and interpreters of
+behavior (Soskis 1983). While behavioral scientists may recognize marked psychological heterogeneity and even prosocial features of terrorists that might be exploited
+in the development of policy, counterterrorism forces and even policy makers may
+resist such conclusions due to cultural bias, cognitive inflexibility, or attribution error.
+This divide unfortunately may undercut the effectiveness of counterterrorism by isolating practitioners from theorists—a separation akin to isolating engineers from the
+discoveries of physicists.
+CONCLUSIONS AND PROPOSALS
+The leading psychological theories of terrorism include a broad spectrum of sociological, psychological, and psychiatric approaches. Strikingly, virtually none of them
+has been tested in a systematic way. They are overwhelmingly subjective, speculative,
+
+34
+
+JOURNAL OF CONFLICT RESOLUTION
+TABLE 3
+
+Psychological Variables Potentially Identifying Terrorist Subtypes
+Variable
+Reality testing
+Sociality
+Temperament
+
+Cognitive capacity
+Cognitive style
+Dominance
+
+Classification
+Nonpsychotic vs. psychotic
+Prosocial vs. antisocial
+Typical vs. atypical for culture
+Atypically aggressive/hostile
+Novelty seeking
+Identity seeking
+Affectively atypical (depression, irritability, anxiety)
+Vulnerable to charismatic influence
+Sensitive to perception of oppression
+Sensitive to humiliation
+Vengeful
+Self-destructive
+Normal vs. impaired
+Executive function impairment
+Impulse control impairment
+Typical vs. atypical for culture
+Intolerance of ambiguity
+Low vs. high complexity
+Leader vs. follower
+
+and, in many cases, derived from 1920s-era psychoanalytic hypotheses that are not
+amenable to testing. Students of terrorism might justifiably conclude from the peerreviewed literature that the total number of published theories exceeds the number of
+empirical studies—an imbalance that may be of more than academic import. Even the
+small amount of psychological research is largely flawed, rarely having been based on
+scientific methods using normed and validated measures of psychological status, comparing direct examination of individuals with appropriate controls, and testing hypotheses with accepted statistical methods. Insofar as policy makers rely on published
+analyses of the “the mind of the terrorist,” policies intended to reduce the risk of terrorism may be based on invalid premises. The best solution is hypothesis-based research
+and evidence-based policies. Toward that end, I offer several preliminary conclusions
+and proposals:
+1. Terrorist behavior is probably always determined by a combination of innate factors,
+biological factors, early developmental factors, cognitive factors, temperament, environmental influences, and group dynamics (see Table 3). The degree to which each of
+these factors contributes to a given event probably varies between individual terrorists,
+between individual groups, and between types of groups. Theories that claim the predominance of one of these influences over the others are premature since no studies have
+systematically examined more than one or two of these factors, let alone empirically
+examined one while controlling for the others. In particular, the much-cited claim that
+no individual factors identify those at risk for becoming terrorists is based on completely
+inadequate research.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+35
+
+A new model is needed, one that accommodates the multiplicity of forces at work to
+arrive at plausible and testable consilience—that is, a unified theory that is explanatory
+across levels of analysis and examples of terrorist activity. One possibility is a neuroeconomic model that acknowledges the ultimate adaptive nature of this behavior, modified by an empirically based psychology identifying the influence of individual and
+group dynamics. Terrorism is unequivocally a multiply and variably determined subtype
+of human aggression. Recognizing this fact may be the first step toward the extremely
+challenging job of designing research, conducting research, and interpreting data.
+2. Terrorists are psychologically extremely heterogeneous. Whatever his stated goals and
+group of identity, every terrorist, like every person, is motivated by his own complex of
+psychosocial experiences and traits. Plausible psychological variables and classes of
+behavior are summarized in Table 3.
+3. Terrorists exhibiting different psychological subtypes probably conform to different
+behavioral proclivities. It is plausible but yet to be proven that different types of terrorism disproportionately attract individuals with specific temperaments. Future research
+should attempt to determine the most likely psychological types among terrorists in
+groups with different political orientations, as well as the relationship between psychological types, individual roles in the group, and typical responses to constraints. For
+example, the psychology, morality, and response to bargaining among terrorists who are
+primarily prosocial in their orientation may prove to be dramatically different from that
+of antisocial terrorists. Leaders and followers tend to be psychologically distinct. Because leadership tends to require at least moderate cognitive capacity, assumptions of
+rationality possibly apply better to leaders than to followers. Those with diminished
+executive function may be less predictable. Those with subnormal cognitive flexibility
+may be less adaptable and more irrational in bargaining. Those with atypical temperaments—who are driven by an excessive need for self-affirmation, hatred, vengefulness,
+or self-destructiveness—may behave more erratically. Improved modeling of markers
+of psychological subtypes may enhance the prediction of terrorist behaviors.
+4. Accepting that terrorists are heterogeneous, four traits may possibly be characteristics of
+“typical” terrorists who lead or follow in substate groups:
+a. High affective valence regarding an ideological issue
+b. A personal stake—such as strongly perceived oppression, humiliation, or persecution; an extraordinary need for identity, glory, or vengeance; or a drive for expression
+of intrinsic aggressivity—that distinguishes him or her from the vast majority of
+those who fulfill characteristic a
+c. Low cognitive flexibility, low tolerance for ambiguity, and elevated tendency toward
+attribution error
+d. A capacity to suppress both instinctive and learned moral constraints against harming innocents, whether due to intrinsic or acquired factors, individual or group
+forces—probably influenced by a, b, and c
+These four characteristics seem plausible based on the above summary of research. They
+are testable hypotheses proposed for further study.
+5. It seems plausible that the culture of origin differentiates, to some degree, expected individual and group dynamics. However, group theory would predict that the internal
+psychodynamics of a terrorist group is influenced as much by the specific personality of
+its leader and the temperaments of its followers as according to any systematic difference according to politically types (e.g., nationalist/separatist vs. religious).
+6. The current thrust of strategic choice studies focuses on predicting the behavior of committed terrorists. For the purposes of long-term security policy formulation, an increased
+emphasis should be placed on early prevention, that is, on the analysis of the interaction
+between those psychological, cultural, economic, and political factors that influence
+uncommitted but impressionable young people to turn toward terrorism.
+
+36
+
+JOURNAL OF CONFLICT RESOLUTION
+
+7. A balance must be achieved between the benefits of secrecy and the urgent need to
+advance knowledge in this field. Restricted access to data will slow scholarly progress
+with unknown consequences to national and international security. A review of the ultimate impact of this issue at the highest levels of security policy may be required to optimize this balance and overcome potentially counterproductive barriers.
+8. Scholars must be willing to attempt research that brings them into direct contact with
+active terrorists, recently active terrorists, or those at risk for becoming terrorists. Noncoercive recruitment, voluntary participation, and informed consent are essential.
+9. A major investment is required to advance the field of the behavioral and social aspects
+of terrorism. Meaningful research is likely to be interdisciplinary, empirical, controlled,
+ethical, conducted across levels of analysis, and directed at root causes and modifiable
+risk factors along the entire chain of causality from historical forces to childhood influences to the moment of a terrorist act. Since the best experts in any discipline are inevitably scattered geographically, rather than depending on a single center of excellence,
+funding commensurate with the magnitude of the threat should be available on a competitive basis to serious scholars wherever they work through independent science supporters such as the National Science Foundation or the Department of Defense.
+
+The problem is to ask questions the answers to which are most likely to make a difference for security, to prioritize research within the remarkable spectrum of possible
+investigations, and to develop practical projects. For example, is the carrot of perceived concern for victims of disenfranchisement or the stick of high-altitude bombing a better investment in reducing the psychological forces nurturing the next generation of potential terrorists? What observable behavioral traits distinguish terrorist
+groups or leaders who would be likely to back away from aggression if their grievances were addressed by negotiation, as opposed to traits distinguishing groups that
+can only be deterred by force? Is the social influence of fundamentalist madrasas associated with a measurable increase in the likelihood of adult terrorist behavior? If so,
+could support for alternative, culturally valued education help impressionable young
+people find more productive foci for their high emotional energy? Do economic prospects and a sense of personal hope reduce the lure of terrorism? If so, what socioeconomic or psychological factors modify that association, and what cost-benefit formula
+is applicable? Do psychological traits of leaders of target nations drive policies that
+mitigate or exacerbate the threat? Answers to these and similar questions may be part
+of the key to avoiding catastrophic violence in the twenty-first century.
+REFERENCES
+Achenbach, T. M., and C. Edelbrock. 1987. Manual for the youth self-report and profile. Burlington: University of Vermont, Department of Psychiatry.
+Akhtar, S. 1999. The psychodynamic dimension of terrorism. Psychiatric Annals 29:350-5.
+Alexander, Y. 2002. Palestinian religious terrorism: Hamas and Islamic Jihad. Ardsley, NY: Transnational
+Publishers.
+American Psychiatric Association. 2000. Diagnostic and statistical manual of mental disorders. 4th ed., text
+revision. Washington, DC: American Psychiatric Association.
+Anonymous. 2004. The 9/11 Commission report: Final report of the national commission on terrorist
+attacks upon the United States. New York: Norton.
+Armstrong, K. 2000. Islam. New York: The Modern Library.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+37
+
+. 2001. Holy war: The Crusades and their impact on today’s world. New York: Anchor.
+Atran, S. 2003. Genesis of suicide terrorism. Science 299:1534-9.
+Azam, J.-P. Forthcoming. Suicide-bombing as inter-generational investment. Public Choice.
+Badey, T. J. 1998. Defining international terrorism: A pragmatic approach. Terrorism and Political Violence
+10:90-107.
+Bandura, A. 1973. Aggression: A social learning analysis. New York: Prentice Hall.
+. 1998. Mechanisms of moral disengagement. In Origins of terrorism: Psychologies, ideologies, theologies, states of mind, edited by W. Reich, 161-92. Washington, DC: Woodrow Wilson Center Press.
+Barber, B. K. 1999. Political violence, family relations, and Palestinian youth functioning. Journal of Adolescent Research 14:206-30.
+Begin, M. 1977. The revolt: Story of the Irgun. Jerusalem: Steimatzky’s Agency.
+Bennet, J. 2004. In chaos, Palestinians struggle for way out. New York Times, July 15, 1, 10-11.
+Billig, M. 1976. Social psychology and intergroup relations. London: Academic Press.
+Böllinger, L. 1981. Die entwicklung zu terroristischem handeln als psychosozialer prozess: begegnungen mit beteiligten. In Analyzen zum terrorismus 2: Lebenslaufanalysen, edited by H. Jäger,
+G. Schmidtchen, and L. Süllwold. Darmstadt, Germany: DeutscherVerlag.
+Borah, L. A. 1963. The effects of threat in bargaining: Critical and experimental analysis. Journal of Abnormal and Social Psychology 66:37-44.
+Bowen, R., Y. Alexander, R. Cox, M. Crenshaw, and D. Rapoport. 1985. Colby College conference report.
+Terrorism: An International Journal 8:79-112.
+Brannan, D. W., P. F. Eslerm, and N. T. Anders Strindberg. 2001. Talking to “terrorists”: Towards an independent analytic framework for the study of violent substate activism. Studies in Conflict and Terrorism
+24:3-24.
+Brooks, A., S. Thomas, and P. Droppleman. 1996. From frustration to red fury: A description of work-related
+anger in male registered nurses. Nursing Forum 31:4-15.
+Brooks, D. 2002. The culture of martyrdom: How suicide bombing became not just a means but an end. The
+Atlantic Monthly 289:18-20.
+Brophy-Baermann, B., and J. A. C. Conybeare. 1994. Retaliating against terrorism: Rational expectations
+and the optimality of rules versus discretions. American Journal of Political Science 38:196-210.
+Brumfiel, G. 2003. Research mired in homeland security delays. Nature 424:986.
+Bryant, E. T., M. L. Scott, C. J. Golden, and C. D. Tori. 1984. Neuropsychological deficits, learning disability, and violent behavior. Journal of Consulting and Clinical Psychology 52:323-4.
+Budner, S. 1962. Intolerance of ambiguity as a personality variable. Journal of Personality 30:29-50.
+Canetti, D., and A. Pedahzur. 2002. The effects of contextual and psychological variables on extreme rightwing sentiments. Social Behavior and Personality 30:317-34.
+Carey, B. 2002. Method without madness? Los Angeles Times, July 7, 1.
+Clark, R. 1983. Patterns in the lives of ETA members. Terrorism 6:423-54.
+Clayton, C. J., S. H. Barlow, and B. Ballif-Spanvill. 1998. Principles of group violence with a focus on terrorism. In Collective violence, edited by H. V. Hall and L. C. Whitaker, 277-311. Boca Raton, FL: CRC
+Press.
+Clutton-Brock, T. H., and G. A. Parker. 1995. Punishment in animal societies. Nature 373:209-16.
+Cooper, H. H. A. 1977. What is a terrorist: A psychological perspective. Legal Medical Quarterly 1:16-32.
+. 1978. Psychopath as terrorist: A psychological perspective. Legal Medical Quarterly 2:253-62.
+Corrado, R. R. 1981. A critique of the mental disorder perspective of political terrorism. International Journal of Law and Psychiatry 4:293-310.
+Crayton, J. W. 1983. Terrorism and the psychology of the self. In Perspectives on terrorism, edited by L. Z.
+Freedman and Y. Alexander, 33-41. Wilmington, DE: Scholarly Resources, Inc.
+Crenshaw, M. 1981. The causes of terrorism. Comparative Politics 13:379-99.
+. 1986. The psychology of political terrorism. In Political psychology, edited by M. G. Hermann, 379413. San Francisco: Jossey-Bass.
+. 1992. How terrorists think: What psychology can contribute to understanding terrorism. In Terrorism: Roots, impact, responses, edited by L. Howard. New York: Praeger.
+. 2000. The psychology of terrorism: An agenda for the 21st century. Political Psychology 21:405-20.
+
+38
+
+JOURNAL OF CONFLICT RESOLUTION
+
+Crozier, B. 1960. The rebels: A study of post-war insurrections. London: Chatto & Windus.
+Dahl, R. E. 2004. Adolescent brain development: A period of vulnerabilities and opportunities. Annals of the
+New York Academy of Sciences 1021:1-22.
+Davies, J. C. 1973. Aggression, violence, revolution and war. In Handbook of political psychology, edited by
+J. N. Knutsen, 234-60. San Francisco: Jossey-Bass.
+della Porta, D. 1988. Recruitment processes in clandestine political organizations: Italian left-wing terrorism. International Social Movement Research 1:155-69.
+. 1992. Political socialization in left-wing underground organizations: Biographies of Italian and
+German militants. International Social Movement Research 4:259-90.
+DeMause, L. 1986. The real target wasn’t terrorism. Journal of Psychohistory 13:413-26.
+de Quervain, D. J.-F., U. Fischbacher, V. Treyer, M. Schellhammer, U. Schnyder, A. Buck, and E. Fehr. 2004.
+The neural basis for altruistic punishment. Science 305:1254-8.
+Deutsch, K. W. 1954. Game theory and politics. Canadian Journal of Economics and Political Science
+20:76-83.
+Deutsch, K. W., and R. M. Krause. 1962. Studies of interpersonal bargaining. Journal of Conflict Resolution
+6:52-76.
+Devine, P. E., and R. J. Rafalko. 1982. On terror. Annals of the American Academy of Political & Social Science 463:39-53.
+Dollard, J., L. W. Doob, N. E. Miller, W. Mowrer, and R. R. Sears. 1939. Frustration and aggression. New
+Haven, CT: Yale University Press.
+Duckitt, J., C. Wagner, I. du Plessis, and I. Birum. 2002. The psychological bases of ideology and prejudice:
+Testing a dual process model. Journal of Personality and Social Psychology 83:75-93.
+el Sarraj, E. 2002. [Televised interview]. CBS News, April 4.
+Enders, W., and T. Sandler. 2000. Is transnational terrorism becoming more threatening? A time series investigation. Journal of Conflict Resolution 44:307-32.
+Erikson, E. 1959. Identity and the life cycle, 171. Psychological Issues Monograph 1. New York: International University Press.
+Ernst, M., S. J. Grant, E. D. London, C. S. Contorreggi, A. S. Kimes, and L. Spurgeon. 2003. Decision making in adolescents with behavior disorders and adults with substance abuse. American Journal of Psychiatry 160:33-40.
+Fanon, F. 1965. The wretched of the earth. New York: Pelican. Reprint of Les damnes de la terre (Paris,
+1961).
+Ferracuti, F. 1982. A sociopsychiatric interpretation of terrorism. Annals of the American Academy of Political and Social Science 463:129-40.
+Ferracuti, F., and F. Bruno. 1981. Psychiatric aspects of terrorism in Italy. In The mad, the bad and the different: Essays in honor of Simon Dinitz, edited by I. L. Barak-Glantz and C. R. Huff. Lexington, MA:
+Lexington Books.
+Freud, S. 1953-1974. Thoughts for the times on war and death. In Standard edition of the complete psychological works of Sigmund Freud, vol. 14, edited by J. Strachey. London: Hogarth.
+Fried, R. 1982. The psychology of the terrorist. In Terrorism and beyond: An international conference on terrorism and low-level conflict, edited by B. M. Jenkins. Santa Monica, CA: RAND.
+Friedland, N. 1992. Becoming a terrorist: Social and individual antecedents. In Terrorism: Roots, impact,
+responses, edited by L. Howard. New York: Praeger.
+Friedland, N., and A. Merari. 1985. The psychological impact of terrorism: A double-edged sword. Political
+Psychology 6:591-604.
+Gabbard, G. O. 2000. Psychoanalysis. In Kaplan and Sadock’s comprehensive textbook of psychiatry, 7th
+ed., edited by B. J. Sadock and V. A. Sadock, 563-607. Philadelphia: Lippincott Williams & Wilkins.
+Gazzaniga, M. S., ed. 2000. The new cognitive neurosciences. 2nd ed. Cambridge, MA: MIT Press.
+Grossman, D. 1995. On killing: The psychological cost of learning to kill in war and society. Boston: Little,
+Brown.
+Gunaratna, G. 2002. Inside Al Qaeda: Global network of terror. New York: Columbia University Press.
+Gurr, T. 1970. Why men rebel. Princeton, NJ: Princeton University Press.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+39
+
+Hacker, F. J. 1976. Crusaders, criminals, crazies: Terror and terrorism in our time. New York: Norton.
+. 1983. Dialectic interrelationships of personal and political factors in terrorism. In Perspectives
+on terrorism, edited by L. Z. Freedman and Y. Alexander, 19-31. Wilmington, DE: Scholarly Resources, Inc.
+Handler, J. S. 1990. Socioeconomic profile of an American terrorist: 1960s and 1970s. Terrorism 13:195213.
+Harmon, C. C. 2000. Terrorism today. London: Frank Cass.
+Haroun, A. M. 1999. Psychiatric aspects of terrorism. Psychiatric Annals 29:335-6.
+Hasisi, B., and A. Pedahzur. 2000. State, policy, and political violence: Arabs in the Jewish state. Civil Wars
+3:64-84.
+Hassan, N. 2001. An arsenal of believers: Talking to the “human bombs.” The New Yorker 77:36.
+Heskin, K. 1984. The psychology of terrorism in Ireland. In Terrorism in Ireland, edited by Y. Alexander and
+A. O’Day. New York: St. Martin’s.
+Hoffer, E. 1951. The true believer: Thoughts on the nature of mass movements. New York: HarperPerennial.
+Hoffman, B. 1998. Inside terrorism. New York: Columbia University Press.
+. 1999. The mind of the terrorist: Perspectives from social psychology. Psychiatric Annals 29:337-40.
+Horgan, J. 2003. The search for the terrorist personality. In Terrorists, victims and society, edited by A. Silke,
+3-27. Chichester, UK: Wiley.
+Hubbard, D. G. 1971. The skyjacker: His flights of fantasy. New York: Macmillan.
+Jäger, H., G. Schmidtchen, and L. Süllwold, eds. 1981. Analyzen zum Terrorismus 2: Lebenslaufanalysen.
+Darmstadt, Germany: DeutscherVerlag.
+Jenkins, B. M. 1982. Statements about terrorism. Annals of the American Academy of Political and Social
+Science 463:11-23.
+. 1983. Research in terrorism: Areas of consensus, areas of ignorance. In Terrorism: Interdisciplinary perspectives, edited by B. Eichelman, D. Soskis, and W. Reid, 153-77. Washington, DC: American
+Psychiatric Association.
+Juergensmeyer, M. 2000. Terror in the mind of God. Berkeley: University of California Press.
+Kandel, E., S. A. Mednick, L. Kirgegaard-Sorenson, B. Hutchings, J. Knop, R. Rosenberg, and
+F. Schulsinger. 1988. IQ as a protective factor for subjects at risk for antisocial behavior. Journal of Consulting and Clinical Psychology 56:224-6.
+Kellen, K. 1979. Terrorists—what are they like? How some terrorists describe their world and actions. Santa
+Monica, CA: RAND.
+Kelly, R. J., and R. W. Rieber. 1995. Psychosocial impacts of terrorism and organized crime: The
+counterfinality of the practico-inert. Journal of Social Distress and the Homeless 4:265-86.
+Kepel, G. 2002. Jihad: The trail of political Islam. Cambridge, MA: Belknap.
+Knutson, B. 2004. Sweet revenge? Science 305:1246-7.
+Kohut, H. 1972. Thoughts on narcissism and narcissistic rage. Psychoanalytic Study of the Child 27:360400.
+. 1978. The search for the self. New York: International Universities Press.
+Krueger, A. B., and J. Maleckova. 2002. Education, poverty, political violence, and terrorism: Is there a connection? Working Paper No. w9074, National Bureau of Economic Research. Available at http://papers.
+nber.org/papers/w9074
+Laabs, D., and T. McDermott. 2003. Prelude to 9/11: A hijacker’s love, lies. Los Angeles Times, January 27, 1.
+Laqueur, W. 1987. The age of terrorism. Boston: Little, Brown.
+. 1999. The new terrorism: Fanaticism and the arms of mass destruction. New York: Oxford University Press.
+Lee, D. R. 1988. Free riding and paid riding in the fight against terrorism. American Economic Review 78:22-6.
+Levine, S. 1999. Youths in terroristic groups, gangs and cults: The allure, the animus, and the alienation. Psychiatric Annals 29:342-9.
+Lezak, M. D. 1995. Neuropsychological assessment. 3rd ed. New York: Oxford University Press.
+Lifton, R. J. 2000. Destroying the world to save it: Aum Shinrikyo and the new global terrorism. New York:
+Holt.
+
+40
+
+JOURNAL OF CONFLICT RESOLUTION
+
+Loo, C. M., J. A. Fairbank, R. M. Scurfield, L. O. Ruch, D. W. King, and L. J. Adams. 2001. Measuring exposure to racism: Development and validation of a Race-Related Stressor Scale (RRSS) for Asian American Vietnam veterans. Psychological Assessment 13:503-20.
+Machina, M. J., R. Hogarth, K. MacCrimmon, J. Roberts, A. Roth, P. Slovic, R. Thaler, and J. Ferejohn.
+1989. The neural basis for altruistic punishment. In Leading edges in social and behavioral science,
+edited by R. D. Luce, N. J. Smelser, and D. R. Gerstein, 237-59. New York: Russell Sage Foundation.
+Mahmood, C. K. 2001. Terrorism, myth, and the power of ethnographic praxis. Journal of Contemporary
+Ethnography 30:520-45.
+Marighella, C. 1971. For the liberation of Brazil. London: Cox and Wyman.
+Marshall, T., and J. Danizewski. 2001. Pakistan’s Muslim schools offer a dark view of U.S. Los Angeles
+Times, September 9, A1.
+Marton, K. 1996. A death in Jerusalem. New York: Arcade.
+Maya, M. L., L. E. Lander, and M. Ungar. 2002. Economics, violence, and protest in Venezuela: A preview of
+the global future? In Violence and politics: Globalization’s paradox, edited by K. Worcester, S. A.
+Bermanzhon, and M. Ungar, 184-208. New York: Routledge Kegan Paul.
+McNeilly, M. D., N. B. Anderson, C. A. Armstead, R. Clark, M. Corbett, E. L. Robinson, C. F. Pieper, and
+E. M. Lepisto. 1996. Perceived Racism Scale: A multidimensional assessment of the experience of white
+racism among African Americans. Ethnicity and Disease 6:154-66.
+Meloy, J. R. 2001. Communicated threats and violence toward public and private targets: Discerning differences among those who stalk and attack. Journal of Forensic Sciences 46:1211-13.
+Merari, A. 1998. The readiness to kill and die: Suicidal terrorism in the Middle East. In Origins of terrorism:
+Psychologies, ideologies, theologies, states of mind, edited by W. Reich, 192-207. Washington, DC:
+Woodrow Wilson Center Press.
+. 2002. Deterring fear: Government responses to terrorist attacks. Harvard International Review
+23:4.
+Merari, A., and N. Friedland. 1985. Social psychological aspects of political terrorism. Applied Social Psychology Annual 6:185-205.
+Mesulam, M.-M. 2000. Behavioral neuroanatomy. In Principles of behavioral and cognitive neurology, 2nd
+ed., edited by M.-M. Mesualm, 1-120. Oxford, UK: Oxford University Press.
+Mickolus, E. 1980. International terrorism: Attributes of terrorist events 1968-1977 Westport, CT:
+Greenwood.
+Milburn, T. W., and K. H. Watman. 1981. On the nature of threat: A social psychological analysis. New
+York: Praeger.
+Miller, W. H. 1993. Humiliation and other essays on honor, social discomfort, and violence. Ithaca, NY:
+Cornell University Press.
+Morf, G. 1970. Terror in Quebec: Case studies of the FLQ. Toronto: Clarke Irwin.
+Murry, V. M., P. A. Brown, G. H. Brody, C. E. Cutrona, and R. L. Simons. 2001. Racial discrimination as a
+moderator of the links among stress, maternal psychological functioning, and family relationships. Journal of Marriage and the Family 63:915-26.
+Neto, F. 2001. Satisfaction with life among adolescents from immigrant families in Portugal. Journal of
+Youth and Adolescence 30:53-67.
+Olsson, P. A. 1988. The terrorist and the terrorized: Some psychoanalytic consideration. Journal of
+Psychohistory 16:47-60.
+Pearce, K. I. 1977. Police negotiations. Canadian Psychiatric Association Journal 22:171-4.
+Pearlstein, R. M. 1991. The mind of the political terrorist. Wilmington, DE: SR Books.
+Pedahzur, A., A. Perliger, and L. Weinberg. 2003. Altruism and fatalism: The characteristics of Palestinian
+suicide terrorists. Deviant Behavior 24:405-23.
+Pettit, G. S. 1997. The developmental course of violence and aggression: Mechanisms of family and peer
+influence. Psychiatric Clinics of North America 20:283-99.
+Ponton, L. E. 1997. The romance of risk: Why teenagers do the things they do. New York: Basic Books.
+Post, J. M. 1998. Terrorist psycho-logic: Terrorist behavior as a product of psychological forces. In Origins
+of terrorism: Psychologies, ideologies, theologies, states of mind, edited by W. Reich, 25-40. Washington, DC: Woodrow Wilson Center Press.
+
+Victoroff / THE MIND OF THE TERRORIST
+
+41
+
+. 2004. Leaders and their followers in a dangerous world: The psychology of political behavior.
+Ithaca, NY: Cornell University Press.
+Post, J. M., and S. N. Gold. 2002. The psychology of the terrorist: An interview with Jerrold M. Post. Journal
+of Trauma Practice 1:83-100.
+Post, J. M., E. Sprinzak, and L. M. Denny. 2003. The terrorists in their own words: Interviews with thirty-five
+incarcerated Middle Eastern terrorists. Terrorism and Political Violence 15:171-84.
+Rapoport, A., and A. M. Chammah. 1968. Prisoner’s dilemma. Ann Arbor: University of Michigan Press.
+Rasch, W. 1979. Psychological dimensions of political terrorism in the Federal Republic of Germany. International Journal of Law and Psychiatry 2:79-85.
+Rees, M., M. August, G. Baghdadi, J. Hamad, A. Klein, S. MacLeod, and N. Mustafa. 2002. Why suicide
+bombing is now all the rage. Time, April 15, 33-9.
+Reich, W. 1998. Understanding terrorist behavior: The limits and opportunities of psychological inquiry. In
+Origins of terrorism: Psychologies, ideologies, theologies, states of mind, edited by W. Reich, 261-79.
+Washington, DC: Woodrow Wilson Center Press.
+Resnick, P. J., and S. Noffsinger. 2004. Competency to stand trial and the insanity defense. In The American
+Psychiatric Publishing textbook of forensic psychiatry, edited by R. I. Simon and L. H. Gold. Washington, DC: American Psychiatric Publishing.
+Robins, R. S., and J. M. Post. 1997. Political paranoia: The psychopolitics of hatred. New Haven, CT: Yale
+University Press.
+Rosenberg, D., L. Waddell, and S. Smalley. 2002. A troubled teenager’s tragic flight plan. Newsweek,
+January 21.
+Rotella, S. 2004. Social bonds pull Muslim youth to jihad, expert says. Los Angeles Times, October 3, A3.
+Russell, C. A., and B. H. Miller. 1983. Profile of a terrorist. In Perspectives on terrorism, edited by L. Z.
+Freedman and Y. Alexander, 45-60. Wilmington, DE: Scholarly Resources, Inc.
+Sageman, M. 2004. Understanding terror networks. Philadelphia: University of Pennsylvania Press.
+Sandler, T., and D. G. Arce. 2003. Terrorism and game theory. Simulation & Gaming 34:319-37.
+Sandler, T., and W. Enders. 2004. Transnational terrorism: An economic analysis. Unpublished manuscript,
+School of International Relations, University of Southern California, Los Angeles.
+Sandler, T., and H. E. Lapan. 1988. The calculus of dissent: An analysis of terrorists’ choice of targets.
+Synthése 76:245-61.
+Sandler, T., J. T. Tschirhart, and J. Cauley. 1983. A theoretical analysis of transnational terrorism. American Political Science Review 77:36-54.
+Saper, B. 1988. On learning terrorism. Terrorism 11:13-27.
+Satterfield, J. M. 1998. Cognitive-affective states predict military and political aggression and risk taking: A
+content analysis of Churchill, Hitler, Roosevelt, and Stalin. Journal of Conflict Resolution 42:667-90.
+Schbley, A. H. 2000. Torn between God, family, and money: The changing profile of Lebanon’s religious terrorists. Studies in Conflict & Terrorism 23:175-96.
+Schlesinger, L. B. 2000. Familicide, depression and catathymic process. Journal of Forensic Sciences 45:
+200-3.
+Schmid, A. 1983. Political terrorism: A research guide to the concepts, theories, databases and literature.
+With a bibliography by the author and a world directory of “terrorist” organizations by A. J. Jongman.
+Amsterdam: North Holland.
+Schultz, R. 1980. Conceptualizing political terrorism—a typology. In International terrorism: Current
+research and future directions, edited by A. D. Buckley and D. D. Olson, 9-15. Wayne, NJ: Avery.
+Shaw, E. D. 1986. Political terrorists: Dangers of diagnosis and an alternative to the psychopathological
+model. International Journal of Law and Psychiatry 8:359-68.
+Sidanius, J. 1985. Cognitive functioning and sociopolitical ideology revisited. Political Psychology 6:637-61.
+Sidanius, J., and F. Pratto. 1999. Social dominance: An intergroup theory of social hierarchy and oppression.
+Cambridge, UK: Cambridge University Press.
+Silke, A. P. 1998. Cheshire-cat logic: The recurring theme of terrorist abnormality in psychological research.
+Psychology, Crime and Law 4:51-69.
+. 2003. Becoming a terrorist. In Terrorists, victims and society, edited by A. Silke, 29-53. Chichester,
+UK: Wiley.
+
+42
+
+JOURNAL OF CONFLICT RESOLUTION
+
+Soskis, D. 1983. Law enforcement and psychiatry: Forging the working alliance. In Terrorism: Interdisciplinary perspectives, edited by B. Eichelman, D. Soskis, and W. Reid, 129-45. Washington, DC: American Psychiatric Association.
+Stern, J. 1999. The ultimate terrorists. Cambridge, MA: Harvard University Press.
+. 2003. Terror in the name of God: Why religious militants kill. New York: Ecco.
+Strentz, T. 1988. A terrorist psychosocial profile: Past and present. FBI Law Enforcement Bulletin 57:13-9.
+Taylor, M. 1988. The terrorist. London: Brassey’s.
+Taylor, M., and E. Quayle. 1994. Terrorist lives. London: Brassey’s.
+Taylor, M., and H. Ryan. 1988. Fanaticism, political suicide and terrorism. Terrorism 11:91-111.
+U.S. Department of Homeland Security. 2004. Homeland Security Centers (HS Centers) Program Broad
+Agency announcement: Homeland Security Center for Behavioral and Social Aspects of Terrorism and
+Counter-terrorism. Washington, DC: University Programs, Office of Research and Development, Science and Technology.
+Utsey, S. O., and J. G. Ponterotto. 1996. Development and validation of the Index of Race-Related Stress
+(IRRS). Journal of Counseling Psychology 43:490-501.
+Volkan, V. D. 1997. Blood lines: From ethnic pride to ethnic terrorism. New York: Farrar, Straus, & Giroux.
+von Neumann, J., and O. Morgenstern. 1947. Theory of games and economic behavior. 2nd ed. Princeton,
+NJ: Princeton University Press.
+Wallerstein, R. S. 1995. The talking cures: The psychoanalyses and psychotherapies. New Haven, CT: Yale
+University Press.
+Wardlaw, G. 1989. Political terrorism, theory, tactics, and countermeasures. Cambridge, UK: Cambridge
+University Press.
+Weinberg, L., and W. L. Eubank. 1987. Italian women terrorists. Terrorism: An International Journal
+9:241-62.
+. 1994. Cultural differences in the behavior of terrorists. Terrorism and Political Violence 6:1-28.
+Whitaker, B. 1972. The fourth world: Victims of group oppression: Eight reports from the field work of the
+minority rights group. New York: Schocken.
+Whittaker, D. J. 2001. The terrorism reader. London: Routledge Kegan Paul.
+Wieviorka, M. 1993. The making of terrorism. Translated by D. G. White. Chicago: University of Chicago
+Press.
+. 1995. Terrorism in the context of academic research. In Terrorism in context, edited by
+M. Crenshaw, 597-606. University Park: Pennsylvania State University Press.
+. 2004. Preface. In The making of terrorism. Translated by D. G. White. Reprint, Chicago: University
+of Chicago Press.
+Wilkinson, T. 2002. End of the line for a “martyr.” Los Angeles Times, December 31, 1.
+Wilson, M. A. 2000. Toward a model of terrorist behavior in hostage-taking incidents. Journal of Conflict
+Resolution 44:403-24.
+Zamoyski, A. 1999. Holy madness: Romantics, patriots, and revolutionaries, 1776-1871. New York:
+Viking.
+Zuckerman, M. 2002. Genetics of sensation seeking. In Molecular genetics and the human personality,
+edited by J. Benjamin, R. P. Ebstein, and R. H. Belmaker. Washington, DC: American Psychiatric
+Publishing.
+Zulaika, J., and W. A. Douglass. 1996. Terror and taboo: The follies, fables, and faces of terrorism. New
+York: Routledge Kegan Paul.
+
+
