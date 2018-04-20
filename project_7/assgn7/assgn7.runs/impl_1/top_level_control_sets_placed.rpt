@@ -1,0 +1,119 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 19 00:27:19 2018
+| Host         : DESKTOP-86HNCCS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_level_control_sets_placed.rpt
+| Design       : top_level
+| Device       : xc7a35ti
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    53 |
+| Unused register locations in slices containing registers |    54 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            2653 |          686 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             719 |          240 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             262 |          135 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------+---------------------------------------+------------------+----------------+
+|  Clock Signal  |             Enable Signal            |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------+--------------------------------------+---------------------------------------+------------------+----------------+
+| ~clk_IBUF_BUFG |                                      |                                       |                1 |              2 |
+|  clk_IBUF_BUFG | UART_RX_INST/E[0]                    |                                       |                3 |              4 |
+|  clk_IBUF_BUFG | UART_TX_INST/E[0]                    |                                       |                2 |              4 |
+|  clk_IBUF_BUFG | UART_TX_INST/r_TX_BYTE_reg[0][0]     |                                       |                4 |              8 |
+|  clk_IBUF_BUFG | UART_TX_INST/r_TX_Data[7]_i_1_n_0    |                                       |                3 |              8 |
+| ~clk_IBUF_BUFG | bcdconv/bcds[15]_i_2_n_0             |                                       |                3 |             10 |
+|  clk_IBUF_BUFG | UART_RX_INST/r_Clk_Count             |                                       |                5 |             14 |
+|  clk_IBUF_BUFG | UART_TX_INST/r_Clk_Count[13]_i_1_n_0 |                                       |                7 |             15 |
+| ~clk_IBUF_BUFG | bcdconv/bcds_out_reg[15]_i_1_n_0     |                                       |                3 |             16 |
+| ~clk_IBUF_BUFG | bcdconv/bcds[15]_i_2_n_0             | bcdconv/bcds[15]_i_1_n_0              |                6 |             22 |
+|  clk_IBUF_BUFG | ind_1[5]_i_2_n_0                     | ind_1[5]_i_1_n_0                      |               13 |             27 |
+|  clk_IBUF_BUFG | ind_2[5]_i_2_n_0                     | ind_2[5]_i_1_n_0                      |               12 |             27 |
+|  clk_IBUF_BUFG | ind_0[5]_i_2_n_0                     | ind_0[5]_i_1_n_0                      |               17 |             33 |
+|  clk_IBUF_BUFG | ind_3[5]_i_2_n_0                     | ind_3[5]_i_1_n_0                      |               24 |             44 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[48]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[8]       |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[112]     |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[104]     |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[120]     |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[72]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[88]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[96]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[24]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[32]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[16]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[64]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[80]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[0]       |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[40]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_3_reg[56]      |                                       |               16 |             64 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[40]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[24]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[112]     |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[88]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[104]     |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[16]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[72]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[0]       |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[56]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[8]       |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[64]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[96]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[120]     |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[32]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[80]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/comp_res_1_reg[48]      |                                       |               24 |             96 |
+|  clk_IBUF_BUFG | UART_RX_INST/wrd_ind_reg[1]_rep__13  | UART_RX_INST/wrd_ind_reg[1]_rep__13_0 |               63 |            109 |
+|  clk_IBUF_BUFG | UART_RX_INST/test_word_reg[127][0]   |                                       |               33 |            128 |
+|  clk_IBUF_BUFG | comp_res_0[127]_i_1_n_0              |                                       |               45 |            128 |
+|  clk_IBUF_BUFG | comp_res_1[127]_i_1_n_0              |                                       |               36 |            128 |
+|  clk_IBUF_BUFG | comp_res_2[127]_i_1_n_0              |                                       |               43 |            128 |
+|  clk_IBUF_BUFG | comp_res_3[127]_i_1_n_0              |                                       |               53 |            128 |
+|  clk_IBUF_BUFG |                                      |                                       |              685 |           2651 |
++----------------+--------------------------------------+---------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 4      |                     2 |
+| 8      |                     2 |
+| 10     |                     1 |
+| 14     |                     1 |
+| 15     |                     1 |
+| 16+    |                    45 |
++--------+-----------------------+
+
+

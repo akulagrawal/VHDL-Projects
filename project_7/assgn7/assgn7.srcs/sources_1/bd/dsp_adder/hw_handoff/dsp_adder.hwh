@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr 18 21:57:38 2018" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35ti" NAME="dsp_adder" PACKAGE="cpg236" SPEEDGRADE="-1L"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="9" NAME="A_0" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_A_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="c_addsub_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="B_0" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_B_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="c_addsub_0" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CE_0" SIGIS="ce" SIGNAME="External_Ports_CE_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="c_addsub_0" PORT="CE"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK_0" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="c_addsub_0" PORT="CLK"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="9" NAME="S_0" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_0_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="c_addsub_0" PORT="S"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/c_addsub_0" HWVERSION="12.0" INSTANCE="c_addsub_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_addsub" VLNV="xilinx.com:ip:c_addsub:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_addsub;v=v12_0;d=pg120-c-addsub.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="artix7"/>
+        <PARAMETER NAME="C_IMPLEMENTATION" VALUE="1"/>
+        <PARAMETER NAME="C_A_WIDTH" VALUE="10"/>
+        <PARAMETER NAME="C_B_WIDTH" VALUE="2"/>
+        <PARAMETER NAME="C_OUT_WIDTH" VALUE="10"/>
+        <PARAMETER NAME="C_CE_OVERRIDES_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_A_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_B_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_LATENCY" VALUE="2"/>
+        <PARAMETER NAME="C_ADD_MODE" VALUE="0"/>
+        <PARAMETER NAME="C_B_CONSTANT" VALUE="0"/>
+        <PARAMETER NAME="C_B_VALUE" VALUE="00"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_CE_OVERRIDES_BYPASS" VALUE="1"/>
+        <PARAMETER NAME="C_BYPASS_LOW" VALUE="0"/>
+        <PARAMETER NAME="C_SCLR_OVERRIDES_SSET" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_C_IN" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_C_OUT" VALUE="0"/>
+        <PARAMETER NAME="C_BORROW_LOW" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_BYPASS" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="dsp_adder_c_addsub_0_0"/>
+        <PARAMETER NAME="Implementation" VALUE="DSP48"/>
+        <PARAMETER NAME="A_Type" VALUE="Unsigned"/>
+        <PARAMETER NAME="B_Type" VALUE="Unsigned"/>
+        <PARAMETER NAME="A_Width" VALUE="10"/>
+        <PARAMETER NAME="B_Width" VALUE="2"/>
+        <PARAMETER NAME="Add_Mode" VALUE="Add"/>
+        <PARAMETER NAME="Out_Width" VALUE="10"/>
+        <PARAMETER NAME="Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Latency" VALUE="2"/>
+        <PARAMETER NAME="B_Constant" VALUE="false"/>
+        <PARAMETER NAME="B_Value" VALUE="00"/>
+        <PARAMETER NAME="CE" VALUE="true"/>
+        <PARAMETER NAME="C_In" VALUE="false"/>
+        <PARAMETER NAME="C_Out" VALUE="false"/>
+        <PARAMETER NAME="Borrow_Sense" VALUE="Active_Low"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="Bypass" VALUE="false"/>
+        <PARAMETER NAME="Bypass_Sense" VALUE="Active_High"/>
+        <PARAMETER NAME="Sync_Ctrl_Priority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="Sync_CE_Priority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="Bypass_CE_Priority" VALUE="CE_Overrides_Bypass"/>
+        <PARAMETER NAME="AINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="9" NAME="A" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_A_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="B" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_B_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CE" SIGIS="ce" SIGNAME="External_Ports_CE_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CE_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="9" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

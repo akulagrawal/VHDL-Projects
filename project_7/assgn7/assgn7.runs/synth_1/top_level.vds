@@ -1,0 +1,552 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Apr 19 00:13:50 2018
+# Process ID: 6028
+# Current directory: F:/2/assgn7/assgn7.runs/synth_1
+# Command line: vivado.exe -log top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file: F:/2/assgn7/assgn7.runs/synth_1/top_level.vds
+# Journal file: F:/2/assgn7/assgn7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
+Command: synth_design -top top_level -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9160 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 343.648 ; gain = 100.367
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_level' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:50]
+WARNING: [Synth 8-614] signal 'w_RX_BYTE' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:157]
+WARNING: [Synth 8-614] signal 'wrd_ind' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:157]
+WARNING: [Synth 8-614] signal 'wrd_pos' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:157]
+WARNING: [Synth 8-614] signal 'test_word' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:157]
+WARNING: [Synth 8-614] signal 'cntr_ind' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:157]
+WARNING: [Synth 8-614] signal 'ind_0' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:306]
+WARNING: [Synth 8-614] signal 'ind_1' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:348]
+WARNING: [Synth 8-614] signal 'ind_2' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:390]
+WARNING: [Synth 8-614] signal 'ind_3' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:432]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-3491] module 'UART_RX' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/UART_RX.vhd:5' bound to instance 'UART_RX_INST' of component 'UART_RX' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:476]
+INFO: [Synth 8-638] synthesizing module 'UART_RX' [F:/2/assgn7/assgn7.srcs/sources_1/new/UART_RX.vhd:18]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'UART_RX' (1#1) [F:/2/assgn7/assgn7.srcs/sources_1/new/UART_RX.vhd:18]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-3491] module 'UART_TX' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/UART_TX.vhd:5' bound to instance 'UART_TX_INST' of component 'UART_TX' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:487]
+INFO: [Synth 8-638] synthesizing module 'UART_TX' [F:/2/assgn7/assgn7.srcs/sources_1/new/UART_TX.vhd:20]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'UART_TX' (2#1) [F:/2/assgn7/assgn7.srcs/sources_1/new/UART_TX.vhd:20]
+INFO: [Synth 8-3491] module 'binary_bcd' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/binary_bcd.vhd:25' bound to instance 'bcdconv' of component 'binary_bcd' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:504]
+INFO: [Synth 8-638] synthesizing module 'binary_bcd' [F:/2/assgn7/assgn7.srcs/sources_1/new/binary_bcd.vhd:35]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'binary_bcd' (3#1) [F:/2/assgn7/assgn7.srcs/sources_1/new/binary_bcd.vhd:35]
+INFO: [Synth 8-3491] module 'word_comp' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/word_comp.vhd:36' bound to instance 'word_comp_0' of component 'word_comp' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:511]
+INFO: [Synth 8-638] synthesizing module 'word_comp' [F:/2/assgn7/assgn7.srcs/sources_1/new/word_comp.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'word_comp' (4#1) [F:/2/assgn7/assgn7.srcs/sources_1/new/word_comp.vhd:44]
+INFO: [Synth 8-3491] module 'word_comp' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/word_comp.vhd:36' bound to instance 'word_comp_1' of component 'word_comp' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:518]
+INFO: [Synth 8-3491] module 'word_comp' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/word_comp.vhd:36' bound to instance 'word_comp_2' of component 'word_comp' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:525]
+INFO: [Synth 8-3491] module 'word_comp' declared at 'F:/2/assgn7/assgn7.srcs/sources_1/new/word_comp.vhd:36' bound to instance 'word_comp_3' of component 'word_comp' [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:532]
+INFO: [Synth 8-226] default block is never used [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:542]
+INFO: [Synth 8-226] default block is never used [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:574]
+WARNING: [Synth 8-614] signal 'temp' is read in the process but is not in the sensitivity list [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:572]
+WARNING: [Synth 8-6014] Unused sequential element add_timer_reg was removed.  [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:286]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM 'cntr_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "cntr_reg" dissolved into registers
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'top_level' (5#1) [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:50]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 446.965 ; gain = 203.684
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 446.965 ; gain = 203.684
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/2/assgn7/assgn7.srcs/constrs_1/new/port_map.xdc]
+Finished Parsing XDC File [F:/2/assgn7/assgn7.srcs/constrs_1/new/port_map.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/2/assgn7/assgn7.srcs/constrs_1/new/port_map.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 794.813 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:01:00 . Memory (MB): peak = 794.813 ; gain = 551.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticpg236-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:01:00 . Memory (MB): peak = 794.813 ; gain = 551.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:00 . Memory (MB): peak = 794.813 ; gain = 551.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_SM_Main_reg' in module 'UART_RX'
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'r_SM_Main_reg' in module 'UART_TX'
+INFO: [Synth 8-5544] ROM "o_TX_Active" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "o_TX_Serial" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "binary_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bcds_out_reg_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wrd_ind" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "end_proc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element refresh_counter_reg was removed.  [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:567]
+WARNING: [Synth 8-6014] Unused sequential element wrd_ind_reg was removed.  [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:166]
+WARNING: [Synth 8-6014] Unused sequential element ind_0_reg_rep was removed.  [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:310]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                              000 |                              000
+          s_rx_start_bit |                              001 |                              001
+          s_rx_data_bits |                              010 |                              010
+           s_rx_stop_bit |                              011 |                              011
+               s_cleanup |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_SM_Main_reg' using encoding 'sequential' in module 'UART_RX'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                              000 |                              000
+          s_tx_start_bit |                              001 |                              001
+          s_tx_data_bits |                              010 |                              010
+           s_tx_stop_bit |                              011 |                              011
+               s_cleanup |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_SM_Main_reg' using encoding 'sequential' in module 'UART_TX'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:28 . Memory (MB): peak = 794.813 ; gain = 551.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |top_level__GB0 |           1|     46108|
+|2     |top_level__GB1 |           1|      8107|
+|3     |top_level__GB2 |           1|     15829|
+|4     |top_level__GB3 |           1|     13203|
++------+---------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 5     
+	   2 Input      3 Bit       Adders := 3     
++---Registers : 
+	              128 Bit    Registers := 5     
+	               14 Bit    Registers := 2     
+	               10 Bit    Registers := 256   
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 5     
+	                1 Bit    Registers := 7     
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   8 Input   2560 Bit        Muxes := 4     
+	  18 Input    128 Bit        Muxes := 1     
+	   8 Input     16 Bit        Muxes := 8     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 2     
+	   5 Input     14 Bit        Muxes := 2     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 782   
+	   8 Input     10 Bit        Muxes := 6     
+	  16 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   5 Input      8 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 3     
+	   9 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 2     
+	  11 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 12    
+	   9 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 13    
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_level 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 5     
+	               10 Bit    Registers := 256   
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   8 Input   2560 Bit        Muxes := 4     
+	  18 Input    128 Bit        Muxes := 1     
+	   8 Input     16 Bit        Muxes := 8     
+	   2 Input     10 Bit        Muxes := 782   
+	   8 Input     10 Bit        Muxes := 6     
+	  16 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 12    
+	   9 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 1     
+Module UART_TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   5 Input     14 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 8     
+Module UART_RX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   5 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 4     
+Module binary_bcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element wrd_ind_reg was removed.  [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:166]
+WARNING: [Synth 8-6014] Unused sequential element refresh_counter_reg was removed.  [F:/2/assgn7/assgn7.srcs/sources_1/new/top_level.vhd:567]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\UART_TX_INST/r_Bit_Index_reg[3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:03 ; elapsed = 00:02:35 . Memory (MB): peak = 794.813 ; gain = 551.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------+-----------+----------------------+--------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives         | 
++------------+---------------+-----------+----------------------+--------------------+
+|top_level   | res_words_reg | Implied   | 256 x 128            | RAM128X1D x 1024   | 
++------------+---------------+-----------+----------------------+--------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |top_level__GB0 |           1|      6981|
+|2     |top_level__GB1 |           1|      3626|
+|3     |top_level__GB2 |           1|      3080|
+|4     |top_level__GB3 |           1|      5355|
++------+---------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:20 ; elapsed = 00:02:52 . Memory (MB): peak = 851.539 ; gain = 608.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:52 . Memory (MB): peak = 852.492 ; gain = 609.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+---------------+-----------+----------------------+--------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives         | 
++------------+---------------+-----------+----------------------+--------------------+
+|top_level   | res_words_reg | Implied   | 256 x 128            | RAM128X1D x 1024   | 
++------------+---------------+-----------+----------------------+--------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |top_level__GB0 |           1|      6981|
+|2     |top_level__GB1 |           1|      3626|
+|3     |top_level__GB2 |           1|      3080|
+|4     |top_level__GB3 |           1|      5355|
++------+---------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:25 ; elapsed = 00:02:58 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:28 ; elapsed = 00:03:01 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:29 ; elapsed = 00:03:02 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:29 ; elapsed = 00:03:02 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:29 ; elapsed = 00:03:02 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:32 ; elapsed = 00:03:05 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:32 ; elapsed = 00:03:05 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    14|
+|3     |LUT1      |    31|
+|4     |LUT2      |   115|
+|5     |LUT3      |   826|
+|6     |LUT4      |  1190|
+|7     |LUT5      |   546|
+|8     |LUT6      |  2591|
+|9     |MUXF7     |   692|
+|10    |MUXF8     |   330|
+|11    |RAM128X1D |   640|
+|12    |FDRE      |  3634|
+|13    |IBUF      |    10|
+|14    |OBUF      |    22|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------+-----------+------+
+|      |Instance       |Module     |Cells |
++------+---------------+-----------+------+
+|1     |top            |           | 10642|
+|2     |  UART_RX_INST |UART_RX    |   176|
+|3     |  UART_TX_INST |UART_TX    |    71|
+|4     |  bcdconv      |binary_bcd |  1285|
++------+---------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:32 ; elapsed = 00:03:05 . Memory (MB): peak = 870.598 ; gain = 627.316
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:03 ; elapsed = 00:02:34 . Memory (MB): peak = 870.598 ; gain = 279.469
+Synthesis Optimization Complete : Time (s): cpu = 00:02:32 ; elapsed = 00:03:06 . Memory (MB): peak = 870.598 ; gain = 627.316
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1686 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top_level' is not ideal for floorplanning, since the cellview 'top_level' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 640 instances were transformed.
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 640 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:39 ; elapsed = 00:03:18 . Memory (MB): peak = 870.598 ; gain = 640.277
+INFO: [Common 17-1381] The checkpoint 'F:/2/assgn7/assgn7.runs/synth_1/top_level.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_utilization_synth.rpt -pb top_level_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.847 . Memory (MB): peak = 870.598 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 19 00:17:27 2018...

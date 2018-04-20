@@ -1,0 +1,789 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date             : Thu Apr 19 00:28:31 2018
+| Host             : DESKTOP-86HNCCS running 64-bit major release  (build 9200)
+| Command          : report_power -file top_level_power_routed.rpt -pb top_level_power_summary_routed.pb -rpx top_level_power_routed.rpx
+| Design           : top_level
+| Device           : xc7a35ticpg236-1L
+| Design State     : routed
+| Grade            : industrial
+| Process          : typical
+| Characterization : Preliminary
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 81.230       |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 80.901       |
+| Device Static (W)        | 0.329        |
+| Effective TJA (C/W)      | 5.0          |
+| Max Ambient (C)          | 0.0          |
+| Junction Temperature (C) | 125.0        |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Slice Logic              |    24.160 |    13818 |       --- |             --- |
+|   LUT as Logic           |    22.133 |     4839 |     20800 |           23.26 |
+|   Register               |     0.966 |     3634 |     41600 |            8.74 |
+|   F7/F8 Muxes            |     0.730 |     2302 |     32600 |            7.06 |
+|   LUT as Distributed RAM |     0.310 |     2560 |      9600 |           26.67 |
+|   CARRY4                 |     0.018 |       14 |      8150 |            0.17 |
+|   BUFG                   |     0.005 |        1 |        32 |            3.13 |
+|   Others                 |     0.000 |        8 |       --- |             --- |
+| Signals                  |    23.171 |     5796 |       --- |             --- |
+| I/O                      |    33.569 |       32 |       106 |           30.19 |
+| Static Power             |     0.329 |          |           |                 |
+| Total                    |    81.229 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       0.950 |    50.075 |      49.863 |      0.211 |
+| Vccaux    |       1.800 |     1.277 |       1.229 |      0.048 |
+| Vcco33    |       3.300 |     9.492 |       9.491 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       0.950 |     0.006 |       0.000 |      0.006 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.018 |       0.000 |      0.018 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | Medium     | Device models are not Production                       | Device models may change and in turn slightly affect accuracy                                                      |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 5.0                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------------------+-----------+
+| Name                               | Power (W) |
++------------------------------------+-----------+
+| top_level                          |    80.901 |
+|   UART_RX_INST                     |     0.342 |
+|   UART_TX_INST                     |     0.193 |
+|   bcdconv                          |     5.938 |
+|   res_words_reg_0_127_0_0          |    <0.001 |
+|   res_words_reg_0_127_100_100      |    <0.001 |
+|   res_words_reg_0_127_101_101      |    <0.001 |
+|   res_words_reg_0_127_102_102      |    <0.001 |
+|   res_words_reg_0_127_103_103      |    <0.001 |
+|   res_words_reg_0_127_104_104      |    <0.001 |
+|   res_words_reg_0_127_105_105      |    <0.001 |
+|   res_words_reg_0_127_106_106      |    <0.001 |
+|   res_words_reg_0_127_107_107      |    <0.001 |
+|   res_words_reg_0_127_108_108      |    <0.001 |
+|   res_words_reg_0_127_109_109      |    <0.001 |
+|   res_words_reg_0_127_10_10        |    <0.001 |
+|   res_words_reg_0_127_110_110      |    <0.001 |
+|   res_words_reg_0_127_111_111      |     0.001 |
+|   res_words_reg_0_127_112_112      |    <0.001 |
+|   res_words_reg_0_127_113_113      |    <0.001 |
+|   res_words_reg_0_127_114_114      |    <0.001 |
+|   res_words_reg_0_127_115_115      |    <0.001 |
+|   res_words_reg_0_127_116_116      |    <0.001 |
+|   res_words_reg_0_127_117_117      |    <0.001 |
+|   res_words_reg_0_127_118_118      |    <0.001 |
+|   res_words_reg_0_127_119_119      |     0.001 |
+|   res_words_reg_0_127_11_11        |    <0.001 |
+|   res_words_reg_0_127_120_120      |    <0.001 |
+|   res_words_reg_0_127_121_121      |    <0.001 |
+|   res_words_reg_0_127_122_122      |    <0.001 |
+|   res_words_reg_0_127_123_123      |    <0.001 |
+|   res_words_reg_0_127_124_124      |    <0.001 |
+|   res_words_reg_0_127_125_125      |    <0.001 |
+|   res_words_reg_0_127_126_126      |    <0.001 |
+|   res_words_reg_0_127_127_127      |     0.001 |
+|   res_words_reg_0_127_12_12        |    <0.001 |
+|   res_words_reg_0_127_13_13        |    <0.001 |
+|   res_words_reg_0_127_14_14        |    <0.001 |
+|   res_words_reg_0_127_15_15        |     0.001 |
+|   res_words_reg_0_127_16_16        |    <0.001 |
+|   res_words_reg_0_127_17_17        |    <0.001 |
+|   res_words_reg_0_127_18_18        |    <0.001 |
+|   res_words_reg_0_127_19_19        |    <0.001 |
+|   res_words_reg_0_127_1_1          |    <0.001 |
+|   res_words_reg_0_127_20_20        |    <0.001 |
+|   res_words_reg_0_127_21_21        |    <0.001 |
+|   res_words_reg_0_127_22_22        |    <0.001 |
+|   res_words_reg_0_127_23_23        |     0.001 |
+|   res_words_reg_0_127_24_24        |    <0.001 |
+|   res_words_reg_0_127_25_25        |    <0.001 |
+|   res_words_reg_0_127_26_26        |    <0.001 |
+|   res_words_reg_0_127_27_27        |    <0.001 |
+|   res_words_reg_0_127_28_28        |    <0.001 |
+|   res_words_reg_0_127_29_29        |    <0.001 |
+|   res_words_reg_0_127_2_2          |    <0.001 |
+|   res_words_reg_0_127_30_30        |    <0.001 |
+|   res_words_reg_0_127_31_31        |     0.001 |
+|   res_words_reg_0_127_32_32        |    <0.001 |
+|   res_words_reg_0_127_33_33        |    <0.001 |
+|   res_words_reg_0_127_34_34        |    <0.001 |
+|   res_words_reg_0_127_35_35        |    <0.001 |
+|   res_words_reg_0_127_36_36        |    <0.001 |
+|   res_words_reg_0_127_37_37        |    <0.001 |
+|   res_words_reg_0_127_38_38        |    <0.001 |
+|   res_words_reg_0_127_39_39        |     0.001 |
+|   res_words_reg_0_127_3_3          |    <0.001 |
+|   res_words_reg_0_127_40_40        |    <0.001 |
+|   res_words_reg_0_127_41_41        |    <0.001 |
+|   res_words_reg_0_127_42_42        |    <0.001 |
+|   res_words_reg_0_127_43_43        |    <0.001 |
+|   res_words_reg_0_127_44_44        |    <0.001 |
+|   res_words_reg_0_127_45_45        |    <0.001 |
+|   res_words_reg_0_127_46_46        |    <0.001 |
+|   res_words_reg_0_127_47_47        |     0.001 |
+|   res_words_reg_0_127_48_48        |    <0.001 |
+|   res_words_reg_0_127_49_49        |    <0.001 |
+|   res_words_reg_0_127_4_4          |    <0.001 |
+|   res_words_reg_0_127_50_50        |    <0.001 |
+|   res_words_reg_0_127_51_51        |    <0.001 |
+|   res_words_reg_0_127_52_52        |    <0.001 |
+|   res_words_reg_0_127_53_53        |    <0.001 |
+|   res_words_reg_0_127_54_54        |    <0.001 |
+|   res_words_reg_0_127_55_55        |     0.001 |
+|   res_words_reg_0_127_56_56        |    <0.001 |
+|   res_words_reg_0_127_57_57        |    <0.001 |
+|   res_words_reg_0_127_58_58        |    <0.001 |
+|   res_words_reg_0_127_59_59        |    <0.001 |
+|   res_words_reg_0_127_5_5          |    <0.001 |
+|   res_words_reg_0_127_60_60        |    <0.001 |
+|   res_words_reg_0_127_61_61        |    <0.001 |
+|   res_words_reg_0_127_62_62        |    <0.001 |
+|   res_words_reg_0_127_63_63        |     0.001 |
+|   res_words_reg_0_127_64_64        |    <0.001 |
+|   res_words_reg_0_127_65_65        |    <0.001 |
+|   res_words_reg_0_127_66_66        |    <0.001 |
+|   res_words_reg_0_127_67_67        |    <0.001 |
+|   res_words_reg_0_127_68_68        |    <0.001 |
+|   res_words_reg_0_127_69_69        |    <0.001 |
+|   res_words_reg_0_127_6_6          |    <0.001 |
+|   res_words_reg_0_127_70_70        |    <0.001 |
+|   res_words_reg_0_127_71_71        |     0.001 |
+|   res_words_reg_0_127_72_72        |    <0.001 |
+|   res_words_reg_0_127_73_73        |    <0.001 |
+|   res_words_reg_0_127_74_74        |    <0.001 |
+|   res_words_reg_0_127_75_75        |    <0.001 |
+|   res_words_reg_0_127_76_76        |    <0.001 |
+|   res_words_reg_0_127_77_77        |    <0.001 |
+|   res_words_reg_0_127_78_78        |    <0.001 |
+|   res_words_reg_0_127_79_79        |     0.001 |
+|   res_words_reg_0_127_7_7          |     0.001 |
+|   res_words_reg_0_127_80_80        |    <0.001 |
+|   res_words_reg_0_127_81_81        |    <0.001 |
+|   res_words_reg_0_127_82_82        |    <0.001 |
+|   res_words_reg_0_127_83_83        |    <0.001 |
+|   res_words_reg_0_127_84_84        |    <0.001 |
+|   res_words_reg_0_127_85_85        |    <0.001 |
+|   res_words_reg_0_127_86_86        |    <0.001 |
+|   res_words_reg_0_127_87_87        |     0.001 |
+|   res_words_reg_0_127_88_88        |    <0.001 |
+|   res_words_reg_0_127_89_89        |    <0.001 |
+|   res_words_reg_0_127_8_8          |    <0.001 |
+|   res_words_reg_0_127_90_90        |    <0.001 |
+|   res_words_reg_0_127_91_91        |    <0.001 |
+|   res_words_reg_0_127_92_92        |    <0.001 |
+|   res_words_reg_0_127_93_93        |    <0.001 |
+|   res_words_reg_0_127_94_94        |    <0.001 |
+|   res_words_reg_0_127_95_95        |     0.001 |
+|   res_words_reg_0_127_96_96        |    <0.001 |
+|   res_words_reg_0_127_97_97        |    <0.001 |
+|   res_words_reg_0_127_98_98        |    <0.001 |
+|   res_words_reg_0_127_99_99        |    <0.001 |
+|   res_words_reg_0_127_9_9          |    <0.001 |
+|   res_words_reg_128_255_0_0        |    <0.001 |
+|   res_words_reg_128_255_100_100    |    <0.001 |
+|   res_words_reg_128_255_101_101    |    <0.001 |
+|   res_words_reg_128_255_102_102    |    <0.001 |
+|   res_words_reg_128_255_103_103    |     0.001 |
+|   res_words_reg_128_255_104_104    |    <0.001 |
+|   res_words_reg_128_255_105_105    |    <0.001 |
+|   res_words_reg_128_255_106_106    |    <0.001 |
+|   res_words_reg_128_255_107_107    |    <0.001 |
+|   res_words_reg_128_255_108_108    |    <0.001 |
+|   res_words_reg_128_255_109_109    |    <0.001 |
+|   res_words_reg_128_255_10_10      |    <0.001 |
+|   res_words_reg_128_255_110_110    |    <0.001 |
+|   res_words_reg_128_255_111_111    |     0.001 |
+|   res_words_reg_128_255_112_112    |    <0.001 |
+|   res_words_reg_128_255_113_113    |    <0.001 |
+|   res_words_reg_128_255_114_114    |    <0.001 |
+|   res_words_reg_128_255_115_115    |    <0.001 |
+|   res_words_reg_128_255_116_116    |    <0.001 |
+|   res_words_reg_128_255_117_117    |    <0.001 |
+|   res_words_reg_128_255_118_118    |    <0.001 |
+|   res_words_reg_128_255_119_119    |     0.001 |
+|   res_words_reg_128_255_11_11      |    <0.001 |
+|   res_words_reg_128_255_120_120    |    <0.001 |
+|   res_words_reg_128_255_121_121    |    <0.001 |
+|   res_words_reg_128_255_122_122    |    <0.001 |
+|   res_words_reg_128_255_123_123    |    <0.001 |
+|   res_words_reg_128_255_124_124    |    <0.001 |
+|   res_words_reg_128_255_125_125    |    <0.001 |
+|   res_words_reg_128_255_126_126    |    <0.001 |
+|   res_words_reg_128_255_127_127    |     0.001 |
+|   res_words_reg_128_255_12_12      |    <0.001 |
+|   res_words_reg_128_255_13_13      |    <0.001 |
+|   res_words_reg_128_255_14_14      |    <0.001 |
+|   res_words_reg_128_255_15_15      |     0.001 |
+|   res_words_reg_128_255_16_16      |    <0.001 |
+|   res_words_reg_128_255_17_17      |    <0.001 |
+|   res_words_reg_128_255_18_18      |    <0.001 |
+|   res_words_reg_128_255_19_19      |    <0.001 |
+|   res_words_reg_128_255_1_1        |    <0.001 |
+|   res_words_reg_128_255_20_20      |    <0.001 |
+|   res_words_reg_128_255_21_21      |    <0.001 |
+|   res_words_reg_128_255_22_22      |    <0.001 |
+|   res_words_reg_128_255_23_23      |     0.001 |
+|   res_words_reg_128_255_24_24      |    <0.001 |
+|   res_words_reg_128_255_25_25      |    <0.001 |
+|   res_words_reg_128_255_26_26      |    <0.001 |
+|   res_words_reg_128_255_27_27      |    <0.001 |
+|   res_words_reg_128_255_28_28      |    <0.001 |
+|   res_words_reg_128_255_29_29      |    <0.001 |
+|   res_words_reg_128_255_2_2        |    <0.001 |
+|   res_words_reg_128_255_30_30      |    <0.001 |
+|   res_words_reg_128_255_31_31      |     0.001 |
+|   res_words_reg_128_255_32_32      |    <0.001 |
+|   res_words_reg_128_255_33_33      |    <0.001 |
+|   res_words_reg_128_255_34_34      |    <0.001 |
+|   res_words_reg_128_255_35_35      |    <0.001 |
+|   res_words_reg_128_255_36_36      |    <0.001 |
+|   res_words_reg_128_255_37_37      |    <0.001 |
+|   res_words_reg_128_255_38_38      |    <0.001 |
+|   res_words_reg_128_255_39_39      |     0.001 |
+|   res_words_reg_128_255_3_3        |    <0.001 |
+|   res_words_reg_128_255_40_40      |    <0.001 |
+|   res_words_reg_128_255_41_41      |    <0.001 |
+|   res_words_reg_128_255_42_42      |    <0.001 |
+|   res_words_reg_128_255_43_43      |    <0.001 |
+|   res_words_reg_128_255_44_44      |    <0.001 |
+|   res_words_reg_128_255_45_45      |    <0.001 |
+|   res_words_reg_128_255_46_46      |    <0.001 |
+|   res_words_reg_128_255_47_47      |     0.001 |
+|   res_words_reg_128_255_48_48      |    <0.001 |
+|   res_words_reg_128_255_49_49      |    <0.001 |
+|   res_words_reg_128_255_4_4        |    <0.001 |
+|   res_words_reg_128_255_50_50      |    <0.001 |
+|   res_words_reg_128_255_51_51      |    <0.001 |
+|   res_words_reg_128_255_52_52      |    <0.001 |
+|   res_words_reg_128_255_53_53      |    <0.001 |
+|   res_words_reg_128_255_54_54      |    <0.001 |
+|   res_words_reg_128_255_55_55      |     0.001 |
+|   res_words_reg_128_255_56_56      |    <0.001 |
+|   res_words_reg_128_255_57_57      |    <0.001 |
+|   res_words_reg_128_255_58_58      |    <0.001 |
+|   res_words_reg_128_255_59_59      |    <0.001 |
+|   res_words_reg_128_255_5_5        |    <0.001 |
+|   res_words_reg_128_255_60_60      |    <0.001 |
+|   res_words_reg_128_255_61_61      |    <0.001 |
+|   res_words_reg_128_255_62_62      |    <0.001 |
+|   res_words_reg_128_255_63_63      |     0.001 |
+|   res_words_reg_128_255_64_64      |    <0.001 |
+|   res_words_reg_128_255_65_65      |    <0.001 |
+|   res_words_reg_128_255_66_66      |    <0.001 |
+|   res_words_reg_128_255_67_67      |    <0.001 |
+|   res_words_reg_128_255_68_68      |    <0.001 |
+|   res_words_reg_128_255_69_69      |    <0.001 |
+|   res_words_reg_128_255_6_6        |    <0.001 |
+|   res_words_reg_128_255_70_70      |    <0.001 |
+|   res_words_reg_128_255_71_71      |     0.001 |
+|   res_words_reg_128_255_72_72      |    <0.001 |
+|   res_words_reg_128_255_73_73      |    <0.001 |
+|   res_words_reg_128_255_74_74      |    <0.001 |
+|   res_words_reg_128_255_75_75      |    <0.001 |
+|   res_words_reg_128_255_76_76      |    <0.001 |
+|   res_words_reg_128_255_77_77      |    <0.001 |
+|   res_words_reg_128_255_78_78      |    <0.001 |
+|   res_words_reg_128_255_79_79      |     0.001 |
+|   res_words_reg_128_255_7_7        |     0.001 |
+|   res_words_reg_128_255_80_80      |    <0.001 |
+|   res_words_reg_128_255_81_81      |    <0.001 |
+|   res_words_reg_128_255_82_82      |    <0.001 |
+|   res_words_reg_128_255_83_83      |    <0.001 |
+|   res_words_reg_128_255_84_84      |    <0.001 |
+|   res_words_reg_128_255_85_85      |    <0.001 |
+|   res_words_reg_128_255_86_86      |    <0.001 |
+|   res_words_reg_128_255_87_87      |     0.001 |
+|   res_words_reg_128_255_88_88      |    <0.001 |
+|   res_words_reg_128_255_89_89      |    <0.001 |
+|   res_words_reg_128_255_8_8        |    <0.001 |
+|   res_words_reg_128_255_90_90      |    <0.001 |
+|   res_words_reg_128_255_91_91      |    <0.001 |
+|   res_words_reg_128_255_92_92      |    <0.001 |
+|   res_words_reg_128_255_93_93      |    <0.001 |
+|   res_words_reg_128_255_94_94      |    <0.001 |
+|   res_words_reg_128_255_95_95      |     0.001 |
+|   res_words_reg_128_255_96_96      |    <0.001 |
+|   res_words_reg_128_255_97_97      |    <0.001 |
+|   res_words_reg_128_255_98_98      |    <0.001 |
+|   res_words_reg_128_255_99_99      |    <0.001 |
+|   res_words_reg_128_255_9_9        |    <0.001 |
+|   res_words_reg_r2_128_255_0_0     |    <0.001 |
+|   res_words_reg_r2_128_255_100_100 |    <0.001 |
+|   res_words_reg_r2_128_255_101_101 |    <0.001 |
+|   res_words_reg_r2_128_255_102_102 |    <0.001 |
+|   res_words_reg_r2_128_255_103_103 |     0.001 |
+|   res_words_reg_r2_128_255_104_104 |    <0.001 |
+|   res_words_reg_r2_128_255_105_105 |    <0.001 |
+|   res_words_reg_r2_128_255_106_106 |    <0.001 |
+|   res_words_reg_r2_128_255_107_107 |    <0.001 |
+|   res_words_reg_r2_128_255_108_108 |    <0.001 |
+|   res_words_reg_r2_128_255_109_109 |    <0.001 |
+|   res_words_reg_r2_128_255_10_10   |    <0.001 |
+|   res_words_reg_r2_128_255_110_110 |    <0.001 |
+|   res_words_reg_r2_128_255_111_111 |     0.001 |
+|   res_words_reg_r2_128_255_112_112 |    <0.001 |
+|   res_words_reg_r2_128_255_113_113 |    <0.001 |
+|   res_words_reg_r2_128_255_114_114 |    <0.001 |
+|   res_words_reg_r2_128_255_115_115 |    <0.001 |
+|   res_words_reg_r2_128_255_116_116 |    <0.001 |
+|   res_words_reg_r2_128_255_117_117 |    <0.001 |
+|   res_words_reg_r2_128_255_118_118 |    <0.001 |
+|   res_words_reg_r2_128_255_119_119 |     0.001 |
+|   res_words_reg_r2_128_255_11_11   |    <0.001 |
+|   res_words_reg_r2_128_255_120_120 |    <0.001 |
+|   res_words_reg_r2_128_255_121_121 |    <0.001 |
+|   res_words_reg_r2_128_255_122_122 |    <0.001 |
+|   res_words_reg_r2_128_255_123_123 |    <0.001 |
+|   res_words_reg_r2_128_255_124_124 |    <0.001 |
+|   res_words_reg_r2_128_255_125_125 |    <0.001 |
+|   res_words_reg_r2_128_255_126_126 |    <0.001 |
+|   res_words_reg_r2_128_255_127_127 |     0.001 |
+|   res_words_reg_r2_128_255_12_12   |    <0.001 |
+|   res_words_reg_r2_128_255_13_13   |    <0.001 |
+|   res_words_reg_r2_128_255_14_14   |    <0.001 |
+|   res_words_reg_r2_128_255_15_15   |     0.001 |
+|   res_words_reg_r2_128_255_16_16   |    <0.001 |
+|   res_words_reg_r2_128_255_17_17   |    <0.001 |
+|   res_words_reg_r2_128_255_18_18   |    <0.001 |
+|   res_words_reg_r2_128_255_19_19   |    <0.001 |
+|   res_words_reg_r2_128_255_1_1     |    <0.001 |
+|   res_words_reg_r2_128_255_20_20   |    <0.001 |
+|   res_words_reg_r2_128_255_21_21   |    <0.001 |
+|   res_words_reg_r2_128_255_22_22   |    <0.001 |
+|   res_words_reg_r2_128_255_23_23   |     0.001 |
+|   res_words_reg_r2_128_255_24_24   |    <0.001 |
+|   res_words_reg_r2_128_255_25_25   |    <0.001 |
+|   res_words_reg_r2_128_255_26_26   |    <0.001 |
+|   res_words_reg_r2_128_255_27_27   |    <0.001 |
+|   res_words_reg_r2_128_255_28_28   |    <0.001 |
+|   res_words_reg_r2_128_255_29_29   |    <0.001 |
+|   res_words_reg_r2_128_255_2_2     |    <0.001 |
+|   res_words_reg_r2_128_255_30_30   |    <0.001 |
+|   res_words_reg_r2_128_255_31_31   |     0.001 |
+|   res_words_reg_r2_128_255_32_32   |    <0.001 |
+|   res_words_reg_r2_128_255_33_33   |    <0.001 |
+|   res_words_reg_r2_128_255_34_34   |    <0.001 |
+|   res_words_reg_r2_128_255_35_35   |    <0.001 |
+|   res_words_reg_r2_128_255_36_36   |    <0.001 |
+|   res_words_reg_r2_128_255_37_37   |    <0.001 |
+|   res_words_reg_r2_128_255_38_38   |    <0.001 |
+|   res_words_reg_r2_128_255_39_39   |     0.001 |
+|   res_words_reg_r2_128_255_3_3     |    <0.001 |
+|   res_words_reg_r2_128_255_40_40   |    <0.001 |
+|   res_words_reg_r2_128_255_41_41   |    <0.001 |
+|   res_words_reg_r2_128_255_42_42   |    <0.001 |
+|   res_words_reg_r2_128_255_43_43   |    <0.001 |
+|   res_words_reg_r2_128_255_44_44   |    <0.001 |
+|   res_words_reg_r2_128_255_45_45   |    <0.001 |
+|   res_words_reg_r2_128_255_46_46   |    <0.001 |
+|   res_words_reg_r2_128_255_47_47   |     0.001 |
+|   res_words_reg_r2_128_255_48_48   |    <0.001 |
+|   res_words_reg_r2_128_255_49_49   |    <0.001 |
+|   res_words_reg_r2_128_255_4_4     |    <0.001 |
+|   res_words_reg_r2_128_255_50_50   |    <0.001 |
+|   res_words_reg_r2_128_255_51_51   |    <0.001 |
+|   res_words_reg_r2_128_255_52_52   |    <0.001 |
+|   res_words_reg_r2_128_255_53_53   |    <0.001 |
+|   res_words_reg_r2_128_255_54_54   |    <0.001 |
+|   res_words_reg_r2_128_255_55_55   |     0.001 |
+|   res_words_reg_r2_128_255_56_56   |    <0.001 |
+|   res_words_reg_r2_128_255_57_57   |    <0.001 |
+|   res_words_reg_r2_128_255_58_58   |    <0.001 |
+|   res_words_reg_r2_128_255_59_59   |    <0.001 |
+|   res_words_reg_r2_128_255_5_5     |    <0.001 |
+|   res_words_reg_r2_128_255_60_60   |    <0.001 |
+|   res_words_reg_r2_128_255_61_61   |    <0.001 |
+|   res_words_reg_r2_128_255_62_62   |    <0.001 |
+|   res_words_reg_r2_128_255_63_63   |     0.001 |
+|   res_words_reg_r2_128_255_64_64   |    <0.001 |
+|   res_words_reg_r2_128_255_65_65   |    <0.001 |
+|   res_words_reg_r2_128_255_66_66   |    <0.001 |
+|   res_words_reg_r2_128_255_67_67   |    <0.001 |
+|   res_words_reg_r2_128_255_68_68   |    <0.001 |
+|   res_words_reg_r2_128_255_69_69   |    <0.001 |
+|   res_words_reg_r2_128_255_6_6     |    <0.001 |
+|   res_words_reg_r2_128_255_70_70   |    <0.001 |
+|   res_words_reg_r2_128_255_71_71   |     0.001 |
+|   res_words_reg_r2_128_255_72_72   |    <0.001 |
+|   res_words_reg_r2_128_255_73_73   |    <0.001 |
+|   res_words_reg_r2_128_255_74_74   |    <0.001 |
+|   res_words_reg_r2_128_255_75_75   |    <0.001 |
+|   res_words_reg_r2_128_255_76_76   |    <0.001 |
+|   res_words_reg_r2_128_255_77_77   |    <0.001 |
+|   res_words_reg_r2_128_255_78_78   |    <0.001 |
+|   res_words_reg_r2_128_255_79_79   |     0.001 |
+|   res_words_reg_r2_128_255_7_7     |     0.001 |
+|   res_words_reg_r2_128_255_80_80   |    <0.001 |
+|   res_words_reg_r2_128_255_81_81   |    <0.001 |
+|   res_words_reg_r2_128_255_82_82   |    <0.001 |
+|   res_words_reg_r2_128_255_83_83   |    <0.001 |
+|   res_words_reg_r2_128_255_84_84   |    <0.001 |
+|   res_words_reg_r2_128_255_85_85   |    <0.001 |
+|   res_words_reg_r2_128_255_86_86   |    <0.001 |
+|   res_words_reg_r2_128_255_87_87   |     0.001 |
+|   res_words_reg_r2_128_255_88_88   |    <0.001 |
+|   res_words_reg_r2_128_255_89_89   |    <0.001 |
+|   res_words_reg_r2_128_255_8_8     |    <0.001 |
+|   res_words_reg_r2_128_255_90_90   |    <0.001 |
+|   res_words_reg_r2_128_255_91_91   |    <0.001 |
+|   res_words_reg_r2_128_255_92_92   |    <0.001 |
+|   res_words_reg_r2_128_255_93_93   |    <0.001 |
+|   res_words_reg_r2_128_255_94_94   |    <0.001 |
+|   res_words_reg_r2_128_255_95_95   |     0.001 |
+|   res_words_reg_r2_128_255_96_96   |    <0.001 |
+|   res_words_reg_r2_128_255_97_97   |    <0.001 |
+|   res_words_reg_r2_128_255_98_98   |    <0.001 |
+|   res_words_reg_r2_128_255_99_99   |    <0.001 |
+|   res_words_reg_r2_128_255_9_9     |    <0.001 |
+|   res_words_reg_r3_0_127_0_0       |    <0.001 |
+|   res_words_reg_r3_0_127_100_100   |    <0.001 |
+|   res_words_reg_r3_0_127_101_101   |    <0.001 |
+|   res_words_reg_r3_0_127_102_102   |    <0.001 |
+|   res_words_reg_r3_0_127_103_103   |     0.001 |
+|   res_words_reg_r3_0_127_104_104   |    <0.001 |
+|   res_words_reg_r3_0_127_105_105   |    <0.001 |
+|   res_words_reg_r3_0_127_106_106   |    <0.001 |
+|   res_words_reg_r3_0_127_107_107   |    <0.001 |
+|   res_words_reg_r3_0_127_108_108   |    <0.001 |
+|   res_words_reg_r3_0_127_109_109   |    <0.001 |
+|   res_words_reg_r3_0_127_10_10     |    <0.001 |
+|   res_words_reg_r3_0_127_110_110   |    <0.001 |
+|   res_words_reg_r3_0_127_111_111   |     0.001 |
+|   res_words_reg_r3_0_127_112_112   |    <0.001 |
+|   res_words_reg_r3_0_127_113_113   |    <0.001 |
+|   res_words_reg_r3_0_127_114_114   |    <0.001 |
+|   res_words_reg_r3_0_127_115_115   |    <0.001 |
+|   res_words_reg_r3_0_127_116_116   |    <0.001 |
+|   res_words_reg_r3_0_127_117_117   |    <0.001 |
+|   res_words_reg_r3_0_127_118_118   |    <0.001 |
+|   res_words_reg_r3_0_127_119_119   |     0.001 |
+|   res_words_reg_r3_0_127_11_11     |    <0.001 |
+|   res_words_reg_r3_0_127_120_120   |    <0.001 |
+|   res_words_reg_r3_0_127_121_121   |    <0.001 |
+|   res_words_reg_r3_0_127_122_122   |    <0.001 |
+|   res_words_reg_r3_0_127_123_123   |    <0.001 |
+|   res_words_reg_r3_0_127_124_124   |    <0.001 |
+|   res_words_reg_r3_0_127_125_125   |    <0.001 |
+|   res_words_reg_r3_0_127_126_126   |    <0.001 |
+|   res_words_reg_r3_0_127_127_127   |     0.001 |
+|   res_words_reg_r3_0_127_12_12     |    <0.001 |
+|   res_words_reg_r3_0_127_13_13     |    <0.001 |
+|   res_words_reg_r3_0_127_14_14     |    <0.001 |
+|   res_words_reg_r3_0_127_15_15     |     0.001 |
+|   res_words_reg_r3_0_127_16_16     |    <0.001 |
+|   res_words_reg_r3_0_127_17_17     |    <0.001 |
+|   res_words_reg_r3_0_127_18_18     |    <0.001 |
+|   res_words_reg_r3_0_127_19_19     |    <0.001 |
+|   res_words_reg_r3_0_127_1_1       |    <0.001 |
+|   res_words_reg_r3_0_127_20_20     |    <0.001 |
+|   res_words_reg_r3_0_127_21_21     |    <0.001 |
+|   res_words_reg_r3_0_127_22_22     |    <0.001 |
+|   res_words_reg_r3_0_127_23_23     |     0.001 |
+|   res_words_reg_r3_0_127_24_24     |    <0.001 |
+|   res_words_reg_r3_0_127_25_25     |    <0.001 |
+|   res_words_reg_r3_0_127_26_26     |    <0.001 |
+|   res_words_reg_r3_0_127_27_27     |    <0.001 |
+|   res_words_reg_r3_0_127_28_28     |    <0.001 |
+|   res_words_reg_r3_0_127_29_29     |    <0.001 |
+|   res_words_reg_r3_0_127_2_2       |    <0.001 |
+|   res_words_reg_r3_0_127_30_30     |    <0.001 |
+|   res_words_reg_r3_0_127_31_31     |     0.001 |
+|   res_words_reg_r3_0_127_32_32     |    <0.001 |
+|   res_words_reg_r3_0_127_33_33     |    <0.001 |
+|   res_words_reg_r3_0_127_34_34     |    <0.001 |
+|   res_words_reg_r3_0_127_35_35     |    <0.001 |
+|   res_words_reg_r3_0_127_36_36     |    <0.001 |
+|   res_words_reg_r3_0_127_37_37     |    <0.001 |
+|   res_words_reg_r3_0_127_38_38     |    <0.001 |
+|   res_words_reg_r3_0_127_39_39     |     0.001 |
+|   res_words_reg_r3_0_127_3_3       |    <0.001 |
+|   res_words_reg_r3_0_127_40_40     |    <0.001 |
+|   res_words_reg_r3_0_127_41_41     |    <0.001 |
+|   res_words_reg_r3_0_127_42_42     |    <0.001 |
+|   res_words_reg_r3_0_127_43_43     |    <0.001 |
+|   res_words_reg_r3_0_127_44_44     |    <0.001 |
+|   res_words_reg_r3_0_127_45_45     |    <0.001 |
+|   res_words_reg_r3_0_127_46_46     |    <0.001 |
+|   res_words_reg_r3_0_127_47_47     |     0.001 |
+|   res_words_reg_r3_0_127_48_48     |    <0.001 |
+|   res_words_reg_r3_0_127_49_49     |    <0.001 |
+|   res_words_reg_r3_0_127_4_4       |    <0.001 |
+|   res_words_reg_r3_0_127_50_50     |    <0.001 |
+|   res_words_reg_r3_0_127_51_51     |    <0.001 |
+|   res_words_reg_r3_0_127_52_52     |    <0.001 |
+|   res_words_reg_r3_0_127_53_53     |    <0.001 |
+|   res_words_reg_r3_0_127_54_54     |    <0.001 |
+|   res_words_reg_r3_0_127_55_55     |     0.001 |
+|   res_words_reg_r3_0_127_56_56     |    <0.001 |
+|   res_words_reg_r3_0_127_57_57     |    <0.001 |
+|   res_words_reg_r3_0_127_58_58     |    <0.001 |
+|   res_words_reg_r3_0_127_59_59     |    <0.001 |
+|   res_words_reg_r3_0_127_5_5       |    <0.001 |
+|   res_words_reg_r3_0_127_60_60     |    <0.001 |
+|   res_words_reg_r3_0_127_61_61     |    <0.001 |
+|   res_words_reg_r3_0_127_62_62     |    <0.001 |
+|   res_words_reg_r3_0_127_63_63     |     0.001 |
+|   res_words_reg_r3_0_127_64_64     |    <0.001 |
+|   res_words_reg_r3_0_127_65_65     |    <0.001 |
+|   res_words_reg_r3_0_127_66_66     |    <0.001 |
+|   res_words_reg_r3_0_127_67_67     |    <0.001 |
+|   res_words_reg_r3_0_127_68_68     |    <0.001 |
+|   res_words_reg_r3_0_127_69_69     |    <0.001 |
+|   res_words_reg_r3_0_127_6_6       |    <0.001 |
+|   res_words_reg_r3_0_127_70_70     |    <0.001 |
+|   res_words_reg_r3_0_127_71_71     |     0.001 |
+|   res_words_reg_r3_0_127_72_72     |    <0.001 |
+|   res_words_reg_r3_0_127_73_73     |    <0.001 |
+|   res_words_reg_r3_0_127_74_74     |    <0.001 |
+|   res_words_reg_r3_0_127_75_75     |    <0.001 |
+|   res_words_reg_r3_0_127_76_76     |    <0.001 |
+|   res_words_reg_r3_0_127_77_77     |    <0.001 |
+|   res_words_reg_r3_0_127_78_78     |    <0.001 |
+|   res_words_reg_r3_0_127_79_79     |     0.001 |
+|   res_words_reg_r3_0_127_7_7       |     0.001 |
+|   res_words_reg_r3_0_127_80_80     |    <0.001 |
+|   res_words_reg_r3_0_127_81_81     |    <0.001 |
+|   res_words_reg_r3_0_127_82_82     |    <0.001 |
+|   res_words_reg_r3_0_127_83_83     |    <0.001 |
+|   res_words_reg_r3_0_127_84_84     |    <0.001 |
+|   res_words_reg_r3_0_127_85_85     |    <0.001 |
+|   res_words_reg_r3_0_127_86_86     |    <0.001 |
+|   res_words_reg_r3_0_127_87_87     |     0.001 |
+|   res_words_reg_r3_0_127_88_88     |    <0.001 |
+|   res_words_reg_r3_0_127_89_89     |    <0.001 |
+|   res_words_reg_r3_0_127_8_8       |    <0.001 |
+|   res_words_reg_r3_0_127_90_90     |    <0.001 |
+|   res_words_reg_r3_0_127_91_91     |    <0.001 |
+|   res_words_reg_r3_0_127_92_92     |    <0.001 |
+|   res_words_reg_r3_0_127_93_93     |    <0.001 |
+|   res_words_reg_r3_0_127_94_94     |    <0.001 |
+|   res_words_reg_r3_0_127_95_95     |     0.001 |
+|   res_words_reg_r3_0_127_96_96     |    <0.001 |
+|   res_words_reg_r3_0_127_97_97     |    <0.001 |
+|   res_words_reg_r3_0_127_98_98     |    <0.001 |
+|   res_words_reg_r3_0_127_99_99     |    <0.001 |
+|   res_words_reg_r3_0_127_9_9       |    <0.001 |
+|   res_words_reg_r4_0_127_0_0       |    <0.001 |
+|   res_words_reg_r4_0_127_100_100   |    <0.001 |
+|   res_words_reg_r4_0_127_101_101   |    <0.001 |
+|   res_words_reg_r4_0_127_102_102   |    <0.001 |
+|   res_words_reg_r4_0_127_103_103   |     0.001 |
+|   res_words_reg_r4_0_127_104_104   |    <0.001 |
+|   res_words_reg_r4_0_127_105_105   |    <0.001 |
+|   res_words_reg_r4_0_127_106_106   |    <0.001 |
+|   res_words_reg_r4_0_127_107_107   |    <0.001 |
+|   res_words_reg_r4_0_127_108_108   |    <0.001 |
+|   res_words_reg_r4_0_127_109_109   |    <0.001 |
+|   res_words_reg_r4_0_127_10_10     |    <0.001 |
+|   res_words_reg_r4_0_127_110_110   |    <0.001 |
+|   res_words_reg_r4_0_127_111_111   |     0.001 |
+|   res_words_reg_r4_0_127_112_112   |    <0.001 |
+|   res_words_reg_r4_0_127_113_113   |    <0.001 |
+|   res_words_reg_r4_0_127_114_114   |    <0.001 |
+|   res_words_reg_r4_0_127_115_115   |    <0.001 |
+|   res_words_reg_r4_0_127_116_116   |    <0.001 |
+|   res_words_reg_r4_0_127_117_117   |    <0.001 |
+|   res_words_reg_r4_0_127_118_118   |    <0.001 |
+|   res_words_reg_r4_0_127_119_119   |     0.001 |
+|   res_words_reg_r4_0_127_11_11     |    <0.001 |
+|   res_words_reg_r4_0_127_120_120   |    <0.001 |
+|   res_words_reg_r4_0_127_121_121   |    <0.001 |
+|   res_words_reg_r4_0_127_122_122   |    <0.001 |
+|   res_words_reg_r4_0_127_123_123   |    <0.001 |
+|   res_words_reg_r4_0_127_124_124   |    <0.001 |
+|   res_words_reg_r4_0_127_125_125   |    <0.001 |
+|   res_words_reg_r4_0_127_126_126   |    <0.001 |
+|   res_words_reg_r4_0_127_127_127   |     0.001 |
+|   res_words_reg_r4_0_127_12_12     |    <0.001 |
+|   res_words_reg_r4_0_127_13_13     |    <0.001 |
+|   res_words_reg_r4_0_127_14_14     |    <0.001 |
+|   res_words_reg_r4_0_127_15_15     |     0.001 |
+|   res_words_reg_r4_0_127_16_16     |    <0.001 |
+|   res_words_reg_r4_0_127_17_17     |    <0.001 |
+|   res_words_reg_r4_0_127_18_18     |    <0.001 |
+|   res_words_reg_r4_0_127_19_19     |    <0.001 |
+|   res_words_reg_r4_0_127_1_1       |    <0.001 |
+|   res_words_reg_r4_0_127_20_20     |    <0.001 |
+|   res_words_reg_r4_0_127_21_21     |    <0.001 |
+|   res_words_reg_r4_0_127_22_22     |    <0.001 |
+|   res_words_reg_r4_0_127_23_23     |     0.001 |
+|   res_words_reg_r4_0_127_24_24     |    <0.001 |
+|   res_words_reg_r4_0_127_25_25     |    <0.001 |
+|   res_words_reg_r4_0_127_26_26     |    <0.001 |
+|   res_words_reg_r4_0_127_27_27     |    <0.001 |
+|   res_words_reg_r4_0_127_28_28     |    <0.001 |
+|   res_words_reg_r4_0_127_29_29     |    <0.001 |
+|   res_words_reg_r4_0_127_2_2       |    <0.001 |
+|   res_words_reg_r4_0_127_30_30     |    <0.001 |
+|   res_words_reg_r4_0_127_31_31     |     0.001 |
+|   res_words_reg_r4_0_127_32_32     |    <0.001 |
+|   res_words_reg_r4_0_127_33_33     |    <0.001 |
+|   res_words_reg_r4_0_127_34_34     |    <0.001 |
+|   res_words_reg_r4_0_127_35_35     |    <0.001 |
+|   res_words_reg_r4_0_127_36_36     |    <0.001 |
+|   res_words_reg_r4_0_127_37_37     |    <0.001 |
+|   res_words_reg_r4_0_127_38_38     |    <0.001 |
+|   res_words_reg_r4_0_127_39_39     |     0.001 |
+|   res_words_reg_r4_0_127_3_3       |    <0.001 |
+|   res_words_reg_r4_0_127_40_40     |    <0.001 |
+|   res_words_reg_r4_0_127_41_41     |    <0.001 |
+|   res_words_reg_r4_0_127_42_42     |    <0.001 |
+|   res_words_reg_r4_0_127_43_43     |    <0.001 |
+|   res_words_reg_r4_0_127_44_44     |    <0.001 |
+|   res_words_reg_r4_0_127_45_45     |    <0.001 |
+|   res_words_reg_r4_0_127_46_46     |    <0.001 |
+|   res_words_reg_r4_0_127_47_47     |     0.001 |
+|   res_words_reg_r4_0_127_48_48     |    <0.001 |
+|   res_words_reg_r4_0_127_49_49     |    <0.001 |
+|   res_words_reg_r4_0_127_4_4       |    <0.001 |
+|   res_words_reg_r4_0_127_50_50     |    <0.001 |
+|   res_words_reg_r4_0_127_51_51     |    <0.001 |
+|   res_words_reg_r4_0_127_52_52     |    <0.001 |
+|   res_words_reg_r4_0_127_53_53     |    <0.001 |
+|   res_words_reg_r4_0_127_54_54     |    <0.001 |
+|   res_words_reg_r4_0_127_55_55     |     0.001 |
+|   res_words_reg_r4_0_127_56_56     |    <0.001 |
+|   res_words_reg_r4_0_127_57_57     |    <0.001 |
+|   res_words_reg_r4_0_127_58_58     |    <0.001 |
+|   res_words_reg_r4_0_127_59_59     |    <0.001 |
+|   res_words_reg_r4_0_127_5_5       |    <0.001 |
+|   res_words_reg_r4_0_127_60_60     |    <0.001 |
+|   res_words_reg_r4_0_127_61_61     |    <0.001 |
+|   res_words_reg_r4_0_127_62_62     |    <0.001 |
+|   res_words_reg_r4_0_127_63_63     |     0.001 |
+|   res_words_reg_r4_0_127_64_64     |    <0.001 |
+|   res_words_reg_r4_0_127_65_65     |    <0.001 |
+|   res_words_reg_r4_0_127_66_66     |    <0.001 |
+|   res_words_reg_r4_0_127_67_67     |    <0.001 |
+|   res_words_reg_r4_0_127_68_68     |    <0.001 |
+|   res_words_reg_r4_0_127_69_69     |    <0.001 |
+|   res_words_reg_r4_0_127_6_6       |    <0.001 |
+|   res_words_reg_r4_0_127_70_70     |    <0.001 |
+|   res_words_reg_r4_0_127_71_71     |     0.001 |
+|   res_words_reg_r4_0_127_72_72     |    <0.001 |
+|   res_words_reg_r4_0_127_73_73     |    <0.001 |
+|   res_words_reg_r4_0_127_74_74     |    <0.001 |
+|   res_words_reg_r4_0_127_75_75     |    <0.001 |
+|   res_words_reg_r4_0_127_76_76     |    <0.001 |
+|   res_words_reg_r4_0_127_77_77     |    <0.001 |
+|   res_words_reg_r4_0_127_78_78     |    <0.001 |
+|   res_words_reg_r4_0_127_79_79     |     0.001 |
+|   res_words_reg_r4_0_127_7_7       |     0.001 |
+|   res_words_reg_r4_0_127_80_80     |    <0.001 |
+|   res_words_reg_r4_0_127_81_81     |    <0.001 |
+|   res_words_reg_r4_0_127_82_82     |    <0.001 |
+|   res_words_reg_r4_0_127_83_83     |    <0.001 |
+|   res_words_reg_r4_0_127_84_84     |    <0.001 |
+|   res_words_reg_r4_0_127_85_85     |    <0.001 |
+|   res_words_reg_r4_0_127_86_86     |    <0.001 |
+|   res_words_reg_r4_0_127_87_87     |     0.001 |
+|   res_words_reg_r4_0_127_88_88     |    <0.001 |
+|   res_words_reg_r4_0_127_89_89     |    <0.001 |
+|   res_words_reg_r4_0_127_8_8       |    <0.001 |
+|   res_words_reg_r4_0_127_90_90     |    <0.001 |
+|   res_words_reg_r4_0_127_91_91     |    <0.001 |
+|   res_words_reg_r4_0_127_92_92     |    <0.001 |
+|   res_words_reg_r4_0_127_93_93     |    <0.001 |
+|   res_words_reg_r4_0_127_94_94     |    <0.001 |
+|   res_words_reg_r4_0_127_95_95     |     0.001 |
+|   res_words_reg_r4_0_127_96_96     |    <0.001 |
+|   res_words_reg_r4_0_127_97_97     |    <0.001 |
+|   res_words_reg_r4_0_127_98_98     |    <0.001 |
+|   res_words_reg_r4_0_127_99_99     |    <0.001 |
+|   res_words_reg_r4_0_127_9_9       |    <0.001 |
++------------------------------------+-----------+
+
+
