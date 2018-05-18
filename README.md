@@ -1,7 +1,7 @@
 *This repo contains the VHDL projects covered in 2nd year of my B.Tech Degree*
 
 Basys Board:
-![BasysBoard](https://github.com/akulagrawal/VHDL-Projects/blob/master/Images/IMG_20180306_160126.jpg | width=200)
+<img src="https://github.com/akulagrawal/VHDL-Projects/blob/master/Images/IMG_20180306_160126.jpg" width="100" height="100">
 ![BasysBoxFront](https://github.com/akulagrawal/VHDL-Projects/blob/master/Images/IMG_20180306_160154.jpg)
 ![BasysBoxBack](https://github.com/akulagrawal/VHDL-Projects/blob/master/Images/IMG_20180306_160213.jpg)
 
